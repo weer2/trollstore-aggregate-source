@@ -98,13 +98,12 @@ class AppRecord:
             "versionDate": self.modified or None,
             "downloadURL": self.download_url,
             "minOSVersion": self.min_os,
+            # versions 只保留必要字段：描述/最低系统在顶层已有，避免源文件超过 1MB
             "versions": [{
                 "version": self.version or "1.0",
                 "date": self.modified or None,
                 "size": self.size,
                 "downloadURL": self.download_url,
-                "localizedDescription": localized,
-                "minOSVersion": self.min_os,
             }],
         }
 

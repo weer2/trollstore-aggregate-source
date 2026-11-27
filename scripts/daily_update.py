@@ -27,6 +27,7 @@ from core.scraper import MultiSiteCollector
 from core.merger import AppMerger, ChangeDetector
 from core.enricher import AppEnricher, load_custom_descriptions
 from core.generator import SourceGenerator
+from core.filter import filter_apps
 
 
 def refresh_passwords() -> bool:
@@ -104,19 +105,25 @@ def main():
     print(f"  已增强 {len(enriched)} 条描述")
 
     # 4. 智能去重（宅哥优先）
-    print("\n[4/6] 智能去重（宅哥 zgios 优先）...")
+    print("\n[4/7] 智能去重（宅哥 zgios 优先）...")
     merged, stats = AppMerger.deduplicate(enriched, settings)
     print(f"  去重: {stats['before']} → {stats['after']}（移除重复 {stats['duplicates_removed']}）")
     print(f"  来源分布: {stats['by_source']}")
 
-    # 5. 变更检测
-    print("\n[5/6] 变更检测...")
+    # 5. 分类过滤（游戏/美化/越狱/电脑/安卓/证书/插件全部剔除）
+    print("\n[5/7] 分类过滤...")
+    merged, excluded = filter_apps(merged)
+    stats["excluded_by_category"] = excluded
+    print(f"  剔除 {excluded} 条，保留 {len(merged)} 条")
+
+    # 6. 变更检测
+    print("\n[6/7] 变更检测...")
     detector = ChangeDetector()
     changes = detector.detect(merged)
     print(f"  {changes.summary()}")
 
-    # 6. 生成源
-    print("\n[6/6] 生成 AltStore 动态源...")
+    # 7. 生成源
+    print("\n[7/7] 生成 AltStore 动态源...")
     gen = SourceGenerator(settings)
     source = gen.build_source(merged, stats, changes)
     compact = gen.save(source, "source.json")
@@ -136,6 +143,7 @@ def main():
         "removed": len(changes.removed),
         "updated": len(changes.updated),
         "duplicates_removed": stats["duplicates_removed"],
+        "excluded_by_category": excluded,
         "by_source": stats["by_source"],
         "site_report": collector.report,
         "size_kb": size_kb,
