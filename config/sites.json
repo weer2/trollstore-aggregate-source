@@ -1,0 +1,189 @@
+{
+  "sources": [
+    {
+      "key": "gfm",
+      "name": "宅哥技术网盘（主源）",
+      "kind": "alist",
+      "base_url": "https://gfm.zgios.cn",
+      "priority": 1,
+      "paths": [
+        "/ipa分享"
+      ],
+      "password": "",
+      "password_key": "gfm.zgios.cn",
+      "max_depth": 3,
+      "enabled": true,
+      "note": "重复软件以此源为准。周期密码（3天轮换），含微信分身/游戏/巨魔插件"
+    },
+    {
+      "key": "aifeng",
+      "name": "爱锋助手 iOS 网盘",
+      "kind": "alist",
+      "base_url": "https://alist.aifengzhushou.cn",
+      "priority": 2,
+      "paths": [
+        "/iOS应用",
+        "/iOS多开",
+        "/iOS游戏",
+        "/iOS巨魔",
+        "/iOS越狱"
+      ],
+      "password": "",
+      "password_key": "alist.aifengzhushou.cn",
+      "max_depth": 2,
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "yeziku",
+      "name": "叶子库网盘",
+      "kind": "alist",
+      "base_url": "https://pan.yeziku.cn",
+      "priority": 3,
+      "paths": [
+        "/IPA分享",
+        "/IOS巨魔"
+      ],
+      "password": "",
+      "password_key": "pan.yeziku.cn",
+      "max_depth": 3,
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "lewsky",
+      "name": "乐玩 iOS 资源站",
+      "kind": "alist",
+      "base_url": "https://ios.lewsky.top",
+      "priority": 4,
+      "paths": [
+        "/iOS资源",
+        "/巨魔注入",
+        "/越狱工具"
+      ],
+      "password": "",
+      "password_key": "ios.lewsky.top",
+      "max_depth": 2,
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "qlam",
+      "name": "清烟资源库",
+      "kind": "alist",
+      "base_url": "https://pan.qlam.cc",
+      "priority": 5,
+      "paths": [
+        "/苹果应用 - Appstore apps",
+        "/巨魔商店 - TrollStore",
+        "/微信多开 - WeChat multi-open"
+      ],
+      "password": "",
+      "password_key": "pan.qlam.cc",
+      "max_depth": 3,
+      "enabled": true,
+      "note": "密码每日 00:00 轮换，需每天重新获取"
+    },
+    {
+      "key": "iossq",
+      "name": "IOS神器",
+      "kind": "alist",
+      "base_url": "https://pan.iossq.top",
+      "priority": 6,
+      "paths": [
+        "/苹果"
+      ],
+      "password": "",
+      "password_key": "pan.iossq.top",
+      "max_depth": 2,
+      "enabled": true,
+      "note": ""
+    },
+    {
+      "key": "qinghai",
+      "name": "情海网盘（iOS资源）",
+      "kind": "alist",
+      "base_url": "https://wp.iosqh.top",
+      "priority": 7,
+      "paths": [
+        "/iOS资源专区",
+        "/Torllstore",
+        "/越狱专区",
+        "/微信专区",
+        "/会员福利专区"
+      ],
+      "password": "",
+      "password_key": "wp.iosqh.top",
+      "max_depth": 3,
+      "enabled": true,
+      "note": "情海网盘，根目录公开无需密码；本机IP被WAF拦截418，GitHub Actions海外IP可正常采集"
+    },
+    {
+      "key": "iosi",
+      "name": "IOSI 网盘",
+      "kind": "alist",
+      "base_url": "https://pan.iosi.vip",
+      "priority": 8,
+      "paths": [
+        "/砸壳",
+        "/自签",
+        "/巨魔"
+      ],
+      "password": "",
+      "password_key": "pan.iosi.vip",
+      "max_depth": 3,
+      "enabled": true,
+      "note": "公开无需密码；砸壳51+自签300+巨魔工具"
+    },
+    {
+      "key": "jiejingfan",
+      "name": "晴天网盘",
+      "kind": "alist",
+      "base_url": "https://alist.jiejingfan.vip",
+      "priority": 9,
+      "paths": [
+        "/ipa资源",
+        "/Trollstore",
+        "/越狱工具"
+      ],
+      "password": "",
+      "password_key": "alist.jiejingfan.vip",
+      "max_depth": 3,
+      "enabled": true,
+      "note": "公开无需密码；Trollstore55+ipa资源"
+    },
+    {
+      "key": "w56",
+      "name": "小胡爱折腾网盘",
+      "kind": "alist",
+      "base_url": "https://alist.5-6.vip",
+      "priority": 10,
+      "paths": [
+        "/01苹果IPA",
+        "/trollstore"
+      ],
+      "password": "",
+      "password_key": "alist.5-6.vip",
+      "max_depth": 2,
+      "enabled": true,
+      "note": "公开无需密码；01苹果IPA按应用分目录"
+    },
+    {
+      "key": "nyxz",
+      "name": "NYXZ 分享网盘",
+      "kind": "alist",
+      "base_url": "https://share.nyxz166.com",
+      "priority": 11,
+      "paths": [
+        "/IOS-Games",
+        "/IOS-TrollStore",
+        "/IOS-Other"
+      ],
+      "password": "",
+      "password_key": "share.nyxz166.com",
+      "max_depth": 2,
+      "enabled": true,
+      "note": "公开无需密码；IOS-Games 300个"
+    }
+  ]
+}

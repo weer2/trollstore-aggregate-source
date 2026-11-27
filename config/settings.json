@@ -1,0 +1,26 @@
+{
+  "request_timeout": 12,
+  "site_timeout": 75,
+  "max_workers": 6,
+  "per_page": 500,
+  "max_apps": 3000,
+  "sort_by_date": true,
+  "skip_keywords": [
+    ".deb",
+    "说明",
+    "教程",
+    "readme",
+    ".dylib.zip",
+    ".zip",
+    ".rar",
+    ".7z"
+  ],
+  "min_size_mb": 0.05,
+  "source_name": "🍎 聚合中文源（每日更新）",
+  "source_identifier": "cn.aggregate.trollstore.daily",
+  "source_subtitle": "多网盘聚合 · 宅哥优先 · 每日自动同步",
+  "source_website": "",
+  "gen_description": true,
+  "fetch_passwords": false,
+  "source_icon": ""
+}
