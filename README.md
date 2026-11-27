@@ -153,3 +153,8 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - 软件源图标：`assets/logo.png`（紫粉渐变随机配色 + 8 个聚合节点），顶层 `iconURL` 指向该文件的 raw 地址，巨魔增强版列表中直接显示。
 - 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；软件源内所有涉及网盘名称的字段（描述、`developerName`、副标题、公告）一律使用源 Key，不出现中文网盘名。源文件约 530KB，远低于 1MB。
+
+
+## 巨魔增强版字段兼容说明
+
+增强版（iosdumpzzz 魔改）详情页的「应用描述」读取 app 的 `description` 字段，不读标准 AltStore 的 `localizedDescription`。因此生成器同时写入两者，且描述首行固定为 `来源：<源Key>`（如 `来源：lewsky`）。详情页的「来源」标签显示的是软件源名称（客户端固定行为，来自 source.name），「作者」标签显示 `developerName`（已设为源 Key）。

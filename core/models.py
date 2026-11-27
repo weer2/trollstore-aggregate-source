@@ -81,22 +81,10 @@ class AppRecord:
 
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
-        desc_parts = []
-        if self.description:
-            desc_parts.append(self.description)
-        meta = []
-        # 来源：统一用网盘源 Key（如 lewsky），全源不出现中文网盘名
-        if self.source_key:
-            meta.append(f"来源：{self.source_key}")
-        elif self.source_name:
-            meta.append(f"来源：{self.source_name}")
-        if self.size:
-            meta.append(f"大小：{round(self.size/1024/1024, 1)} MB")
-        if self.modified:
-            meta.append(f"更新：{self.modified[:10]}")
-        if meta:
-            desc_parts.append(" · ".join(meta))
-        localized = "\n".join(desc_parts) or f"{self.name}，来自 {self.source_key or self.source_name}。"
+        # 描述首行固定为来源 Key（巨魔增强版详情页只认 description 字段）
+        src = self.source_key or self.source_name or "aggregate"
+        body = self.description or f"{self.name} —— 来自 {src} 的 iOS 应用（{self.version}）。"
+        localized = f"来源：{src}\n{body}"
 
         # bundle id：优先真实 id，否则用规范化名的 ASCII 部分；全中文名用指纹哈希兜底
         if self.bundle_id:
@@ -112,6 +100,8 @@ class AppRecord:
             "developerName": self.source_key or self.source_name or "aggregate",
             "subtitle": f"{self.version} · {round(self.size/1024/1024, 1) if self.size else '?'} MB",
             "localizedDescription": localized,
+            # 巨魔增强版（iosdumpzzz 魔改）详情页读 description，不读 localizedDescription
+            "description": localized,
             "iconURL": self.icon_url,
             "size": self.size,
             "version": self.version or "1.0",
