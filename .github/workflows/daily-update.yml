@@ -1,0 +1,45 @@
+name: 每日更新巨魔聚合源
+
+on:
+  schedule:
+    # UTC 时间，每天 18:00 = 北京时间 02:00（免密码直采，固定时段即可）
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # 支持手动点击触发
+  push:               # 首次推送源码后自动生成源
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # 防止 bot 自己的提交再次触发 push 造成循环：push 事件仅允许非 bot 触发
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行每日更新
+        run: |
+          mkdir -p output data
+          python scripts/daily_update.py
+        env:
+          TZ: Asia/Shanghai
+
+      - name: 提交生成的源与数据
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ data/passwords.json data/snapshot.json data/history.json
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: 每日更新源 $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
