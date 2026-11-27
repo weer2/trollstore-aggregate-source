@@ -99,10 +99,10 @@ class AppSettings:
     source_name: str = "🍎 聚合中文源（每日更新）"
     source_identifier: str = "cn.aggregate.trollstore.daily"
     source_subtitle: str = "多网盘聚合 · 宅哥优先 · 每日自动同步"
-    source_website: str = ""
+    source_website: str = "https://github.com/weer2/trollstore-aggregate-source"
     gen_description: bool = True
     fetch_passwords: bool = False   # 默认不需要：公开目录 API 空密码可读
-    source_icon: str = ""
+    source_icon: str = "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/assets/logo.png"
 
 
 def load_config() -> tuple[List[SourceConfig], AppSettings]:

@@ -79,20 +79,37 @@ class AppRecord:
             segs = segs[:-1]
         return "/".join(segs)
 
+    @staticmethod
+    def _short_source_label(url: str) -> str:
+        """简短来源标签：域名/一级文件夹，如 ios.lewsky.top/iOS资源。"""
+        from urllib.parse import urlparse, unquote
+        try:
+            u = urlparse(url)
+            host = u.hostname or ""
+            segs = [s for s in unquote(u.path).split("/") if s]
+            if segs and segs[0] == "d":
+                segs = segs[1:]
+            if segs:
+                segs = segs[:-1]  # 去掉文件名
+            folder = segs[0] if segs else ""
+            if host and folder:
+                return f"{host}/{folder}"
+            return host or folder
+        except Exception:
+            return ""
+
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
         desc_parts = []
         if self.description:
             desc_parts.append(self.description)
         meta = []
-        # 来源：明确到「哪个网盘的哪个文件夹」
-        folder = self._folder_from_url(self.download_url)
-        if self.source_name and folder:
-            meta.append(f"来源：{self.source_name} / {folder}")
+        # 来源：简短格式「域名/一级文件夹」，避免描述过长
+        short = self._short_source_label(self.download_url)
+        if short:
+            meta.append(f"来源：{short}")
         elif self.source_name:
             meta.append(f"来源：{self.source_name}")
-        elif folder:
-            meta.append(f"来源：{folder}")
         if self.size:
             meta.append(f"大小：{round(self.size/1024/1024, 1)} MB")
         if self.modified:

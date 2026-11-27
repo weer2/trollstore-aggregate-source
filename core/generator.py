@@ -81,7 +81,7 @@ class SourceGenerator:
             "description": "\n".join(msg_lines),
             "website": self.settings.source_website,
             "iconURL": self.settings.source_icon,
-            "sourceURL": self.settings.source_website or "",
+            "sourceURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/output/source.json",
             "apps": app_objs,
             "_meta": {
                 "generated_at": ts,
