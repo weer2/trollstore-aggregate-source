@@ -1,5 +1,126 @@
 [
   {
+    "timestamp": "2026-11-27 16:27:32",
+    "total": 1839,
+    "added": 413,
+    "removed": 348,
+    "updated": 132,
+    "duplicates_removed": 4923,
+    "by_source": {
+      "gfm": 533,
+      "qlam": 261,
+      "lewsky": 99,
+      "aifeng": 64,
+      "nyxz": 287,
+      "qinghai": 393,
+      "iosi": 135,
+      "jiejingfan": 38,
+      "w56": 29
+    },
+    "site_report": [
+      {
+        "key": "gfm",
+        "name": "宅哥技术网盘（主源）",
+        "priority": 1,
+        "count": 2016,
+        "api_calls": 24,
+        "errors": 0,
+        "files": 2016
+      },
+      {
+        "key": "yeziku",
+        "name": "叶子库网盘",
+        "priority": 3,
+        "count": 0,
+        "api_calls": 0,
+        "errors": 2,
+        "files": 0
+      },
+      {
+        "key": "qlam",
+        "name": "清烟资源库",
+        "priority": 5,
+        "count": 2594,
+        "api_calls": 132,
+        "errors": 0,
+        "files": 2594
+      },
+      {
+        "key": "iossq",
+        "name": "IOS神器",
+        "priority": 6,
+        "count": 1,
+        "api_calls": 66,
+        "errors": 1,
+        "files": 1
+      },
+      {
+        "key": "lewsky",
+        "name": "乐玩 iOS 资源站",
+        "priority": 4,
+        "count": 301,
+        "api_calls": 80,
+        "errors": 1,
+        "files": 301
+      },
+      {
+        "key": "aifeng",
+        "name": "爱锋助手 iOS 网盘",
+        "priority": 2,
+        "count": 105,
+        "api_calls": 54,
+        "errors": 0,
+        "files": 105
+      },
+      {
+        "key": "nyxz",
+        "name": "NYXZ 分享网盘",
+        "priority": 11,
+        "count": 315,
+        "api_calls": 6,
+        "errors": 0,
+        "files": 315
+      },
+      {
+        "key": "qinghai",
+        "name": "情海网盘（iOS资源）",
+        "priority": 7,
+        "count": 683,
+        "api_calls": 66,
+        "errors": 1,
+        "files": 683
+      },
+      {
+        "key": "iosi",
+        "name": "IOSI 网盘",
+        "priority": 8,
+        "count": 556,
+        "api_calls": 14,
+        "errors": 1,
+        "files": 556
+      },
+      {
+        "key": "jiejingfan",
+        "name": "晴天网盘",
+        "priority": 9,
+        "count": 129,
+        "api_calls": 59,
+        "errors": 1,
+        "files": 129
+      },
+      {
+        "key": "w56",
+        "name": "小胡爱折腾网盘",
+        "priority": 10,
+        "count": 62,
+        "api_calls": 65,
+        "errors": 0,
+        "files": 62
+      }
+    ],
+    "size_kb": 2055
+  },
+  {
     "timestamp": "2026-11-27 16:05:20",
     "total": 1774,
     "added": 504,
