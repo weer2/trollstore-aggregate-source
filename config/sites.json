@@ -165,8 +165,9 @@
       "password": "",
       "password_key": "alist.5-6.vip",
       "max_depth": 2,
-      "enabled": true,
-      "note": "公开无需密码；01苹果IPA按应用分目录"
+      "enabled": false,
+      "note": "公开无需密码；01苹果IPA按应用分目录",
+      "_disabled_reason": "AList storage not found: /d/ 返回 {\"code\":500,\"storage not found\"}，直链不可用"
     },
     {
       "key": "nyxz",

@@ -62,14 +62,37 @@ class AppRecord:
         if not self.bundle_id:
             self.bundle_id = extract_bundle_id(self.name)
 
+    @staticmethod
+    def _folder_from_url(url: str) -> str:
+        """从下载 URL 反解网盘文件夹路径（不含文件名/域名）。"""
+        from urllib.parse import urlparse, unquote
+        try:
+            path = unquote(urlparse(url).path)
+        except Exception:
+            return ""
+        segs = [s for s in path.split("/") if s]
+        # 去掉前导 'd'
+        if segs and segs[0] == "d":
+            segs = segs[1:]
+        # 最后一段是文件名
+        if segs:
+            segs = segs[:-1]
+        return "/".join(segs)
+
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
         desc_parts = []
         if self.description:
             desc_parts.append(self.description)
         meta = []
-        if self.source_name:
+        # 来源：明确到「哪个网盘的哪个文件夹」
+        folder = self._folder_from_url(self.download_url)
+        if self.source_name and folder:
+            meta.append(f"来源：{self.source_name} / {folder}")
+        elif self.source_name:
             meta.append(f"来源：{self.source_name}")
+        elif folder:
+            meta.append(f"来源：{folder}")
         if self.size:
             meta.append(f"大小：{round(self.size/1024/1024, 1)} MB")
         if self.modified:

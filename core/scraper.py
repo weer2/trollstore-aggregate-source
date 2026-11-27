@@ -90,12 +90,58 @@ class AListScraper:
             return []
         return (resp.get("data") or {}).get("content", []) or []
 
+    def _need_sign(self) -> bool:
+        """探测本站 /d/ 直链是否需要 AList 签名（site 级缓存结果）。"""
+        if hasattr(self, "_need_sign_cached"):
+            return self._need_sign_cached
+        self._need_sign_cached = False
+        # 用已知目录首个元素做探测：调用 /api/fs/get 看是否返回 sign
+        try:
+            probe_path = None
+            for p in self.src.paths[:3]:
+                items = self.list_dir(p)
+                if items:
+                    probe_path = p.rstrip("/") + "/" + items[0].get("name", "")
+                    break
+            if not probe_path:
+                return False
+            req = urllib.request.Request(
+                self.base + "/api/fs/get",
+                data=json.dumps({"path": probe_path, "password": self.password}).encode("utf-8"),
+                headers={"User-Agent": UA, "Content-Type": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, context=CTX, timeout=self.settings.request_timeout) as r:
+                resp = json.loads(r.read().decode("utf-8", errors="replace"))
+            sign = ((resp.get("data") or {}).get("sign") or "")
+            self._need_sign_cached = bool(sign)
+        except Exception:
+            pass
+        return self._need_sign_cached
+
     def build_download_url(self, raw_path: str) -> str:
-        """构造 AList 公开下载直链（/d/ 路径，需 URL 编码）。"""
+        """构造 AList 下载直链：签名站从 /api/fs/get 取永久 sign 拼到 /d/。"""
         from urllib.parse import quote
-        # AList 的 /d/ 路径保留斜杠，仅编码每段
         encoded = "/".join(quote(seg, safe="") for seg in raw_path.split("/") if seg)
-        return f"{self.base}/d/{encoded}"
+        url = f"{self.base}/d/{encoded}"
+        if not self._need_sign():
+            return url
+        # 需要签名：每个文件取 sign（形如 'xxx=:0'，':0' 表示永不过期）
+        try:
+            req = urllib.request.Request(
+                self.base + "/api/fs/get",
+                data=json.dumps({"path": raw_path, "password": self.password}).encode("utf-8"),
+                headers={"User-Agent": UA, "Content-Type": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, context=CTX, timeout=self.settings.request_timeout) as r:
+                resp = json.loads(r.read().decode("utf-8", errors="replace"))
+            sign = ((resp.get("data") or {}).get("sign") or "")
+            if sign:
+                url += "?sign=" + quote(sign, safe="")
+        except Exception:
+            self.session_stats["errors"] += 1
+        return url
 
     def walk(self, path: str, depth: int = 0, seen: Optional[set] = None) -> List[AppRecord]:
         """递归遍历目录，收集 IPA 文件。"""
