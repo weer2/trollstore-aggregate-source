@@ -79,12 +79,28 @@ class AppRecord:
             segs = segs[:-1]
         return "/".join(segs)
 
+    @staticmethod
+    def _source_host(url: str) -> str:
+        """从下载直链提取网盘域名，如 lm.zgios.top / gfm.zgios.cn。"""
+        from urllib.parse import urlparse
+        try:
+            host = urlparse(url or "").netloc
+            if not host:
+                m = re.match(r"https?://([^/?#]+)", url or "", re.I)
+                host = m.group(1) if m else ""
+            host = host.split("@")[-1].split(":")[0].strip()
+            return host or "aggregate"
+        except Exception:
+            return "aggregate"
+
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
-        # 描述首行固定为来源 Key（巨魔增强版详情页只认 description 字段）
         src = self.source_key or self.source_name or "aggregate"
         body = self.description or f"{self.name} —— 来自 {src} 的 iOS 应用（{self.version}）。"
-        localized = f"来源：{src}\n{body}"
+        # 清洗旧格式残留的「来源：xxx」首行，避免与域名前缀重复
+        body = re.sub(r"^来源：\s*[^\n]+\n?", "", body).strip()
+        # 巨魔增强版详情页读取 versionDescription；格式：<网盘域名> | <功能描述>
+        desc = f"{self._source_host(self.download_url)} | {body}"
 
         # bundle id：优先真实 id，否则用规范化名的 ASCII 部分；全中文名用指纹哈希兜底
         if self.bundle_id:
@@ -99,9 +115,11 @@ class AppRecord:
             "bundleIdentifier": bid,
             "developerName": self.source_key or self.source_name or "aggregate",
             "subtitle": f"{self.version} · {round(self.size/1024/1024, 1) if self.size else '?'} MB",
-            "localizedDescription": localized,
-            # 巨魔增强版（iosdumpzzz 魔改）详情页读 description，不读 localizedDescription
-            "description": localized,
+            "localizedDescription": desc,
+            # 巨魔增强版（iosdumpzzz 魔改）详情页读 description / versionDescription
+            "description": desc,
+            # 宅哥源（ipa.312752.cn/appstore）同款字段：软件描述实际展示来源
+            "versionDescription": desc,
             "iconURL": self.icon_url,
             "size": self.size,
             "version": self.version or "1.0",

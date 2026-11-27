@@ -145,16 +145,16 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - **签名站自动补签**：部分 AList 站（如乐玩 lewsky）的 `/d/` 直链需要签名，否则返回 51 字节的 `{"code":401,"message":"expire missing"}`。采集器会调用 `/api/fs/get` 获取形如 `xxx=:0` 的永久签名并拼到直链，保证下载到真实 IPA。
 - **故障站剔除**：晴天网盘 jiejingfan 在部分网络环境不可达，小胡 5-6.vip 的 AList 存储配置损坏（`storage not found`），已从配置中禁用。
-- **来源标注**：全源统一用网盘源 Key（如 `lewsky`、`gfm`），应用描述末尾标注「来源：lewsky」；`developerName` 亦为源 Key。
-- **游戏过滤**：游戏、美化、越狱、电脑、安卓、证书类应用及插件全部剔除；源文件控制在 1MB 内。
+- **来源标注**：`developerName` 使用网盘源 Key（如 `lewsky`、`gfm`）；应用描述以网盘域名开头（如 `lm.zgios.top | 功能描述`）。
+- **游戏过滤**：游戏、美化、越狱、电脑、安卓、证书类应用及插件全部剔除；文件名含 `_全功能.ipa` 的条目一律按游戏剔除；源文件控制在 1MB 内。
 
 
 ## 图标与来源标注
 
 - 软件源图标：`assets/logo.png`（紫粉渐变随机配色 + 8 个聚合节点），顶层 `iconURL` 指向该文件的 raw 地址，巨魔增强版列表中直接显示。
-- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；软件源内所有涉及网盘名称的字段（描述、`developerName`、副标题、公告）一律使用源 Key，不出现中文网盘名。源文件约 530KB，远低于 1MB。
+- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；`developerName`、副标题、公告不出现中文网盘名。应用描述格式为 `<网盘域名> | <软件功能描述>`，例如 `lm.zgios.top | 一款短视频解析无水印工具`。源文件约 680KB，远低于 1MB。
 
 
 ## 巨魔增强版字段兼容说明
 
-增强版（iosdumpzzz 魔改）详情页的「应用描述」读取 app 的 `description` 字段，不读标准 AltStore 的 `localizedDescription`。因此生成器同时写入两者，且描述首行固定为 `来源：<源Key>`（如 `来源：lewsky`）。详情页的「来源」标签显示的是软件源名称（客户端固定行为，来自 source.name），「作者」标签显示 `developerName`（已设为源 Key）。
+增强版（iosdumpzzz 魔改）与宅哥源（`ipa.312752.cn/appstore`）详情页的「应用描述」读取 app 的 `versionDescription` 字段，不读标准 AltStore 的 `localizedDescription`。因此生成器同时写入 `versionDescription`、`description`、`localizedDescription` 三个字段，内容统一为 `<网盘域名> | <软件功能描述>`，例如 `lm.zgios.top | 一款短视频解析无水印工具`。详情页的「来源」标签显示软件源名称（客户端固定行为，来自 source.name），「作者」标签显示 `developerName`（已设为源 Key）。
