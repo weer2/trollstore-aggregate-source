@@ -79,35 +79,15 @@ class AppRecord:
             segs = segs[:-1]
         return "/".join(segs)
 
-    @staticmethod
-    def _short_source_label(url: str) -> str:
-        """简短来源标签：域名/一级文件夹，如 ios.lewsky.top/iOS资源。"""
-        from urllib.parse import urlparse, unquote
-        try:
-            u = urlparse(url)
-            host = u.hostname or ""
-            segs = [s for s in unquote(u.path).split("/") if s]
-            if segs and segs[0] == "d":
-                segs = segs[1:]
-            if segs:
-                segs = segs[:-1]  # 去掉文件名
-            folder = segs[0] if segs else ""
-            if host and folder:
-                return f"{host}/{folder}"
-            return host or folder
-        except Exception:
-            return ""
-
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
         desc_parts = []
         if self.description:
             desc_parts.append(self.description)
         meta = []
-        # 来源：简短格式「域名/一级文件夹」，避免描述过长
-        short = self._short_source_label(self.download_url)
-        if short:
-            meta.append(f"来源：{short}")
+        # 来源：统一用网盘源 Key（如 lewsky），全源不出现中文网盘名
+        if self.source_key:
+            meta.append(f"来源：{self.source_key}")
         elif self.source_name:
             meta.append(f"来源：{self.source_name}")
         if self.size:
@@ -116,7 +96,7 @@ class AppRecord:
             meta.append(f"更新：{self.modified[:10]}")
         if meta:
             desc_parts.append(" · ".join(meta))
-        localized = "\n".join(desc_parts) or f"{self.name}，来自 {self.source_name}。"
+        localized = "\n".join(desc_parts) or f"{self.name}，来自 {self.source_key or self.source_name}。"
 
         # bundle id：优先真实 id，否则用规范化名的 ASCII 部分；全中文名用指纹哈希兜底
         if self.bundle_id:
@@ -129,7 +109,7 @@ class AppRecord:
         return {
             "name": self.name,
             "bundleIdentifier": bid,
-            "developerName": self.source_name or "聚合源",
+            "developerName": self.source_key or self.source_name or "aggregate",
             "subtitle": f"{self.version} · {round(self.size/1024/1024, 1) if self.size else '?'} MB",
             "localizedDescription": localized,
             "iconURL": self.icon_url,

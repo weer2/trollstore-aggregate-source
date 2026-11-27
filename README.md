@@ -145,11 +145,11 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - **签名站自动补签**：部分 AList 站（如乐玩 lewsky）的 `/d/` 直链需要签名，否则返回 51 字节的 `{"code":401,"message":"expire missing"}`。采集器会调用 `/api/fs/get` 获取形如 `xxx=:0` 的永久签名并拼到直链，保证下载到真实 IPA。
 - **故障站剔除**：晴天网盘 jiejingfan 在部分网络环境不可达，小胡 5-6.vip 的 AList 存储配置损坏（`storage not found`），已从配置中禁用。
-- **来源标注**：每个应用描述末尾标注「来源：网盘名 / 文件夹路径」，方便定位文件位置。
+- **来源标注**：全源统一用网盘源 Key（如 `lewsky`、`gfm`），应用描述末尾标注「来源：lewsky」；`developerName` 亦为源 Key。
 - **游戏过滤**：游戏、美化、越狱、电脑、安卓、证书类应用及插件全部剔除；源文件控制在 1MB 内。
 
 
 ## 图标与来源标注
 
 - 软件源图标：`assets/logo.png`（紫粉渐变随机配色 + 8 个聚合节点），顶层 `iconURL` 指向该文件的 raw 地址，巨魔增强版列表中直接显示。
-- 应用来源采用「域名/一级文件夹」简写，例如 `ios.lewsky.top/iOS资源`、`gfm.zgios.cn/ipa分享`，避免描述过长。
+- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；软件源内所有涉及网盘名称的字段（描述、`developerName`、副标题、公告）一律使用源 Key，不出现中文网盘名。源文件约 530KB，远低于 1MB。

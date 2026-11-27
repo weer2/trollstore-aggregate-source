@@ -72,7 +72,7 @@ class SourceGenerator:
             msg_lines.append(f"✨ 变更：新增 {len(changes.added)} / 移除 {len(changes.removed)} / 更新 {len(changes.updated)}")
         if stats and stats.get("excluded_by_category"):
             msg_lines.append(f"🚫 分类剔除 {stats['excluded_by_category']} 条（游戏/美化/越狱/电脑/安卓/证书/插件）")
-        msg_lines.append("💡 重复软件以宅哥 zgios 源为准；点击应用选版本安装。")
+        msg_lines.append("💡 重复软件以 gfm 源为准；点击应用选版本安装。")
 
         source = {
             "name": self.settings.source_name,

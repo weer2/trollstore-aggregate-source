@@ -92,7 +92,8 @@ class AppEnricher:
                 # 兜底：从文件名生成简要说明
                 clean = re.sub(r"[_\-]?v?\d+(\.\d+)*.*$", "", app.name)
                 clean = re.sub(r"\.ipa$", "", clean, flags=re.I)
-                app.description = f"{clean} —— 来自 {app.source_name} 的 iOS 应用（{app.version}）。"
+                src = app.source_key or app.source_name or "aggregate"
+                app.description = f"{clean} —— 来自 {src} 的 iOS 应用（{app.version}）。"
         return app
 
     def enrich_all(self, apps: list) -> list:

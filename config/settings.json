@@ -18,7 +18,7 @@
   "min_size_mb": 0.05,
   "source_name": "🍎 聚合中文源（每日更新）",
   "source_identifier": "cn.aggregate.trollstore.daily",
-  "source_subtitle": "多网盘聚合 · 宅哥优先 · 每日自动同步",
+  "source_subtitle": "多网盘聚合 · gfm 优先 · 每日自动同步",
   "source_website": "https://github.com/weer2/trollstore-aggregate-source",
   "gen_description": true,
   "fetch_passwords": false,
