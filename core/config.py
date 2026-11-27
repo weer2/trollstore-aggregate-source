@@ -96,7 +96,7 @@ class AppSettings:
         ".deb", "说明", "教程", "readme", ".dylib.zip", ".zip", ".rar", ".7z",
     ])
     min_size_mb: float = 0.05
-    source_name: str = "🍎 聚合中文源（每日更新）"
+    source_name: str = "🍎Leon聚合中文源"
     source_identifier: str = "cn.aggregate.trollstore.daily"
     source_subtitle: str = "多网盘聚合 · gfm 优先 · 每日自动同步"
     source_website: str = "https://github.com/weer2/trollstore-aggregate-source"

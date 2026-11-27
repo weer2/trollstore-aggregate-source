@@ -59,7 +59,7 @@ class SourceGenerator:
         # 公告信息：写入统计与更新时间
         ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         msg_lines = [
-            "🍎 聚合中文源 · 每日自动更新",
+            "🍎Leon聚合中文源 · 每日自动更新",
             f"📅 本次更新：{ts}",
             f"📦 应用总数：{len(apps)}",
         ]

@@ -1,8 +1,8 @@
 {
- "name": "🍎 聚合中文源（每日更新）",
+ "name": "🍎Leon聚合中文源",
  "identifier": "cn.aggregate.trollstore.daily",
  "subtitle": "多网盘聚合 · gfm 优先 · 每日自动同步",
- "description": "🍎 聚合中文源 · 每日自动更新\n📅 本次更新：2026-11-27 17:33\n📦 应用总数：750\n🚫 已剔除：游戏 / 美化 / 越狱 / 电脑 / 安卓 / 证书类应用及插件\n✅ 下载直链已修复：签名站自动补签（永久有效）\n💡 来源见每个应用描述的「来源：源Key」",
+ "description": "🍎Leon聚合中文源 · 每日自动更新\n📅 本次更新：2026-11-27 17:33\n📦 应用总数：750\n🚫 已剔除：游戏 / 美化 / 越狱 / 电脑 / 安卓 / 证书类应用及插件\n✅ 下载直链已修复：签名站自动补签（永久有效）\n💡 来源见每个应用描述的「来源：源Key」",
  "website": "https://github.com/weer2/trollstore-aggregate-source",
  "iconURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/assets/logo.png",
  "sourceURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/output/source.json",
