@@ -113,6 +113,7 @@ def main():
 
     # 5. 智能去重（宅哥优先）
     print("\n[5/7] 智能去重（宅哥 zgios 优先）...")
+    print("  网盘 KEY：域名主品牌简称（zgios / aifeng / yeziku / lewsky / qlam / iossq / iosqh / iosi / jiejingfan / nyxz）")
     merged, stats = AppMerger.deduplicate(enriched, settings)
     stats["excluded_by_category"] = excluded
     print(f"  去重: {stats['before']} → {stats['after']}（移除重复 {stats['duplicates_removed']}）")

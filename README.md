@@ -21,13 +21,13 @@
 
 | 优先级 | Key | 站点 | 地址 | 采集路径 |
 |---|---|---|---|---|
-| 1 | gfm | 宅哥技术网盘（**去重基准**） | gfm.zgios.cn | /ipa分享 |
+| 1 | zgios | 宅哥技术网盘（**去重基准**） | gfm.zgios.cn | /ipa分享 |
 | 2 | aifeng | 爱锋助手 | alist.aifengzhushou.cn | /iOS应用 等 |
 | 3 | yeziku | 叶子库 | pan.yeziku.cn | /IPA分享 等 |
 | 4 | lewsky | 乐玩 iOS | ios.lewsky.top | /iOS资源 等 |
 | 5 | qlam | 清烟资源库 | pan.qlam.cc | /苹果应用 等 |
 | 6 | iossq | IOS神器 | pan.iossq.top | /苹果 |
-| 7 | qinghai | 情海网盘 | wp.iosqh.top | /iOS资源专区 等 |
+| 7 | iosqh | 情海网盘 | wp.iosqh.top | /iOS资源专区 /情海定制 /Torllstore |
 | 8 | iosi | IOSI 网盘 | pan.iosi.vip | /砸壳 /自签 /巨魔 |
 | 9 | jiejingfan | 晴天网盘 | alist.jiejingfan.vip | /ipa资源 /Trollstore |
 | 10 | w56 | 小胡爱折腾 | alist.5-6.vip | /01苹果IPA /trollstore |
@@ -147,7 +147,7 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - **签名站自动补签**：部分 AList 站（如乐玩 lewsky）的 `/d/` 直链需要签名，否则返回 51 字节的 `{"code":401,"message":"expire missing"}`。采集器会调用 `/api/fs/get` 获取形如 `xxx=:0` 的永久签名并拼到直链，保证下载到真实 IPA。
 - **故障站剔除**：晴天网盘 jiejingfan 在部分网络环境不可达，小胡 5-6.vip 的 AList 存储配置损坏（`storage not found`），已从配置中禁用。
-- **来源标注**：`developerName` 使用网盘源 Key（如 `lewsky`、`gfm`）；应用描述以源 Key 开头（如 `lewsky | 功能描述`），多源以 ` | ` 并列（如 `zgios | lewsky | qlam`）。
+- **来源标注**：网盘 KEY 一律用域名主品牌简称（gfm.zgios.cn→`zgios`、wp.iosqh.top→`iosqh`，其余 `aifeng`/`yeziku`/`lewsky`/`qlam`/`iossq`/`iosi`/`jiejingfan`/`nyxz` 同理）；`developerName` 取主源 Key，应用描述以 `<KEY>·<日期>` 开头，多源以 ` | ` 并列。
 - **游戏过滤**：游戏、美化、越狱、电脑、安卓、证书类应用及插件全部剔除；文件名含 `_全功能.ipa` 的条目一律按游戏剔除；源文件控制在 1MB 内。
 
 
@@ -155,22 +155,26 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - 软件源图标：`assets/logo.png`（紫粉渐变随机配色 + 8 个聚合节点），顶层 `iconURL` 指向该文件的 raw 地址，巨魔增强版列表中直接显示。
 - 应用图标：`core/icon_enricher.py` 从参考源 `ipa.312752.cn/appstore` 的 564 条图标映射表匹配（精确核心名 + 相似度 ≥0.86 的模糊匹配防错配），不足部分由 iTunes Search API 低频补抓（命中即写入 `data/icon_meta_cache.json`，永久缓存、重复运行零请求；iTunes 出口 IP 被 403 限流时自动熔断）。匹配不到则 `iconURL` 留空。
-- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；`developerName`、副标题、公告不出现中文网盘名。应用描述格式为 `<源Key>·<网盘更新日期> | <源Key>·<日期> / <软件介绍>`，例如 `jiejingfan·2026.11.26 / 抖音——字节跳动短视频社交平台…`；多网盘按 ` | ` 并列各自的更新日期，例如 `gfm·2026.11.26 | yeziku·2026.09.01 | qlam·2026.11.24 / 悬浮按钮可以开启功能…`。无真实介绍时只列来源与日期，绝不生成「XX —— 来自 YY 的 iOS 应用」占位文案。
+- 应用来源仅用网盘源 Key（域名主品牌简称），例如 `lewsky`、`zgios`、`iosqh`、`qlam`；`developerName`、副标题、公告不出现中文网盘名。应用描述格式为 `<源Key>·<网盘更新日期> | <源Key>·<日期> / <软件介绍>`，例如 `jiejingfan·2026.11.26 / 抖音——字节跳动短视频社交平台…`；多网盘按 ` | ` 并列各自的更新日期，例如 `zgios·2026.11.26 | yeziku·2026.09.01 | qlam·2026.11.24 / 悬浮按钮可以开启功能…`。无真实介绍时只列来源与日期，绝不生成「XX —— 来自 YY 的 iOS 应用」占位文案。
 - 软件介绍来源：内置词典 → 参考源 `versionDescription` 短句 → iTunes `description` 截取首句（≤46 字），均无则留空。
 - 游戏目录硬过滤：`/ipa分享/游戏ipa` 及其全部子目录（5/4/3/游/游1/游2 等）在**采集阶段整棵剪枝**，并在 `filter.py` 再次兜底；不再依赖文件名关键词。
-- 源文件约 540KB，低于 1MB。
+- 源文件约 330KB（字段精简后），低于 1MB。
 
 
 ## 巨魔增强版字段兼容说明
 
-反汇编增强版二进制（`TSIPAPackage initWithDictionary:`）确认客户端实际读取字段：
+反汇编增强版二进制（`TSIPAPackage` 解析 key 连续簇 `identifier / versionDescription / description / iconURL / downloadURL / size / lock`，另有 `setBundleIdentifier:` selector）确认客户端实际读取字段：
 
 | 详情页项 | 客户端读取字段 | 本源处理 |
 |---|---|---|
-| 应用描述 | `versionDescription`（回退 `description`，都没有才显示 `No description available.`） | 三个描述字段写同一内容 |
-| 标识符 | `bundleIdentifier`（回退 `identifier`） | 写 `cn.aggregate.<指纹>`，稳定显示 |
-| 大小 | `size`（数值） | 写字节数整数 |
+| 应用描述 | `versionDescription`（回退 `description`，都没有才显示 `No description available.`） | 两个描述字段写同一内容 |
+| 标识符 | `identifier` + `bundleIdentifier` | 两者写同值 `cn.aggregate.<指纹>`；参考源两者皆缺，故其标识符不显示 |
+| 大小 | `size`（数值） | 写字节数整数；参考源给字符串 `"0"` 故大小不显示 |
 | 版本 | `version` | 从文件名解析 |
 | 下载 | `downloadURL` | AList 签名永久直链 |
 
-因此 App 对象已改成与宅哥源（`ipa.312752.cn/appstore`）**同构的扁平结构**：不再输出客户端不读取的 `versions[]`、`subtitle`、`minOSVersion`，源体积从 775KB 降到 372KB。`TSIPASource` 读取顶层 `sourceicon`/`iconURL` 作为源图标，`apps`（或 `packages`）作为应用数组——两者都已写入。
+已删除的冗余字段（反汇编证据）：`isLanZouCloud`（二进制内**零引用**，无该字符串）、`localizedDescription`（不在解析簇）、`tintColor`（空串无 UI 意义）、`versions[]`（不读取）、`subtitle`/`minOSVersion`。`description` 保留作 fallback（解析簇内紧跟 `No description available.`），`lock` 保留（解析簇内）。
+
+`TSIPASource` 读取顶层 `sourceicon`/`iconURL` 作为源图标，`apps`（或 `packages`）作为应用数组——两者都已写入。
+
+情海网盘（wp.iosqh.top）采集器已做两处修复：① `list_dir` 自动翻页（旧版只取第一页，单目录 >500 项时子目录被漏采，是「抓取不全」的根因）；② 只抓 `/iOS资源专区`、`/情海定制`、`/Torllstore` 三个目录，递归深度 5，单站时限 180s。

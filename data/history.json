@@ -1,21 +1,133 @@
 [
   {
-    "timestamp": "2026-11-28 12:22:49",
-    "total": 1068,
-    "added": 387,
-    "removed": 200,
-    "updated": 190,
-    "duplicates_removed": 2640,
-    "excluded_by_category": 1581,
+    "timestamp": "2026-11-28 12:19:06",
+    "total": 881,
+    "added": 20,
+    "removed": 71,
+    "updated": 0,
+    "duplicates_removed": 1600,
+    "excluded_by_category": 837,
     "by_source": {
       "gfm": 243,
-      "iosi": 135,
-      "lewsky": 88,
-      "qlam": 157,
-      "qinghai": 364,
+      "yeziku": 260,
+      "iosi": 109,
+      "lewsky": 108,
       "aifeng": 39,
       "nyxz": 2,
-      "jiejingfan": 40
+      "qlam": 29,
+      "qinghai": 91
+    },
+    "site_report": [
+      {
+        "key": "iossq",
+        "name": "IOS神器",
+        "priority": 6,
+        "count": 0,
+        "api_calls": 1,
+        "errors": 0,
+        "files": 0
+      },
+      {
+        "key": "gfm",
+        "name": "宅哥技术网盘（主源）",
+        "priority": 1,
+        "count": 634,
+        "api_calls": 8,
+        "errors": 0,
+        "files": 634
+      },
+      {
+        "key": "iosi",
+        "name": "IOSI 网盘",
+        "priority": 8,
+        "count": 565,
+        "api_calls": 25,
+        "errors": 0,
+        "files": 565
+      },
+      {
+        "key": "jiejingfan",
+        "name": "晴天网盘",
+        "priority": 9,
+        "count": 0,
+        "api_calls": 0,
+        "errors": 3,
+        "files": 0
+      },
+      {
+        "key": "yeziku",
+        "name": "叶子库网盘",
+        "priority": 3,
+        "count": 633,
+        "api_calls": 25,
+        "errors": 0,
+        "files": 633
+      },
+      {
+        "key": "aifeng",
+        "name": "爱锋助手 iOS 网盘",
+        "priority": 2,
+        "count": 89,
+        "api_calls": 52,
+        "errors": 0,
+        "files": 89
+      },
+      {
+        "key": "nyxz",
+        "name": "NYXZ 分享网盘",
+        "priority": 11,
+        "count": 315,
+        "api_calls": 7,
+        "errors": 0,
+        "files": 315
+      },
+      {
+        "key": "lewsky",
+        "name": "乐玩 iOS 资源站",
+        "priority": 4,
+        "count": 393,
+        "api_calls": 131,
+        "errors": 0,
+        "files": 393
+      },
+      {
+        "key": "qlam",
+        "name": "清烟资源库",
+        "priority": 5,
+        "count": 580,
+        "api_calls": 11,
+        "errors": 1,
+        "files": 580
+      },
+      {
+        "key": "qinghai",
+        "name": "情海网盘（iOS资源）",
+        "priority": 7,
+        "count": 109,
+        "api_calls": 2,
+        "errors": 0,
+        "files": 109
+      }
+    ],
+    "size_kb": 540
+  },
+  {
+    "timestamp": "2026-11-28 12:16:58",
+    "total": 932,
+    "added": 81,
+    "removed": 923,
+    "updated": 50,
+    "duplicates_removed": 2091,
+    "excluded_by_category": 500,
+    "by_source": {
+      "gfm": 267,
+      "yeziku": 320,
+      "aifeng": 52,
+      "iosi": 113,
+      "lewsky": 118,
+      "qlam": 188,
+      "nyxz": 291,
+      "qinghai": 83
     },
     "site_report": [
       {
@@ -40,10 +152,10 @@
         "key": "yeziku",
         "name": "叶子库网盘",
         "priority": 3,
-        "count": 0,
-        "api_calls": 0,
-        "errors": 2,
-        "files": 0
+        "count": 633,
+        "api_calls": 25,
+        "errors": 0,
+        "files": 633
       },
       {
         "key": "iosi",
@@ -62,6 +174,15 @@
         "api_calls": 7,
         "errors": 0,
         "files": 315
+      },
+      {
+        "key": "jiejingfan",
+        "name": "晴天网盘",
+        "priority": 9,
+        "count": 0,
+        "api_calls": 0,
+        "errors": 3,
+        "files": 0
       },
       {
         "key": "aifeng",
@@ -73,398 +194,34 @@
         "files": 89
       },
       {
-        "key": "qlam",
-        "name": "清烟资源库",
-        "priority": 5,
-        "count": 2585,
-        "api_calls": 129,
-        "errors": 0,
-        "files": 2585
-      },
-      {
         "key": "lewsky",
         "name": "乐玩 iOS 资源站",
         "priority": 4,
-        "count": 291,
-        "api_calls": 62,
-        "errors": 1,
-        "files": 291
+        "count": 393,
+        "api_calls": 131,
+        "errors": 0,
+        "files": 393
       },
       {
         "key": "qinghai",
         "name": "情海网盘（iOS资源）",
         "priority": 7,
-        "count": 679,
-        "api_calls": 6,
-        "errors": 1,
-        "files": 679
-      },
-      {
-        "key": "jiejingfan",
-        "name": "晴天网盘",
-        "priority": 9,
-        "count": 131,
-        "api_calls": 63,
-        "errors": 0,
-        "files": 131
-      }
-    ],
-    "size_kb": 625
-  },
-  {
-    "timestamp": "2026-11-28 10:54:22",
-    "total": 945,
-    "added": 17,
-    "removed": 354,
-    "updated": 69,
-    "duplicates_removed": 4601,
-    "excluded_by_category": 540,
-    "by_source": {
-      "gfm": 533,
-      "lewsky": 98,
-      "aifeng": 64,
-      "qlam": 260,
-      "qinghai": 47,
-      "iosi": 145,
-      "nyxz": 287,
-      "jiejingfan": 51
-    },
-    "site_report": [
-      {
-        "key": "iossq",
-        "name": "IOS神器",
-        "priority": 6,
-        "count": 0,
-        "api_calls": 1,
-        "errors": 0,
-        "files": 0
-      },
-      {
-        "key": "yeziku",
-        "name": "叶子库网盘",
-        "priority": 3,
-        "count": 0,
-        "api_calls": 0,
-        "errors": 2,
-        "files": 0
-      },
-      {
-        "key": "gfm",
-        "name": "宅哥技术网盘（主源）",
-        "priority": 1,
-        "count": 2016,
-        "api_calls": 25,
-        "errors": 0,
-        "files": 2016
-      },
-      {
-        "key": "lewsky",
-        "name": "乐玩 iOS 资源站",
-        "priority": 4,
-        "count": 299,
-        "api_calls": 73,
-        "errors": 0,
-        "files": 299
-      },
-      {
-        "key": "aifeng",
-        "name": "爱锋助手 iOS 网盘",
-        "priority": 2,
-        "count": 105,
-        "api_calls": 54,
-        "errors": 1,
-        "files": 105
-      },
-      {
-        "key": "qlam",
-        "name": "清烟资源库",
-        "priority": 5,
-        "count": 2585,
-        "api_calls": 130,
-        "errors": 1,
-        "files": 2585
-      },
-      {
-        "key": "qinghai",
-        "name": "情海网盘（iOS资源）",
-        "priority": 7,
-        "count": 55,
+        "count": 97,
         "api_calls": 2,
         "errors": 0,
-        "files": 55
-      },
-      {
-        "key": "iosi",
-        "name": "IOSI 网盘",
-        "priority": 8,
-        "count": 565,
-        "api_calls": 25,
-        "errors": 0,
-        "files": 565
-      },
-      {
-        "key": "nyxz",
-        "name": "NYXZ 分享网盘",
-        "priority": 11,
-        "count": 315,
-        "api_calls": 7,
-        "errors": 0,
-        "files": 315
-      },
-      {
-        "key": "jiejingfan",
-        "name": "晴天网盘",
-        "priority": 9,
-        "count": 146,
-        "api_calls": 76,
-        "errors": 0,
-        "files": 146
-      }
-    ],
-    "size_kb": 476
-  },
-  {
-    "timestamp": "2026-11-27 17:00:15",
-    "total": 1282,
-    "added": 8,
-    "removed": 565,
-    "updated": 13,
-    "duplicates_removed": 4900,
-    "excluded_by_category": 551,
-    "by_source": {
-      "gfm": 533,
-      "iosi": 140,
-      "lewsky": 102,
-      "qlam": 267,
-      "qinghai": 395,
-      "aifeng": 37,
-      "nyxz": 287,
-      "jiejingfan": 38,
-      "w56": 34
-    },
-    "site_report": [
-      {
-        "key": "gfm",
-        "name": "宅哥技术网盘（主源）",
-        "priority": 1,
-        "count": 2016,
-        "api_calls": 24,
-        "errors": 0,
-        "files": 2016
-      },
-      {
-        "key": "yeziku",
-        "name": "叶子库网盘",
-        "priority": 3,
-        "count": 0,
-        "api_calls": 0,
-        "errors": 2,
-        "files": 0
-      },
-      {
-        "key": "iosi",
-        "name": "IOSI 网盘",
-        "priority": 8,
-        "count": 565,
-        "api_calls": 24,
-        "errors": 0,
-        "files": 565
+        "files": 97
       },
       {
         "key": "qlam",
         "name": "清烟资源库",
         "priority": 5,
-        "count": 2594,
-        "api_calls": 132,
-        "errors": 0,
-        "files": 2594
-      },
-      {
-        "key": "iossq",
-        "name": "IOS神器",
-        "priority": 6,
-        "count": 1,
-        "api_calls": 23,
+        "count": 797,
+        "api_calls": 37,
         "errors": 1,
-        "files": 1
-      },
-      {
-        "key": "aifeng",
-        "name": "爱锋助手 iOS 网盘",
-        "priority": 2,
-        "count": 72,
-        "api_calls": 51,
-        "errors": 0,
-        "files": 72
-      },
-      {
-        "key": "lewsky",
-        "name": "乐玩 iOS 资源站",
-        "priority": 4,
-        "count": 292,
-        "api_calls": 67,
-        "errors": 1,
-        "files": 292
-      },
-      {
-        "key": "nyxz",
-        "name": "NYXZ 分享网盘",
-        "priority": 11,
-        "count": 315,
-        "api_calls": 6,
-        "errors": 0,
-        "files": 315
-      },
-      {
-        "key": "qinghai",
-        "name": "情海网盘（iOS资源）",
-        "priority": 7,
-        "count": 683,
-        "api_calls": 81,
-        "errors": 0,
-        "files": 683
-      },
-      {
-        "key": "jiejingfan",
-        "name": "晴天网盘",
-        "priority": 9,
-        "count": 129,
-        "api_calls": 59,
-        "errors": 1,
-        "files": 129
-      },
-      {
-        "key": "w56",
-        "name": "小胡爱折腾网盘",
-        "priority": 10,
-        "count": 66,
-        "api_calls": 69,
-        "errors": 0,
-        "files": 66
+        "files": 797
       }
     ],
-    "size_kb": 830
-  },
-  {
-    "timestamp": "2026-11-27 16:27:32",
-    "total": 1839,
-    "added": 413,
-    "removed": 348,
-    "updated": 132,
-    "duplicates_removed": 4923,
-    "by_source": {
-      "gfm": 533,
-      "qlam": 261,
-      "lewsky": 99,
-      "aifeng": 64,
-      "nyxz": 287,
-      "qinghai": 393,
-      "iosi": 135,
-      "jiejingfan": 38,
-      "w56": 29
-    },
-    "site_report": [
-      {
-        "key": "gfm",
-        "name": "宅哥技术网盘（主源）",
-        "priority": 1,
-        "count": 2016,
-        "api_calls": 24,
-        "errors": 0,
-        "files": 2016
-      },
-      {
-        "key": "yeziku",
-        "name": "叶子库网盘",
-        "priority": 3,
-        "count": 0,
-        "api_calls": 0,
-        "errors": 2,
-        "files": 0
-      },
-      {
-        "key": "qlam",
-        "name": "清烟资源库",
-        "priority": 5,
-        "count": 2594,
-        "api_calls": 132,
-        "errors": 0,
-        "files": 2594
-      },
-      {
-        "key": "iossq",
-        "name": "IOS神器",
-        "priority": 6,
-        "count": 1,
-        "api_calls": 66,
-        "errors": 1,
-        "files": 1
-      },
-      {
-        "key": "lewsky",
-        "name": "乐玩 iOS 资源站",
-        "priority": 4,
-        "count": 301,
-        "api_calls": 80,
-        "errors": 1,
-        "files": 301
-      },
-      {
-        "key": "aifeng",
-        "name": "爱锋助手 iOS 网盘",
-        "priority": 2,
-        "count": 105,
-        "api_calls": 54,
-        "errors": 0,
-        "files": 105
-      },
-      {
-        "key": "nyxz",
-        "name": "NYXZ 分享网盘",
-        "priority": 11,
-        "count": 315,
-        "api_calls": 6,
-        "errors": 0,
-        "files": 315
-      },
-      {
-        "key": "qinghai",
-        "name": "情海网盘（iOS资源）",
-        "priority": 7,
-        "count": 683,
-        "api_calls": 66,
-        "errors": 1,
-        "files": 683
-      },
-      {
-        "key": "iosi",
-        "name": "IOSI 网盘",
-        "priority": 8,
-        "count": 556,
-        "api_calls": 14,
-        "errors": 1,
-        "files": 556
-      },
-      {
-        "key": "jiejingfan",
-        "name": "晴天网盘",
-        "priority": 9,
-        "count": 129,
-        "api_calls": 59,
-        "errors": 1,
-        "files": 129
-      },
-      {
-        "key": "w56",
-        "name": "小胡爱折腾网盘",
-        "priority": 10,
-        "count": 62,
-        "api_calls": 65,
-        "errors": 0,
-        "files": 62
-      }
-    ],
-    "size_kb": 2055
+    "size_kb": 483
   },
   {
     "timestamp": "2026-11-27 16:05:20",

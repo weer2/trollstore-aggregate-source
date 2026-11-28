@@ -132,11 +132,26 @@ class AppRecord:
         return f"{prefix} / {body}" if body else prefix
 
     def to_altstore_app(self, settings) -> Dict[str, Any]:
-        """转换为巨魔增强版 IPA 源 App 对象（与 ipa.312752.cn/appstore 同构）。
+        """转换为巨魔增强版 IPA 源 App 对象。
 
-        客户端 TSIPAPackage 实际读取：name / bundleIdentifier / version /
-        versionDescription / downloadURL / iconURL / size / lock。
-        不输出 versions[]：客户端不读取该字段，且会显著增大源文件。
+        依据增强版 Mach-O 反汇编，TSIPAPackage 解析 key 连续簇为：
+            identifier / versionDescription / description /
+            iconURL / downloadURL / size / lock
+        另有 setBundleIdentifier: selector（iTunes 元数据区亦有该 key）。
+        因此同时输出 identifier 与 bundleIdentifier（值相同），确保详情页
+        「标识符」在任一读取路径下都能显示 —— 参考源恰好两者皆缺，这正是
+        用户反馈「标识符不显示」的根因。
+
+        已删除的冗余字段（反汇编证据）：
+            isLanZouCloud —— 二进制内零引用（无该字符串）
+            localizedDescription —— 不在解析簇内
+            tintColor —— 仅 UI 着色，源数据给空串无意义
+            versions[] —— 客户端不读取且显著增大体积
+        保留 description 作为 versionDescription 的 fallback（解析簇内紧跟
+        "No description available."），保留 lock（解析簇内）。
+
+        size 必须是数值：客户端按 NSNumber 读取后展示大小；参考源给字符串
+        "0" 导致大小不显示。
         """
         srcs = list(dict.fromkeys(
             self.all_sources or ([self.source_key] if self.source_key else [])
@@ -151,15 +166,16 @@ class AppRecord:
             suffix = ascii_part if len(ascii_part) >= 4 else hashlib.md5(self.name.encode("utf-8")).hexdigest()[:12]
             bid = f"cn.aggregate.{suffix}"
 
-        return {
+        app = {
             "name": re.sub(r"\.ipa$", "", self.name, flags=re.I),
             "type": 0,
+            # identifier 是解析簇首位 key；bundleIdentifier 亦有 setter，两者同值
+            "identifier": bid,
             "bundleIdentifier": bid,
             "developerName": srcs[0],
-            # 增强版详情页首选 versionDescription，其次 description
+            # 增强版详情页首选 versionDescription，description 为 fallback
             "versionDescription": desc,
             "description": desc,
-            "localizedDescription": desc,
             "version": self.version or "1.0",
             "versionDate": self.modified or "",
             "downloadURL": self.download_url,
@@ -167,9 +183,8 @@ class AppRecord:
             # size 必须是数值：客户端按 NSNumber 读取后展示大小
             "size": int(self.size or 0),
             "lock": "0",
-            "isLanZouCloud": "0",
-            "tintColor": "",
         }
+        return app
 
 
 def extract_version(name: str) -> str:

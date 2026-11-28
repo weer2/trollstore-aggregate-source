@@ -4,6 +4,7 @@
 配置管理模块
 - 六个带密码的 AList 数据源定义（密码由 password_fetcher.py 动态获取）
 - 去重优先级（宅哥 zgios = 1 最高，重复软件以宅哥为准）
+- 网盘 KEY 一律取域名主品牌简称：gfm.zgios.cn→zgios、wp.iosqh.top→iosqh 等
 - 全局参数（超时、并发、输出路径等）
 
 所有配置可通过 config/sites.json / config/settings.json 覆盖。
@@ -44,7 +45,7 @@ class SourceConfig:
 # 去重优先级：宅哥 zgios = 1（最高）
 DEFAULT_SOURCES: List[SourceConfig] = [
     SourceConfig(
-        key="gfm", name="宅哥技术网盘（主源）", kind="alist",
+        key="zgios", name="宅哥技术网盘（主源）", kind="alist",
         base_url="https://gfm.zgios.cn", priority=1,
         paths=["/ipa分享"],
         password_key="gfm.zgios.cn", max_depth=3,

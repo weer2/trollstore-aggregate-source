@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 就地重建已生成 source.json（不重新采集）：
-- App 对象改成与 ipa.312752.cn/appstore 同构的扁平结构
-- 去掉 versions[]（客户端不读取）
-- 描述格式：<源Key>[ | <源Key>...][ | <真实软件介绍>]
-- 无真实介绍只列来源 Key，绝不生成「XX —— 来自 YY 的 iOS 应用」占位文案
-- 保留 bundleIdentifier 与数值 size，保证标识符/大小正确显示
-- 源名改为 LEON🍎源，输出 leon.json 作为全新订阅路径
+- App 对象按增强版 Mach-O 反汇编结果精简（TSIPAPackage 解析簇）
+- 删除 isLanZouCloud（二进制零引用）/ localizedDescription / tintColor / versions[]
+- 同时输出 identifier 与 bundleIdentifier（同值），修复标识符不显示
+- size 保持数值，修复大小不显示
+- 描述格式：<源Key>·<日期> | <源Key>·<日期> / <真实介绍>
+- 无真实介绍只列来源 Key 与日期，不生成占位文案
+- 网盘 KEY 用域名主品牌简称：zgios / iosqh 等
+- 源名 LEON🍎源，输出 leon.json 作为订阅路径
 
 用法：python scripts/rebuild_descriptions.py
 """
@@ -32,46 +34,85 @@ _, settings = load_config()
 
 DOMAIN_PREFIX = re.compile(r"^(?:(?:[a-z0-9-]+\.)+[a-z]{2,}|aggregate)\s*\|\s*", re.I)
 
+# 旧 KEY -> 域名主品牌简称（用户约定：网盘 KEY 一律用域名主品牌）
+KEY_ALIAS = {
+    "gfm": "zgios",
+    "qinghai": "iosqh",
+}
+def norm_key(k: str) -> str:
+    k = (k or "").strip()
+    return KEY_ALIAS.get(k.lower(), k)
+
 
 def old_text(app: dict) -> str:
     return (app.get("versionDescription") or app.get("description")
             or app.get("localizedDescription") or "").strip()
 
 
-def extract_sources(app: dict) -> list:
-    """从 developerName 与旧「另见于」文案还原全部网盘源 Key。"""
-    keys = [app.get("developerName", "")]
-    text = old_text(app)
-    m = re.search(r"另见于\s*([^\n]+)", text)
+_KEY_DATE = re.compile(r"^([A-Za-z][\w.-]*)(?:[·•]\s*(\d{4}[-/.]\d{1,2}[-/.]\d{1,2}))?$")
+
+
+def parse_old_description(text: str):
+    """解析 '<key>·<date> | <key>·<date> / <介绍>'。
+
+    返回 (keys, dates, intro)。兼容单源无介绍、旧「另见于」文案。
+    """
+    text = re.sub(r"^来源：\s*[^\n]+\n?", "", (text or "").strip()).strip()
+    keys, dates = [], {}
+    head, sep, intro = text.partition(" / ")
+    if not sep:
+        head, intro = text, ""
+    for seg in [s.strip() for s in head.split("|") if s.strip()]:
+        m = _KEY_DATE.match(seg)
+        if m:
+            k = norm_key(m.group(1))
+            if k:
+                keys.append(k)
+                if m.group(2):
+                    dates[k] = m.group(2)
+        else:
+            intro = f"{seg} / {intro}".strip(" /") if intro else seg
+    m = re.search(r"另见于\s*([^\n]+)", intro)
     if m:
-        keys += [x.strip() for x in re.split(r"[、,，\s]+", m.group(1)) if x.strip()]
-    return list(dict.fromkeys(k for k in keys if k))
+        for k in re.split(r"[、,，\s]+", m.group(1)):
+            if k.strip():
+                keys.append(norm_key(k.strip()))
+        intro = re.sub(r"\s*·?\s*另见于.*$", "", intro).strip()
+    return list(dict.fromkeys(keys)), dates, intro.strip()
+
+
+def extract_sources(app: dict) -> list:
+    """从旧描述与 developerName 还原全部网盘源 Key（已转新简称）。"""
+    keys, _, _ = parse_old_description(old_text(app))
+    if not keys:
+        keys = [norm_key(app.get("developerName", ""))]
+    return keys
 
 
 def extract_intro(app: dict, enricher: AppEnricher) -> str:
     """优先保留旧描述中的真实介绍，否则查内置词典；都没有则留空。"""
-    text = re.sub(r"^来源：\s*[^\n]+\n?", "", old_text(app)).strip()
-    text = DOMAIN_PREFIX.sub("", text).strip()
-    text = re.sub(r"\s*·\s*另见于.*$", "", text).strip()
-    if text and not AppRecord._FAKE_DESC.search(text):
-        return text
+    _, _, intro = parse_old_description(old_text(app))
+    if intro and not AppRecord._FAKE_DESC.search(intro):
+        return intro
     return enricher.lookup_description(app.get("name", "")) or ""
 
 
 def convert(app: dict, enricher: AppEnricher) -> dict:
     srcs = extract_sources(app)
-    intro = extract_intro(app, enricher)
+    _, source_dates, intro = parse_old_description(old_text(app))
+    # 主源日期兜底：versionDate 取不到时用下载 URL 域名推断不了，保持空
     record = AppRecord(
         name=app.get("name", ""),
         download_url=app.get("downloadURL", ""),
         size=int(app.get("size") or 0),
         source_key=srcs[0] if srcs else "aggregate",
-        bundle_id=app.get("bundleIdentifier", ""),
+        bundle_id=app.get("bundleIdentifier", "") or app.get("identifier", ""),
         version=app.get("version", ""),
         description=intro,
         icon_url=app.get("iconURL", ""),
         modified=app.get("versionDate", ""),
         all_sources=srcs,
+        source_dates=source_dates,
     )
     return record.to_altstore_app(settings)
 

@@ -79,17 +79,34 @@ class AListScraper:
         return None
 
     def list_dir(self, path: str) -> List[dict]:
-        """列出目录内容（含密码）。"""
-        resp = self._post("/api/fs/list", {
-            "path": path,
-            "password": self.password,
-            "page": 1,
-            "per_page": self.settings.per_page,
-            "refresh": False,
-        })
-        if not resp or resp.get("code") != 200:
-            return []
-        return (resp.get("data") or {}).get("content", []) or []
+        """列出目录全部内容（含密码），自动翻页 até 覆盖 >per_page 的目录。
+
+        情海网盘 iOS资源专区等单目录文件数可能超过 500，旧版只取第一页，
+        导致子目录与后半段 IPA 被漏采 —— 这是「抓取不全」的根因。
+        """
+        per = max(100, int(getattr(self.settings, "per_page", 500)))
+        content: List[dict] = []
+        page = 1
+        max_pages = 40  # 单目录硬上限，防止异常总数导致死循环
+        while page <= max_pages and time.time() <= self.deadline:
+            resp = self._post("/api/fs/list", {
+                "path": path,
+                "password": self.password,
+                "page": page,
+                "per_page": per,
+                "refresh": False,
+            })
+            if not resp or resp.get("code") != 200:
+                break
+            data = resp.get("data") or {}
+            part = data.get("content", []) or []
+            content.extend(part)
+            # AList 返回 total；无 total 且返回不足一页即视为末页
+            total = int(data.get("total") or 0)
+            if not part or len(part) < per or (total and len(content) >= total):
+                break
+            page += 1
+        return content
 
     def _need_sign(self) -> bool:
         """探测本站 /d/ 直链是否需要 AList 签名（site 级缓存结果）。"""
@@ -185,11 +202,12 @@ class AListScraper:
         return results
 
     def scrape(self) -> List[AppRecord]:
-        """采集该站所有配置路径。"""
+        """采集该站所有配置路径（共享 seen，避免跨路径重复递归）。"""
         all_apps: List[AppRecord] = []
+        seen: set = set()
         for p in self.src.paths:
             try:
-                all_apps.extend(self.walk(p, depth=0))
+                all_apps.extend(self.walk(p, depth=0, seen=seen))
             except Exception as e:
                 self.session_stats["errors"] += 1
         return all_apps
@@ -206,7 +224,10 @@ class MultiSiteCollector:
 
     def _scrape_one(self, src: SourceConfig) -> Tuple[str, List[AppRecord], dict]:
         pwd = self.passwords.get(src.password_key, "") or src.password
-        scraper = AListScraper(src, self.settings, password=pwd)
+        # 情海网盘三个目标目录层级深、文件多，单独放宽时限防止截断
+        timeout = 180 if src.key == "iosqh" else None
+        deadline = (time.time() + timeout) if timeout else None
+        scraper = AListScraper(src, self.settings, password=pwd, deadline=deadline)
         apps = scraper.scrape()
         return src.key, apps, scraper.session_stats
 
