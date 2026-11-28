@@ -16,6 +16,26 @@ import os
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Any, Optional
 
+# 去重择优的源优先顺序（用户指定）：zgios → lewsky → iosi → qlam，其余依次在后。
+# 同名同版本的软件命中多个网盘时，保留顺序最靠前那家的直链。
+KEY_PRIORITY: Dict[str, int] = {
+    "zgios": 1,
+    "lewsky": 2,
+    "iosi": 3,
+    "qlam": 4,
+    "aifeng": 5,
+    "yeziku": 6,
+    "iossq": 7,
+    "iosqh": 8,
+    "jiejingfan": 9,
+    "nyxz": 10,
+    "w56": 11,
+}
+def key_priority(key: str) -> int:
+    """返回源优先级（数字越小越优先）；未知源排最后。"""
+    return KEY_PRIORITY.get((key or "").strip().lower(), 90)
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")

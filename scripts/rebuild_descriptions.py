@@ -4,10 +4,12 @@
 就地重建已生成 source.json（不重新采集）：
 - App 对象按增强版 Mach-O 反汇编结果精简（TSIPAPackage 解析簇）
 - 删除 isLanZouCloud（二进制零引用）/ localizedDescription / tintColor / versions[]
-- 同时输出 identifier 与 bundleIdentifier（同值），修复标识符不显示
-- size 保持数值，修复大小不显示
+- App 对象精简为 7 字段（去掉 identifier/developerName/description/
+  versionDate/lock/type）
+- 指纹含版本号：同名同版本只留一个，同名不同版本各自保留
+- 去重择优按源顺序：zgios → lewsky → iosi → qlam → 其余
+- 排序按该软件在全部网盘中的最新更新日期降序
 - 描述格式：<源Key>·<日期> | <源Key>·<日期> / <真实介绍>
-- 无真实介绍只列来源 Key 与日期，不生成占位文案
 - 网盘 KEY 用域名主品牌简称：zgios / iosqh 等
 - 源名 LEON🍎源，输出 leon.json 作为订阅路径
 
@@ -25,10 +27,11 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
 
-from core.config import OUTPUT_DIR, AppSettings, load_config
+from core.config import OUTPUT_DIR, AppSettings, load_config, key_priority
 from core.models import AppRecord
 from core.enricher import AppEnricher
 from core.filter import filter_apps
+from core.merger import latest_date
 
 _, settings = load_config()
 
@@ -97,11 +100,10 @@ def extract_intro(app: dict, enricher: AppEnricher) -> str:
     return enricher.lookup_description(app.get("name", "")) or ""
 
 
-def convert(app: dict, enricher: AppEnricher) -> dict:
+def convert(app: dict, enricher: AppEnricher) -> AppRecord:
     srcs = extract_sources(app)
     _, source_dates, intro = parse_old_description(old_text(app))
-    # 主源日期兜底：versionDate 取不到时用下载 URL 域名推断不了，保持空
-    record = AppRecord(
+    return AppRecord(
         name=app.get("name", ""),
         download_url=app.get("downloadURL", ""),
         size=int(app.get("size") or 0),
@@ -114,7 +116,30 @@ def convert(app: dict, enricher: AppEnricher) -> dict:
         all_sources=srcs,
         source_dates=source_dates,
     )
-    return record.to_altstore_app(settings)
+
+
+def dedup_and_sort(records: list):
+    """同名同版本只留一个（按源顺序择优），再按最新网盘日期降序。"""
+    from collections import defaultdict as _dd
+    groups = _dd(list)
+    for r in records:
+        groups[r.fp].append(r)
+    kept = []
+    for fp, group in groups.items():
+        group.sort(key=lambda a: (key_priority(a.source_key), -a.size, -bool(a.modified)))
+        best = group[0]
+        best.all_sources = list(dict.fromkeys(
+            s for g in group for s in (g.all_sources or [g.source_key]) if s
+        ))
+        dates = {}
+        for g in group:
+            dates.update(g.source_dates or {})
+            if g.source_key and g.modified:
+                dates.setdefault(g.source_key, g.modified)
+        best.source_dates = dates
+        kept.append(best)
+    kept.sort(key=lambda a: (latest_date(a), a.name), reverse=True)
+    return kept, len(records) - len(kept)
 
 
 def main() -> None:
@@ -122,19 +147,23 @@ def main() -> None:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    apps, removed = filter_apps(data.get("apps", []))
+    raw, removed = filter_apps(data.get("apps", []))
     enricher = AppEnricher(enabled=True)
-    apps = [convert(a, enricher) for a in apps]
+    records = [convert(a, enricher) for a in raw]
+    records, dup_removed = dedup_and_sort(records)
+    apps = [r.to_altstore_app(settings) for r in records]
 
     by_source = Counter()
     for app in apps:
-        # 来源分布按主源统计
-        by_source[app.get("developerName", "unknown")] += 1
+        # 字段精简后无 developerName，从版本描述前缀取主源 Key
+        keys, _, _ = parse_old_description(app.get("versionDescription", ""))
+        by_source[keys[0] if keys else "unknown"] += 1
 
     meta = data.setdefault("_meta", {})
     meta["total_apps"] = len(apps)
     stats = meta.setdefault("stats", {})
     stats["excluded_by_category"] = int(stats.get("excluded_by_category", 0)) + removed
+    stats["duplicates_removed"] = stats.get("duplicates_removed", 0) + dup_removed
     stats["by_source"] = dict(by_source.most_common())
     meta["sources"] = stats["by_source"]
     meta["filter"] = {
@@ -149,7 +178,7 @@ def main() -> None:
         f"📦 应用总数：{len(apps)}",
         f"🚫 分类剔除 {stats['excluded_by_category']} 条（游戏/美化/越狱/电脑/安卓/证书/插件）",
         "📚 来源分布：" + "、".join(f"{k} {v}" for k, v in stats["by_source"].items()),
-        "💡 应用描述格式：<源Key> | <软件介绍>（无介绍时仅列来源 Key）",
+        "💡 描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>；按最新网盘日期排序",
     ])
 
     data["name"] = settings.source_name

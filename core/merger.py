@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 去重合并 + 变更检测引擎
-- 以指纹去重（bundle id 优先，其次规范化文件名）
-- 重复项按 source_priority 取最优（宅哥 zgios = 1 最高）
+- 指纹 = 软件标识 + 版本号：同名同版本只留一个，同名不同版本各自保留
+- 重复项按用户指定源顺序择优：zgios → lewsky → iosi → qlam → 其余
+- 排序键 = 该软件在全部网盘中的最新更新日期（非仅主源）
 - 与上一轮快照对比，检测新增/移除/更新
 """
 from __future__ import annotations
@@ -13,8 +14,20 @@ import os
 from collections import defaultdict
 from typing import List, Dict, Any, Tuple
 
-from .config import DATA_DIR, AppSettings
+from .config import DATA_DIR, AppSettings, key_priority
 from .models import AppRecord, ChangeSet
+
+
+def latest_date(app: AppRecord) -> str:
+    """该软件在所有网盘中的最新更新日期；无日期时回退 modified/created。
+
+    source_dates 的值是各源原始日期（ISO 或 YYYY.MM.DD），取字符串最大值
+    即可（两种格式内部各自的字典序均与时间序一致）。
+    """
+    dates = [d for d in (getattr(app, "source_dates", {}) or {}).values() if d]
+    dates.append(app.modified or "")
+    dates.append(app.created or "")
+    return max(dates) if dates else ""
 
 
 class AppMerger:
@@ -35,9 +48,9 @@ class AppMerger:
         sources_used = defaultdict(int)
 
         for fp, group in groups.items():
-            # 按优先级排序，优先级相同取信息更全的（有大小、有日期）
+            # 按用户指定源顺序择优：zgios → lewsky → iosi → qlam → 其余
             group.sort(key=lambda a: (
-                a.source_priority,
+                key_priority(a.source_key),
                 -a.size,
                 -bool(a.modified),
             ))
@@ -61,8 +74,8 @@ class AppMerger:
         per_source_cap = 1200
         by_src: Dict[str, int] = defaultdict(int)
         capped: List[AppRecord] = []
-        # 先按日期降序，保证每站保留的是最新条目
-        prelim = sorted(merged, key=lambda a: (a.modified or a.created or "", a.name), reverse=True)
+        # 先按最新网盘日期降序，保证每站保留的是最新条目
+        prelim = sorted(merged, key=lambda a: (latest_date(a), a.name), reverse=True)
         for a in prelim:
             key = a.source_key or "unknown"
             if by_src[key] >= per_source_cap:
@@ -71,12 +84,9 @@ class AppMerger:
             capped.append(a)
         merged = capped
 
-        # 排序：默认按更新日期降序（最新更新的软件排在最前）
+        # 排序：按该软件在全部网盘中的最新更新日期降序（最新在前）
         if getattr(settings, "sort_by_date", True):
-            merged.sort(key=lambda a: (
-                a.modified or a.created or "",   # ISO 日期字符串可直接比较
-                a.name,
-            ), reverse=True)
+            merged.sort(key=lambda a: (latest_date(a), a.name), reverse=True)
         else:
             merged.sort(key=lambda a: a.name)
 

@@ -163,17 +163,21 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 ## 巨魔增强版字段兼容说明
 
-反汇编增强版二进制（`TSIPAPackage` 解析 key 连续簇 `identifier / versionDescription / description / iconURL / downloadURL / size / lock`，另有 `setBundleIdentifier:` selector）确认客户端实际读取字段：
+App 对象精简为最小 7 字段（用户要求）：
 
-| 详情页项 | 客户端读取字段 | 本源处理 |
-|---|---|---|
-| 应用描述 | `versionDescription`（回退 `description`，都没有才显示 `No description available.`） | 两个描述字段写同一内容 |
-| 标识符 | `identifier` + `bundleIdentifier` | 两者写同值 `cn.aggregate.<指纹>`；参考源两者皆缺，故其标识符不显示 |
-| 大小 | `size`（数值） | 写字节数整数；参考源给字符串 `"0"` 故大小不显示 |
-| 版本 | `version` | 从文件名解析 |
-| 下载 | `downloadURL` | AList 签名永久直链 |
+| 字段 | 说明 |
+|---|---|
+| `name` | 应用名（去 `.ipa` 后缀） |
+| `bundleIdentifier` | 标识符（`cn.aggregate.<指纹>`，客户端 `setBundleIdentifier:` 读取） |
+| `versionDescription` | 描述 = `<源Key>·<日期> \| ... / <介绍>`，来源与日期都在其中 |
+| `version` | 版本号（从文件名解析） |
+| `downloadURL` | AList 签名永久直链 |
+| `iconURL` | 应用图标 |
+| `size` | 字节数整数（客户端按 NSNumber 展示大小） |
 
-已删除的冗余字段（反汇编证据）：`isLanZouCloud`（二进制内**零引用**，无该字符串）、`localizedDescription`（不在解析簇）、`tintColor`（空串无 UI 意义）、`versions[]`（不读取）、`subtitle`/`minOSVersion`。`description` 保留作 fallback（解析簇内紧跟 `No description available.`），`lock` 保留（解析簇内）。
+已移除字段：`identifier`、`developerName`、`description`、`versionDate`、`lock`、`type`，以及此前的 `isLanZouCloud`、`localizedDescription`、`tintColor`、`versions[]`。来源信息不丢——源 Key 与日期已并入 `versionDescription` 前缀。
+
+**去重规则**：指纹 = 软件标识 + 版本号，同名同版本只保留一个、同名不同版本各自保留；重复项按源顺序 `zgios → lewsky → iosi → qlam → 其余` 择优保留。**排序规则**：按该软件在全部网盘中的最新更新日期降序，最新的排最前。
 
 `TSIPASource` 读取顶层 `sourceicon`/`iconURL` 作为源图标，`apps`（或 `packages`）作为应用数组——两者都已写入。
 
