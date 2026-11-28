@@ -2,8 +2,8 @@
  "name": "LEON🍎源",
  "identifier": "cn.aggregate.trollstore.daily",
  "subtitle": "多网盘聚合 · 每日自动同步",
- "message": "LEON🍎源 · 每日自动更新\n📅 本次更新：2026-11-28 14:24:30\n📦 应用总数：1438\n🚫 分类剔除 3442 条（游戏/美化/越狱/电脑/安卓/证书/插件）\n📚 来源分布：qlam 946、zgios 274、iosi 107、lewsky 83、aifeng 19、jiejingfan 8、nyxz 1\n💡 描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>；按最新网盘日期排序",
- "description": "LEON🍎源 · 每日自动更新\n📅 本次更新：2026-11-28 14:24:30\n📦 应用总数：1438\n🚫 分类剔除 3442 条（游戏/美化/越狱/电脑/安卓/证书/插件）\n📚 来源分布：qlam 946、zgios 274、iosi 107、lewsky 83、aifeng 19、jiejingfan 8、nyxz 1\n💡 描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>；按最新网盘日期排序",
+ "message": "LEON🍎源 · 每日自动更新\n📅 本次更新：2026-11-28 14:26:23\n📦 应用总数：1438\n🚫 分类剔除 3442 条（游戏/美化/越狱/电脑/安卓/证书/插件）\n📚 来源分布：qlam 946、zgios 274、iosi 107、lewsky 83、aifeng 19、jiejingfan 8、nyxz 1\n💡 描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>；按最新网盘日期排序",
+ "description": "LEON🍎源 · 每日自动更新\n📅 本次更新：2026-11-28 14:26:23\n📦 应用总数：1438\n🚫 分类剔除 3442 条（游戏/美化/越狱/电脑/安卓/证书/插件）\n📚 来源分布：qlam 946、zgios 274、iosi 107、lewsky 83、aifeng 19、jiejingfan 8、nyxz 1\n💡 描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>；按最新网盘日期排序",
  "website": "https://github.com/weer2/trollstore-aggregate-source",
  "sourceicon": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/assets/logo.png",
  "iconURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/assets/logo.png",
@@ -3556,789 +3556,6 @@
    "size": 1424309846
   },
   {
-   "name": "YouTube_21.46.3",
-   "bundleIdentifier": "cn.aggregate.youtube",
-   "versionDescription": "zgios·2024.09.30 | lewsky·2025.06.22 | qlam·2024.12.24 | iosi·2025.02.16 / YouTube——全球最大视频分享平台，可在线观看与订阅海量视频内容。",
-   "version": "21.46.3",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/YouTube_21.46.3.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20240829/df542f4424035526181432305e1b7132.png",
-   "size": 178368192
-  },
-  {
-   "name": "Telegram_13.1.2_Lead_设置长按倒数第三个按钮",
-   "bundleIdentifier": "cn.aggregate.telegram",
-   "versionDescription": "lewsky·2025.10.05 | qlam·2024.12.24 | iosi·2025.08.20 / tg-Sim解锁无限可能性——您的终极虚拟电话号码解决方案！",
-   "version": "13.1.2",
-   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/IPA%E5%BA%94%E7%94%A8/Telegram_13.1.2_Lead_%E8%AE%BE%E7%BD%AE%E9%95%BF%E6%8C%89%E5%80%92%E6%95%B0%E7%AC%AC%E4%B8%89%E4%B8%AA%E6%8C%89%E9%92%AE.ipa",
-   "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/0f/23/970f2345-8e76-67ef-7ecd-78fbadbf157a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-   "size": 133365468
-  },
-  {
-   "name": "APTV_9.5.12",
-   "bundleIdentifier": "cn.aggregate.aptv",
-   "versionDescription": "iosi·2024.01.09 / APTV，一款可实时预览的高颜值全平台 IPTV M3U播放器",
-   "version": "9.5.12",
-   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/APTV_9.5.12.ipa",
-   "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/43/f3/a843f3fe-ced5-f38d-1596-37d521e459f1/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
-   "size": 103688784
-  },
-  {
-   "name": "TikTok_47.4.0",
-   "bundleIdentifier": "cn.aggregate.tiktok",
-   "versionDescription": "zgios·2024.08.17 | lewsky·2024.10.12 | qlam·2024.12.24 | iosi·2025.06.07 / TikTok——抖音国际版，全球短视频社交平台。",
-   "version": "47.4.0",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/TikTok_47.4.0.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240410/0df7847330c21d9bf3a2e67d16fc4657.png",
-   "size": 526492313
-  },
-  {
-   "name": "番茄小说_7.4.1",
-   "bundleIdentifier": "cn.aggregate.88f2e2b4c52e",
-   "versionDescription": "zgios·2025.08.30 | qlam·2024.12.24 | iosi·2024.02.17 / 番茄小说——免费网络小说阅读平台，涵盖各类热门网文。",
-   "version": "7.4.1",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4_7.4.1.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20240915/7b4b3e2603d27e8a5a49d46320d542ac.png",
-   "size": 307813329
-  },
-  {
-   "name": "Wallcraft_3.42",
-   "bundleIdentifier": "cn.aggregate.wallcraft",
-   "versionDescription": "zgios·2025.11.13 | qlam·2024.12.24 | iosi·2024.11.09 / 一款壁纸工具，已解锁vip权限，壁纸非常好看",
-   "version": "3.42",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Wallcraft_3.42.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20260928/0aa0b2c2240f99d63bec30de8e0ba6f5.png",
-   "size": 105826755
-  },
-  {
-   "name": "Twitter_12.35",
-   "bundleIdentifier": "cn.aggregate.twitter",
-   "versionDescription": "zgios·2024.09.30 | qlam·2024.12.24 / Twitter / X——全球实时社交媒体平台。",
-   "version": "12.35",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Twitter_12.35.ipa",
-   "iconURL": "",
-   "size": 279793908
-  },
-  {
-   "name": "Stash_3.6.0_最低支持iOS16.0+系统",
-   "bundleIdentifier": "cn.aggregate.stash",
-   "versionDescription": "qlam·2025.08.18",
-   "version": "3.6.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Stash_3.6.0_%E6%9C%80%E4%BD%8E%E6%94%AF%E6%8C%81iOS16.0%2B%E7%B3%BB%E7%BB%9F.ipa",
-   "iconURL": "",
-   "size": 65087089
-  },
-  {
-   "name": "可达阅读器_2.4.3_解锁会员",
-   "bundleIdentifier": "cn.aggregate.cb3632cea7fc",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.19",
-   "version": "2.4.3",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8F%AF%E8%BE%BE%E9%98%85%E8%AF%BB%E5%99%A8_2.4.3_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 157214968
-  },
-  {
-   "name": "SenPlayer_6.2.2_解锁会员_Emby等资源播放器",
-   "bundleIdentifier": "cn.aggregate.senplayer",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "6.2.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/SenPlayer_6.2.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_Emby%E7%AD%89%E8%B5%84%E6%BA%90%E6%92%AD%E6%94%BE%E5%99%A8.ipa",
-   "iconURL": "",
-   "size": 90984093
-  },
-  {
-   "name": "计算器_8.0.78",
-   "bundleIdentifier": "cn.aggregate.12235bbcc99f",
-   "versionDescription": "zgios·2025.04.20",
-   "version": "8.0.78",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E8%AE%A1%E7%AE%97%E5%99%A8_8.0.78.ipa",
-   "iconURL": "",
-   "size": 426636480
-  },
-  {
-   "name": "微信_qy8.0.78",
-   "bundleIdentifier": "cn.aggregate.20fb8256c76a",
-   "versionDescription": "zgios·2025.10.10 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
-   "version": "8.0.78",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_qy8.0.78.ipa",
-   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
-   "size": 425311691
-  },
-  {
-   "name": "支付宝_12.12.26",
-   "bundleIdentifier": "cn.aggregate.216dc49eda97",
-   "versionDescription": "zgios·2024.08.15 | qlam·2024.12.24 | iosi·2024.02.29 | jiejingfan·2023.10.16 / 支付宝——蚂蚁集团移动支付与生活服务平台，支持付款、理财、缴费与城市服务。",
-   "version": "12.12.26",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%94%AF%E4%BB%98%E5%AE%9D_12.12.26.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20231110/715333fdda09c354c3a662122af07997.png",
-   "size": 208474296
-  },
-  {
-   "name": "Surge_5.22.1_解锁Pro",
-   "bundleIdentifier": "cn.aggregate.surge",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "5.22.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Surge_5.22.1_%E8%A7%A3%E9%94%81Pro.ipa",
-   "iconURL": "",
-   "size": 54953516
-  },
-  {
-   "name": "两步路户外助手_9.2.4_解锁会员",
-   "bundleIdentifier": "cn.aggregate.2d91b2e5007e",
-   "versionDescription": "qlam·2025.12.04",
-   "version": "9.2.4",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%A4%E6%AD%A5%E8%B7%AF%E6%88%B7%E5%A4%96%E5%8A%A9%E6%89%8B_9.2.4_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 132141164
-  },
-  {
-   "name": "微信_纯净8.0.78",
-   "bundleIdentifier": "cn.aggregate.519c39355eae",
-   "versionDescription": "zgios·2024.09.07 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
-   "version": "8.0.78",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_%E7%BA%AF%E5%87%808.0.78.ipa",
-   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
-   "size": 406343769
-  },
-  {
-   "name": "番茄畅听_6.6.7",
-   "bundleIdentifier": "cn.aggregate.ff06d6780434",
-   "versionDescription": "zgios·2024.08.28 | qlam·2024.12.24 | iosi·2024.02.17 / 番茄畅听——有声书与网络小说听书平台。",
-   "version": "6.6.7",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%95%AA%E8%8C%84%E7%95%85%E5%90%AC_6.6.7.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20240828/0a7862c3768a70b42c67c9d894cf0808.png",
-   "size": 237569398
-  },
-  {
-   "name": "哔哩哔哩_9.9.0_去广告_去开屏广告、首页广告、视频下广告",
-   "bundleIdentifier": "cn.aggregate.0089ce1ecb2c",
-   "versionDescription": "qlam·2025.12.04 | iosi·2024.02.17",
-   "version": "9.9.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_9.9.0_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%8E%BB%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E3%80%81%E9%A6%96%E9%A1%B5%E5%B9%BF%E5%91%8A%E3%80%81%E8%A7%86%E9%A2%91%E4%B8%8B%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 309737433
-  },
-  {
-   "name": "美颜相机_13.3.00",
-   "bundleIdentifier": "cn.aggregate.2db706bf30e5",
-   "versionDescription": "zgios·2025.03.27 | qlam·2025.12.19 | iosi·2024.01.09",
-   "version": "13.3.00",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%BE%8E%E9%A2%9C%E7%9B%B8%E6%9C%BA_13.3.00.ipa",
-   "iconURL": "",
-   "size": 263439423
-  },
-  {
-   "name": "Swifgram_12.9.2_解锁会员_自动翻译，下载加速等",
-   "bundleIdentifier": "cn.aggregate.swifgram",
-   "versionDescription": "qlam·2024.12.24 / 刚上架App Store的一款简单又实用的第三方Telegram",
-   "version": "12.9.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Swifgram_12.9.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F%E7%AD%89.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240326/d33fabb46b027874c6812d9c96f569e5.png",
-   "size": 87939827
-  },
-  {
-   "name": "美图秀秀_12.16.0",
-   "bundleIdentifier": "cn.aggregate.349ab448835a",
-   "versionDescription": "zgios·2025.10.22 | qlam·2024.12.24 | iosi·2024.08.29 / 美图秀秀——国民级图片美化与修图工具。",
-   "version": "12.16.0",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80_12.16.0.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20241211/c12ef2fae70a7ffd0306a8f668e05370.png",
-   "size": 351437775
-  },
-  {
-   "name": "喜马拉雅_9.4.94",
-   "bundleIdentifier": "cn.aggregate.15562b18ccbb",
-   "versionDescription": "zgios·2024.09.21 | qlam·2024.12.24 / 解锁vip畅听，无需登录但是可以登录，首次登录后，清理后台再次进入即可",
-   "version": "9.4.94",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85_9.4.94.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20260614/878e83c690c7dbaed19149dccc544205.png",
-   "size": 238046332
-  },
-  {
-   "name": "菜鸟_8.11.727_去广告",
-   "bundleIdentifier": "cn.aggregate.0e800daa14b7",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.11.727",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%8F%9C%E9%B8%9F_8.11.727_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 80000092
-  },
-  {
-   "name": "呼啦少儿英语_1.47.0_解锁会员_免费解锁所有视频",
-   "bundleIdentifier": "cn.aggregate.8fb327a93645",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.47.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%91%BC%E5%95%A6%E5%B0%91%E5%84%BF%E8%8B%B1%E8%AF%AD_1.47.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%85%8D%E8%B4%B9%E8%A7%A3%E9%94%81%E6%89%80%E6%9C%89%E8%A7%86%E9%A2%91.ipa",
-   "iconURL": "",
-   "size": 33252449
-  },
-  {
-   "name": "微信_官替8.0.75",
-   "bundleIdentifier": "cn.aggregate.c0d6450bda65",
-   "versionDescription": "zgios·2025.10.10 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
-   "version": "8.0.75",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_%E5%AE%98%E6%9B%BF8.0.75.ipa",
-   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
-   "size": 392538475
-  },
-  {
-   "name": "一木记账_2.5.1_解锁会员",
-   "bundleIdentifier": "cn.aggregate.6213ce82057d",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2.5.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%80%E6%9C%A8%E8%AE%B0%E8%B4%A6_2.5.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 45434981
-  },
-  {
-   "name": "豆瓣_7.129.0_去广告",
-   "bundleIdentifier": "cn.aggregate.2f719842f9ec",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.129.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%B1%86%E7%93%A3_7.129.0_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 112893362
-  },
-  {
-   "name": "小旋风收音机_6.1_去广告_全球电台频道",
-   "bundleIdentifier": "cn.aggregate.7780fde3ee15",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "6.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B0%8F%E6%97%8B%E9%A3%8E%E6%94%B6%E9%9F%B3%E6%9C%BA_6.1_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%85%A8%E7%90%83%E7%94%B5%E5%8F%B0%E9%A2%91%E9%81%93.ipa",
-   "iconURL": "",
-   "size": 39486765
-  },
-  {
-   "name": "滴答清单_8.1.20_解锁会员_任务打卡日历软件",
-   "bundleIdentifier": "cn.aggregate.38bdcbb6ee31",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.1.20",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%BB%B4%E7%AD%94%E6%B8%85%E5%8D%95_8.1.20_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%BB%BB%E5%8A%A1%E6%89%93%E5%8D%A1%E6%97%A5%E5%8E%86%E8%BD%AF%E4%BB%B6.ipa",
-   "iconURL": "",
-   "size": 102331920
-  },
-  {
-   "name": "知乎_10.103.0_去广告_知乎默认去开屏、推荐页、详情页广告及底栏按钮隐藏。 长按底栏呼出",
-   "bundleIdentifier": "cn.aggregate.267d76ac981d",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.103.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%9F%A5%E4%B9%8E_10.103.0_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E7%9F%A5%E4%B9%8E%E9%BB%98%E8%AE%A4%E5%8E%BB%E5%BC%80%E5%B1%8F%E3%80%81%E6%8E%A8%E8%8D%90%E9%A1%B5%E3%80%81%E8%AF%A6%E6%83%85%E9%A1%B5%E5%B9%BF%E5%91%8A%E5%8F%8A%E5%BA%95%E6%A0%8F%E6%8C%89%E9%92%AE%E9%9A%90%E8%97%8F%E3%80%82%20%E9%95%BF%E6%8C%89%E5%BA%95%E6%A0%8F%E5%91%BC%E5%87%BA.ipa",
-   "iconURL": "",
-   "size": 189060654
-  },
-  {
-   "name": "Gear_7.4.7_解锁会员_Alook 之外又一神级浏览器",
-   "bundleIdentifier": "cn.aggregate.gear",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.4.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Gear_7.4.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_Alook%20%E4%B9%8B%E5%A4%96%E5%8F%88%E4%B8%80%E7%A5%9E%E7%BA%A7%E6%B5%8F%E8%A7%88%E5%99%A8.ipa",
-   "iconURL": "",
-   "size": 21553835
-  },
-  {
-   "name": "‎WhatsApp_26.25.73",
-   "bundleIdentifier": "cn.aggregate.whatsapp",
-   "versionDescription": "zgios·2025.08.25 | lewsky·2025.01.13 | qlam·2024.12.24 | iosi·2025.09.30 / WhatsApp——Meta 旗下跨平台即时通讯应用。",
-   "version": "26.25.73",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E2%80%8EWhatsApp_26.25.73.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240104/261358a5a9697afa0bd78b61b9baf3e1.png",
-   "size": 188629586
-  },
-  {
-   "name": "Zeta长截图_2.0.2_解锁会员，点购买取消后解锁会员_新版本需要先安装1.9.3版本获取会员后再覆盖安装，即可解锁会员",
-   "bundleIdentifier": "cn.aggregate.zeta",
-   "versionDescription": "qlam·2025.06.16",
-   "version": "2.0.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Zeta%E9%95%BF%E6%88%AA%E5%9B%BE_2.0.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98%EF%BC%8C%E7%82%B9%E8%B4%AD%E4%B9%B0%E5%8F%96%E6%B6%88%E5%90%8E%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E6%96%B0%E7%89%88%E6%9C%AC%E9%9C%80%E8%A6%81%E5%85%88%E5%AE%89%E8%A3%851.9.3%E7%89%88%E6%9C%AC%E8%8E%B7%E5%8F%96%E4%BC%9A%E5%91%98%E5%90%8E%E5%86%8D%E8%A6%86%E7%9B%96%E5%AE%89%E8%A3%85%EF%BC%8C%E5%8D%B3%E5%8F%AF%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 8883436
-  },
-  {
-   "name": "DowngradeApp_1.1-7",
-   "bundleIdentifier": "cn.aggregate.downgradeapp",
-   "versionDescription": "lewsky·2025.11.28",
-   "version": "1.1",
-   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/%E5%B7%A8%E9%AD%94%E4%B8%93%E7%94%A8/DowngradeApp/DowngradeApp_1.1-7.ipa",
-   "iconURL": "",
-   "size": 545356
-  },
-  {
-   "name": "电影猎手_3.1.1.6",
-   "bundleIdentifier": "cn.aggregate.3a0056be483b",
-   "versionDescription": "zgios·2025.06.29 | qlam·2025.06.27 | iosi·2025.11.09",
-   "version": "3.1.1.6",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B_3.1.1.6.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240110/0eb0468f15cfc039494be7347b719f14.png",
-   "size": 24079455
-  },
-  {
-   "name": "河马剧场_3.6.0",
-   "bundleIdentifier": "cn.aggregate.6c5904b0596d",
-   "versionDescription": "zgios·2025.11.29 / 去广告，看短片软件",
-   "version": "3.6.0",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%B2%B3%E9%A9%AC%E5%89%A7%E5%9C%BA_3.6.0.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20241021/8790f96fb517775f49a6e4f93ce1a01b.png",
-   "size": 126316446
-  },
-  {
-   "name": "动漫相机_1.0.6_解锁会员",
-   "bundleIdentifier": "cn.aggregate.8e5ab82ca178",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.0.6",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8A%A8%E6%BC%AB%E7%9B%B8%E6%9C%BA_1.0.6_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 32308371
-  },
-  {
-   "name": "iBox_2.4.6_最新内测版",
-   "bundleIdentifier": "cn.aggregate.ibox",
-   "versionDescription": "qlam·2025.05.03 | iosi·2024.02.18",
-   "version": "2.4.6",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iBox_2.4.6_%E6%9C%80%E6%96%B0%E5%86%85%E6%B5%8B%E7%89%88.ipa",
-   "iconURL": "",
-   "size": 97880342
-  },
-  {
-   "name": "Retouch_5.8.3_解锁会员_照片ps涂抹工具",
-   "bundleIdentifier": "cn.aggregate.retouch",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
-   "version": "5.8.3",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Retouch_5.8.3_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%85%A7%E7%89%87ps%E6%B6%82%E6%8A%B9%E5%B7%A5%E5%85%B7.ipa",
-   "iconURL": "",
-   "size": 1013445885
-  },
-  {
-   "name": "汽水音乐_19.7.1",
-   "bundleIdentifier": "cn.aggregate.384c7b81d937",
-   "versionDescription": "zgios·2025.10.08 | qlam·2024.12.24 | iosi·2024.02.18 / 汽水音乐——字节跳动旗下音乐流媒体应用，主打年轻化音乐推荐。",
-   "version": "19.7.1",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90_19.7.1.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20231109/bbe08682a5663ac10da3ad23393098fd.png",
-   "size": 201844624
-  },
-  {
-   "name": "帮帮识字_3.49.0",
-   "bundleIdentifier": "cn.aggregate.01c02fd1c7f5",
-   "versionDescription": "zgios·2024.09.11 | qlam·2024.12.24 | iosi·2024.02.17 / 解锁VIP会员",
-   "version": "3.49.0",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%B8%AE%E5%B8%AE%E8%AF%86%E5%AD%97_3.49.0.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20240911/934b1f153875dde7d177df14416fe12e.png",
-   "size": 379040084
-  },
-  {
-   "name": "掌上公交_8.1.2_去广告",
-   "bundleIdentifier": "cn.aggregate.cf3e1843ef72",
-   "versionDescription": "qlam·2025.09.06",
-   "version": "8.1.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A4_8.1.2_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 106553777
-  },
-  {
-   "name": "车来了_7.4.2_去广告",
-   "bundleIdentifier": "cn.aggregate.ac354d436492",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.4.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%BD%A6%E6%9D%A5%E4%BA%86_7.4.2_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 71374688
-  },
-  {
-   "name": "zFuse_1.12.130_原sPlayer，影音播放器",
-   "bundleIdentifier": "cn.aggregate.zfuse",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.12.130",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/zFuse_1.12.130_%E5%8E%9FsPlayer%EF%BC%8C%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8.ipa",
-   "iconURL": "",
-   "size": 94263483
-  },
-  {
-   "name": "咕咚_10.74.1_去广告",
-   "bundleIdentifier": "cn.aggregate.a790afc5bc33",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.74.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%92%95%E5%92%9A_10.74.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 220957666
-  },
-  {
-   "name": "收音机_10.1.4_去广告",
-   "bundleIdentifier": "cn.aggregate.4ddee13d0fa0",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.1.4",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%94%B6%E9%9F%B3%E6%9C%BA_10.1.4_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 90264671
-  },
-  {
-   "name": "世界迷雾_3.7.4",
-   "bundleIdentifier": "cn.aggregate.0bdf7caf14ce",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.7.4",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%96%E7%95%8C%E8%BF%B7%E9%9B%BE_3.7.4.ipa",
-   "iconURL": "",
-   "size": 73442158
-  },
-  {
-   "name": "雷速体育_10.4.3_去广告",
-   "bundleIdentifier": "cn.aggregate.ea3041b98aeb",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.4.3",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9B%B7%E9%80%9F%E4%BD%93%E8%82%B2_10.4.3_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 160889639
-  },
-  {
-   "name": "威锋_7.1_去广告",
-   "bundleIdentifier": "cn.aggregate.146b30cfe476",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.29",
-   "version": "7.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A8%81%E9%94%8B_7.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 79622190
-  },
-  {
-   "name": "Shadowrocket-2.2.81",
-   "bundleIdentifier": "cn.aggregate.shadowrocket",
-   "versionDescription": "zgios·2024.09.30 | qlam·2025.11.23 / Shadowrocket——iOS 网络工具应用（需自行配置）。",
-   "version": "2.2.81",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Shadowrocket-2.2.81.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20231215/f434918a98d28d431c50afc16cdb8083.png",
-   "size": 22002246
-  },
-  {
-   "name": "搜图神器_2.0.7_解锁会员_需登陆解锁",
-   "bundleIdentifier": "cn.aggregate.55d20d95d67b",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2.0.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%90%9C%E5%9B%BE%E7%A5%9E%E5%99%A8_2.0.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E9%9C%80%E7%99%BB%E9%99%86%E8%A7%A3%E9%94%81.ipa",
-   "iconURL": "",
-   "size": 27760263
-  },
-  {
-   "name": "青柠设计_2.2.3",
-   "bundleIdentifier": "cn.aggregate.4e8760f9da03",
-   "versionDescription": "zgios·2024.08.26 | qlam·2024.12.24 / 解锁会员，登录就是vip。自媒体专用作图工具",
-   "version": "2.2.3",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E9%9D%92%E6%9F%A0%E8%AE%BE%E8%AE%A1_2.2.3.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20240826/1976cd8037673905c19dcb44a1a1aa28.png",
-   "size": 116298000
-  },
-  {
-   "name": "B612_15.1.0",
-   "bundleIdentifier": "cn.aggregate.8e0a747c5733",
-   "versionDescription": "zgios·2024.10.17 | qlam·2024.12.24 | iosi·2024.03.20 / YouTube Music——谷歌音乐流媒体服务，含官方曲库与 MV。",
-   "version": "15.1.0",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/B612_15.1.0.ipa",
-   "iconURL": "",
-   "size": 149173293
-  },
-  {
-   "name": "指尖时光_9.1.7_解锁会员_点购买即可解锁",
-   "bundleIdentifier": "cn.aggregate.c36c5b728909",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.31",
-   "version": "9.1.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8C%87%E5%B0%96%E6%97%B6%E5%85%89_9.1.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%82%B9%E8%B4%AD%E4%B9%B0%E5%8D%B3%E5%8F%AF%E8%A7%A3%E9%94%81.ipa",
-   "iconURL": "",
-   "size": 213983838
-  },
-  {
-   "name": "探探_7.4.2@com.yaymedialabs.putong",
-   "bundleIdentifier": "com.yaymedialabs.putong.ipa",
-   "versionDescription": "zgios·2025.05.15 / 去广告，登录后三指连击屏幕呼出功能菜单",
-   "version": "7.4.2",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%8E%A2%E6%8E%A2_7.4.2%40com.yaymedialabs.putong.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20250515/8a9260f23e6bf8aec6993533128420a8.png",
-   "size": 216250064
-  },
-  {
-   "name": "台球世界_6.79_超级延长线",
-   "bundleIdentifier": "cn.aggregate.ef0882b97f2b",
-   "versionDescription": "qlam·2024.12.24 / 延长辅助线",
-   "version": "6.79",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8F%B0%E7%90%83%E4%B8%96%E7%95%8C_6.79_%E8%B6%85%E7%BA%A7%E5%BB%B6%E9%95%BF%E7%BA%BF.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20250317/c0243a96f4cd1d73113d937f55e7f81d.png",
-   "size": 299638300
-  },
-  {
-   "name": "ReLens_6.0_解锁会员",
-   "bundleIdentifier": "cn.aggregate.relens",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
-   "version": "6.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ReLens_6.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 430147735
-  },
-  {
-   "name": "Wink_3.5.1_解锁会员",
-   "bundleIdentifier": "cn.aggregate.wink",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.5.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Wink_3.5.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 124681748
-  },
-  {
-   "name": "ProKnockout_7.87_解锁会员_点击购买永久会员然后取消",
-   "bundleIdentifier": "cn.aggregate.proknockout",
-   "versionDescription": "qlam·2024.12.24 | iosi·2025.10.09",
-   "version": "7.87",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ProKnockout_7.87_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%82%B9%E5%87%BB%E8%B4%AD%E4%B9%B0%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98%E7%84%B6%E5%90%8E%E5%8F%96%E6%B6%88.ipa",
-   "iconURL": "",
-   "size": 128851102
-  },
-  {
-   "name": "GigaBody_0.86.1_解锁会员",
-   "bundleIdentifier": "cn.aggregate.gigabody",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "0.86.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/GigaBody_0.86.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 76283516
-  },
-  {
-   "name": "无他相机_7.3.9",
-   "bundleIdentifier": "cn.aggregate.af8c698683d0",
-   "versionDescription": "zgios·2025.04.20 | qlam·2024.12.24 | iosi·2024.08.03 / 解锁会员权限，一款复古相机",
-   "version": "7.3.9",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%97%A0%E4%BB%96%E7%9B%B8%E6%9C%BA_7.3.9.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20260509/7896d4aaee455eb2f9d65f0dacd0eca9.png",
-   "size": 145045421
-  },
-  {
-   "name": "OldRoll_8.4.5_解锁会员_复古胶片相机",
-   "bundleIdentifier": "cn.aggregate.oldroll",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.4.5",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/OldRoll_8.4.5_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%A4%8D%E5%8F%A4%E8%83%B6%E7%89%87%E7%9B%B8%E6%9C%BA.ipa",
-   "iconURL": "",
-   "size": 200788600
-  },
-  {
-   "name": "随手记Pro_13.2.44_AppStore付费应用",
-   "bundleIdentifier": "cn.aggregate.6aa117dc1514",
-   "versionDescription": "qlam·2025.12.19",
-   "version": "13.2.44",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9A%8F%E6%89%8B%E8%AE%B0Pro_13.2.44_AppStore%E4%BB%98%E8%B4%B9%E5%BA%94%E7%94%A8.ipa",
-   "iconURL": "",
-   "size": 114024700
-  },
-  {
-   "name": "Chat Smith_8.260323.2_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.chatsmith",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
-   "version": "8.260323.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Chat%20Smith_8.260323.2_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 218273867
-  },
-  {
-   "name": "光遇_0.32.7_国际版",
-   "bundleIdentifier": "cn.aggregate.b911b5a1f9e9",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "0.32.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%85%89%E9%81%87_0.32.7_%E5%9B%BD%E9%99%85%E7%89%88.ipa",
-   "iconURL": "",
-   "size": 2181631098
-  },
-  {
-   "name": "TrollInstallerX-20D50_1.0.3",
-   "bundleIdentifier": "cn.aggregate.trollinstallerx",
-   "versionDescription": "qlam·2024.12.24 | iosi·2025.09.30 / TrollInstallerX——TrollStore 巨魔安装器，用于安装持久化助手。",
-   "version": "1.0.3",
-   "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/TrollStore%E9%AD%94%E6%94%B9%E7%89%88/%E5%B7%A8%E9%AD%94%E5%AE%89%E8%A3%85%E5%99%A8/%E6%89%8B%E6%9C%BA%E7%89%88iOS14.0-16.6.1/TrollInstallerX-20D50_1.0.3.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240405/8440b5e80b537b5602ebed975269fcd3.png",
-   "size": 27098183
-  },
-  {
-   "name": "随手记专业版_13.2.40_专业记账软件",
-   "bundleIdentifier": "cn.aggregate.27f8face5a2f",
-   "versionDescription": "qlam·2025.11.07",
-   "version": "13.2.40",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9A%8F%E6%89%8B%E8%AE%B0%E4%B8%93%E4%B8%9A%E7%89%88_13.2.40_%E4%B8%93%E4%B8%9A%E8%AE%B0%E8%B4%A6%E8%BD%AF%E4%BB%B6.ipa",
-   "iconURL": "",
-   "size": 117991920
-  },
-  {
-   "name": "Flow Photo Art_10.1.7_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.flowphotoart",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.1.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Flow%20Photo%20Art_10.1.7_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 366591306
-  },
-  {
-   "name": "InShot_1.94.1_Pro",
-   "bundleIdentifier": "cn.aggregate.inshot",
-   "versionDescription": "lewsky·2025.07.25 | qlam·2024.12.24 | iosi·2025.11.01",
-   "version": "1.94.1",
-   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/IPA%E5%BA%94%E7%94%A8/InShot_1.94.1_Pro.ipa",
-   "iconURL": "",
-   "size": 118713338
-  },
-  {
-   "name": "CARROT_6.4_解锁订阅_气象雷达图",
-   "bundleIdentifier": "cn.aggregate.carrot",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "6.4",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/CARROT_6.4_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E6%B0%94%E8%B1%A1%E9%9B%B7%E8%BE%BE%E5%9B%BE.ipa",
-   "iconURL": "",
-   "size": 188680352
-  },
-  {
-   "name": "pix站助手_3.7.5_插画漫画小说交流社区",
-   "bundleIdentifier": "cn.aggregate.0fdd8f9243e5",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.7.5",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/pix%E7%AB%99%E5%8A%A9%E6%89%8B_3.7.5_%E6%8F%92%E7%94%BB%E6%BC%AB%E7%94%BB%E5%B0%8F%E8%AF%B4%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA.ipa",
-   "iconURL": "",
-   "size": 65050894
-  },
-  {
-   "name": "熊掌记_2.6.7_解锁会员_一款易上手的Markdown写作软件",
-   "bundleIdentifier": "cn.aggregate.89a3f936ad1a",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2.6.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%86%8A%E6%8E%8C%E8%AE%B0_2.6.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%B8%80%E6%AC%BE%E6%98%93%E4%B8%8A%E6%89%8B%E7%9A%84Markdown%E5%86%99%E4%BD%9C%E8%BD%AF%E4%BB%B6.ipa",
-   "iconURL": "",
-   "size": 106170028
-  },
-  {
-   "name": "影音宝_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
-   "bundleIdentifier": "cn.aggregate.ab0188ab4745",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2026.1.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%BD%B1%E9%9F%B3%E5%AE%9D_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
-   "iconURL": "",
-   "size": 72624561
-  },
-  {
-   "name": "大侠立志传_1.2.126_内置IGG修改器",
-   "bundleIdentifier": "cn.aggregate.fe3e069d9085",
-   "versionDescription": "qlam·2024.12.24 | iosi·2025.07.07",
-   "version": "1.2.126",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A4%A7%E4%BE%A0%E7%AB%8B%E5%BF%97%E4%BC%A0_1.2.126_%E5%86%85%E7%BD%AEIGG%E4%BF%AE%E6%94%B9%E5%99%A8.ipa",
-   "iconURL": "",
-   "size": 879322736
-  },
-  {
-   "name": "yybx_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
-   "bundleIdentifier": "cn.aggregate.yybx",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2026.1.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/yybx_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
-   "iconURL": "",
-   "size": 95444233
-  },
-  {
-   "name": "iemc_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
-   "bundleIdentifier": "cn.aggregate.iemc",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2026.1.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iemc_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
-   "iconURL": "",
-   "size": 58789723
-  },
-  {
-   "name": "Reddit_2026.05.0_优化增强",
-   "bundleIdentifier": "cn.aggregate.reddit",
-   "versionDescription": "qlam·2025.08.18",
-   "version": "2026.05.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Reddit_2026.05.0_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
-   "iconURL": "",
-   "size": 143999576
-  },
-  {
-   "name": "DP（YBox）_1.2.8_第一次进入软件选择网络后大退在重新进入即可",
-   "bundleIdentifier": "cn.aggregate.bd5933ae0a71",
-   "versionDescription": "qlam·2025.10.09 | iosi·2025.10.09",
-   "version": "1.2.8",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/DP%EF%BC%88YBox%EF%BC%89_1.2.8_%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%9B%E5%85%A5%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E7%BD%91%E7%BB%9C%E5%90%8E%E5%A4%A7%E9%80%80%E5%9C%A8%E9%87%8D%E6%96%B0%E8%BF%9B%E5%85%A5%E5%8D%B3%E5%8F%AF.ipa",
-   "iconURL": "",
-   "size": 18433512
-  },
-  {
-   "name": "腾讯体育_7.9.15_去广告",
-   "bundleIdentifier": "cn.aggregate.911a93181e14",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.9.15",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%85%BE%E8%AE%AF%E4%BD%93%E8%82%B2_7.9.15_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 174976602
-  },
-  {
-   "name": "SpeedGG（网速悬浮）_3.1.1Z_增加了电池温度和功率",
-   "bundleIdentifier": "cn.aggregate.speedgg",
-   "versionDescription": "qlam·2025.07.03",
-   "version": "3.1.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/SpeedGG%EF%BC%88%E7%BD%91%E9%80%9F%E6%82%AC%E6%B5%AE%EF%BC%89_3.1.1Z_%E5%A2%9E%E5%8A%A0%E4%BA%86%E7%94%B5%E6%B1%A0%E6%B8%A9%E5%BA%A6%E5%92%8C%E5%8A%9F%E7%8E%87.ipa",
-   "iconURL": "",
-   "size": 1604651
-  },
-  {
-   "name": "文墨天机Pro_2.5.9_解锁付费",
-   "bundleIdentifier": "cn.aggregate.c3a394dc84f3",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2.5.9",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%96%87%E5%A2%A8%E5%A4%A9%E6%9C%BAPro_2.5.9_%E8%A7%A3%E9%94%81%E4%BB%98%E8%B4%B9.ipa",
-   "iconURL": "",
-   "size": 37911457
-  },
-  {
-   "name": "GIF制作_3.2.2",
-   "bundleIdentifier": "cn.aggregate.adbfbb1d6eab",
-   "versionDescription": "zgios·2025.03.19 | qlam·2024.12.24",
-   "version": "3.2.2",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/GIF%E5%88%B6%E4%BD%9C_3.2.2.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20250319/9fc40c58b7b751c2f2effca6181ea965.png",
-   "size": 151622990
-  },
-  {
-   "name": "MIX_5.2.54_解锁会员",
-   "bundleIdentifier": "cn.aggregate.a456e8e8974e",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "5.2.54",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/MIX_5.2.54_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 379094915
-  },
-  {
-   "name": "懂车帝_8.8.9_去广告",
-   "bundleIdentifier": "cn.aggregate.a088e375ec03",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.8.9",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%87%82%E8%BD%A6%E5%B8%9D_8.8.9_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 228845379
-  },
-  {
-   "name": "西窗烛_7.7.0_解锁订阅_中国优秀传统文化古诗词软件",
-   "bundleIdentifier": "cn.aggregate.f27a86eb2f85",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.7.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%A5%BF%E7%AA%97%E7%83%9B_7.7.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E4%B8%AD%E5%9B%BD%E4%BC%98%E7%A7%80%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96%E5%8F%A4%E8%AF%97%E8%AF%8D%E8%BD%AF%E4%BB%B6.ipa",
-   "iconURL": "",
-   "size": 171196908
-  },
-  {
-   "name": "开拍_3.4.80_解锁会员",
-   "bundleIdentifier": "cn.aggregate.a79fbd7a5403",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.4.80",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%BC%80%E6%8B%8D_3.4.80_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 168495367
-  },
-  {
-   "name": "红果短剧 - [v7.0.3]_解锁会员功能",
-   "bundleIdentifier": "cn.aggregate.913cd723637d",
-   "versionDescription": "qlam·2025.08.27 / 解锁全部内容，登录就是vip",
-   "version": "7.0.3",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%20-%20%5Bv7.0.3%5D_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98%E5%8A%9F%E8%83%BD.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20231110/df56e07f73f6998d3b25d16de1ad88f1.png",
-   "size": 225242590
-  },
-  {
    "name": "高德地图 - [v16.00.0]_长按底栏1秒出菜单",
    "bundleIdentifier": "cn.aggregate.ea7d3c7c0755",
    "versionDescription": "qlam·2025.12.28",
@@ -4456,6 +3673,24 @@
    "size": 77485336
   },
   {
+   "name": "随手记Pro_13.2.44_AppStore付费应用",
+   "bundleIdentifier": "cn.aggregate.6aa117dc1514",
+   "versionDescription": "qlam·2025.12.19",
+   "version": "13.2.44",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9A%8F%E6%89%8B%E8%AE%B0Pro_13.2.44_AppStore%E4%BB%98%E8%B4%B9%E5%BA%94%E7%94%A8.ipa",
+   "iconURL": "",
+   "size": 114024700
+  },
+  {
+   "name": "美颜相机_13.3.00",
+   "bundleIdentifier": "cn.aggregate.2db706bf30e5",
+   "versionDescription": "zgios·2025.03.27 | qlam·2025.12.19 | iosi·2024.01.09",
+   "version": "13.3.00",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%BE%8E%E9%A2%9C%E7%9B%B8%E6%9C%BA_13.3.00.ipa",
+   "iconURL": "",
+   "size": 263439423
+  },
+  {
    "name": "小影_9.25.1@com.quvideo.XiaoYing",
    "bundleIdentifier": "com.quvideo.XiaoYing.ipa",
    "versionDescription": "zgios·2024.09.30 | lewsky·2025.12.15 | qlam·2024.12.24 | iosi·2024.05.12",
@@ -4519,6 +3754,24 @@
    "size": 380568559
   },
   {
+   "name": "哔哩哔哩_9.9.0_去广告_去开屏广告、首页广告、视频下广告",
+   "bundleIdentifier": "cn.aggregate.0089ce1ecb2c",
+   "versionDescription": "qlam·2025.12.04 | iosi·2024.02.17",
+   "version": "9.9.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_9.9.0_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%8E%BB%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E3%80%81%E9%A6%96%E9%A1%B5%E5%B9%BF%E5%91%8A%E3%80%81%E8%A7%86%E9%A2%91%E4%B8%8B%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 309737433
+  },
+  {
+   "name": "两步路户外助手_9.2.4_解锁会员",
+   "bundleIdentifier": "cn.aggregate.2d91b2e5007e",
+   "versionDescription": "qlam·2025.12.04",
+   "version": "9.2.4",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%A4%E6%AD%A5%E8%B7%AF%E6%88%B7%E5%A4%96%E5%8A%A9%E6%89%8B_9.2.4_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 132141164
+  },
+  {
    "name": "万能钥匙_1.1.53_去广告",
    "bundleIdentifier": "cn.aggregate.fddf61915e73",
    "versionDescription": "qlam·2025.12.04",
@@ -4564,6 +3817,15 @@
    "size": 78134258
   },
   {
+   "name": "河马剧场_3.6.0",
+   "bundleIdentifier": "cn.aggregate.6c5904b0596d",
+   "versionDescription": "zgios·2025.11.29 / 去广告，看短片软件",
+   "version": "3.6.0",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%B2%B3%E9%A9%AC%E5%89%A7%E5%9C%BA_3.6.0.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20241021/8790f96fb517775f49a6e4f93ce1a01b.png",
+   "size": 126316446
+  },
+  {
    "name": "支付宝XD_10.8.6@com.alipay.iphoneclient",
    "bundleIdentifier": "com.alipay.iphoneclient.ipa",
    "versionDescription": "zgios·2025.11.29 / 支付宝——蚂蚁集团移动支付与生活服务平台，支持付款、理财、缴费与城市服务。",
@@ -4571,6 +3833,15 @@
    "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%94%AF%E4%BB%98%E5%AE%9DXD_10.8.6%40com.alipay.iphoneclient.ipa",
    "iconURL": "",
    "size": 181052029
+  },
+  {
+   "name": "DowngradeApp_1.1-7",
+   "bundleIdentifier": "cn.aggregate.downgradeapp",
+   "versionDescription": "lewsky·2025.11.28",
+   "version": "1.1",
+   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/%E5%B7%A8%E9%AD%94%E4%B8%93%E7%94%A8/DowngradeApp/DowngradeApp_1.1-7.ipa",
+   "iconURL": "",
+   "size": 545356
   },
   {
    "name": "Facebook Glow 540.0.0_菜单-Glow设置：隐身查看消息、禁用输入状态、隐身访问、禁用自动播放下一个故事、点赞确认，长按保存视频和照片",
@@ -4598,6 +3869,15 @@
    "downloadURL": "https://alist.jiejingfan.vip/d/ipa%E8%B5%84%E6%BA%90/iOS%E5%BA%94%E7%94%A8/dy/dy%E5%A4%9A%E5%BC%80_36.8.0.ipa",
    "iconURL": "",
    "size": 551174515
+  },
+  {
+   "name": "Shadowrocket-2.2.81",
+   "bundleIdentifier": "cn.aggregate.shadowrocket",
+   "versionDescription": "zgios·2024.09.30 | qlam·2025.11.23 / Shadowrocket——iOS 网络工具应用（需自行配置）。",
+   "version": "2.2.81",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Shadowrocket-2.2.81.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20231215/f434918a98d28d431c50afc16cdb8083.png",
+   "size": 22002246
   },
   {
    "name": "Loon.3.2.4",
@@ -4672,6 +3952,15 @@
    "size": 49614279
   },
   {
+   "name": "Wallcraft_3.42",
+   "bundleIdentifier": "cn.aggregate.wallcraft",
+   "versionDescription": "zgios·2025.11.13 | qlam·2024.12.24 | iosi·2024.11.09 / 一款壁纸工具，已解锁vip权限，壁纸非常好看",
+   "version": "3.42",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Wallcraft_3.42.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20260928/0aa0b2c2240f99d63bec30de8e0ba6f5.png",
+   "size": 105826755
+  },
+  {
    "name": "Pica Comic_4.2.9",
    "bundleIdentifier": "cn.aggregate.picacomic",
    "versionDescription": "zgios·2025.11.13 | qlam·2024.12.24 / 聚合禁漫，自己研究把部分广告无法去除，请勿相信广告",
@@ -4690,6 +3979,15 @@
    "size": 125268737
   },
   {
+   "name": "电影猎手_3.1.1.6",
+   "bundleIdentifier": "cn.aggregate.3a0056be483b",
+   "versionDescription": "zgios·2025.06.29 | qlam·2025.06.27 | iosi·2025.11.09",
+   "version": "3.1.1.6",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B_3.1.1.6.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240110/0eb0468f15cfc039494be7347b719f14.png",
+   "size": 24079455
+  },
+  {
    "name": "悟空视频_1.4.8",
    "bundleIdentifier": "cn.aggregate.162e1ceb3a45",
    "versionDescription": "zgios·2025.09.19 | iosi·2025.11.09",
@@ -4706,6 +4004,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%8B%E4%B8%80%E7%AB%99%E6%B1%9F%E6%B9%96%E2%85%A1_1.4_%E5%86%85%E7%BD%AEIGG%E4%BF%AE%E6%94%B9%E5%99%A8.ipa",
    "iconURL": "",
    "size": 1200139095
+  },
+  {
+   "name": "随手记专业版_13.2.40_专业记账软件",
+   "bundleIdentifier": "cn.aggregate.27f8face5a2f",
+   "versionDescription": "qlam·2025.11.07",
+   "version": "13.2.40",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9A%8F%E6%89%8B%E8%AE%B0%E4%B8%93%E4%B8%9A%E7%89%88_13.2.40_%E4%B8%93%E4%B8%9A%E8%AE%B0%E8%B4%A6%E8%BD%AF%E4%BB%B6.ipa",
+   "iconURL": "",
+   "size": 117991920
+  },
+  {
+   "name": "InShot_1.94.1_Pro",
+   "bundleIdentifier": "cn.aggregate.inshot",
+   "versionDescription": "lewsky·2025.07.25 | qlam·2024.12.24 | iosi·2025.11.01",
+   "version": "1.94.1",
+   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/IPA%E5%BA%94%E7%94%A8/InShot_1.94.1_Pro.ipa",
+   "iconURL": "",
+   "size": 118713338
   },
   {
    "name": "中国联通_12.7.1_去广告",
@@ -4751,6 +4067,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%B2%B9%E7%8C%B4_5.3.6620.ipa",
    "iconURL": "",
    "size": 2123140
+  },
+  {
+   "name": "美图秀秀_12.16.0",
+   "bundleIdentifier": "cn.aggregate.349ab448835a",
+   "versionDescription": "zgios·2025.10.22 | qlam·2024.12.24 | iosi·2024.08.29 / 美图秀秀——国民级图片美化与修图工具。",
+   "version": "12.16.0",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80_12.16.0.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20241211/c12ef2fae70a7ffd0306a8f668e05370.png",
+   "size": 351437775
   },
   {
    "name": "蛋啵_1.2.993_解锁会员",
@@ -4807,6 +4132,24 @@
    "size": 95056289
   },
   {
+   "name": "微信_官替8.0.75",
+   "bundleIdentifier": "cn.aggregate.c0d6450bda65",
+   "versionDescription": "zgios·2025.10.10 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
+   "version": "8.0.75",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_%E5%AE%98%E6%9B%BF8.0.75.ipa",
+   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
+   "size": 392538475
+  },
+  {
+   "name": "微信_qy8.0.78",
+   "bundleIdentifier": "cn.aggregate.20fb8256c76a",
+   "versionDescription": "zgios·2025.10.10 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
+   "version": "8.0.78",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_qy8.0.78.ipa",
+   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
+   "size": 425311691
+  },
+  {
    "name": "重生细胞_Dead Cells_3.5.9",
    "bundleIdentifier": "cn.aggregate.deadcells",
    "versionDescription": "iosi·2025.10.09",
@@ -4843,6 +4186,24 @@
    "size": 374355891
   },
   {
+   "name": "ProKnockout_7.87_解锁会员_点击购买永久会员然后取消",
+   "bundleIdentifier": "cn.aggregate.proknockout",
+   "versionDescription": "qlam·2024.12.24 | iosi·2025.10.09",
+   "version": "7.87",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ProKnockout_7.87_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%82%B9%E5%87%BB%E8%B4%AD%E4%B9%B0%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98%E7%84%B6%E5%90%8E%E5%8F%96%E6%B6%88.ipa",
+   "iconURL": "",
+   "size": 128851102
+  },
+  {
+   "name": "DP（YBox）_1.2.8_第一次进入软件选择网络后大退在重新进入即可",
+   "bundleIdentifier": "cn.aggregate.bd5933ae0a71",
+   "versionDescription": "qlam·2025.10.09 | iosi·2025.10.09",
+   "version": "1.2.8",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/DP%EF%BC%88YBox%EF%BC%89_1.2.8_%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%9B%E5%85%A5%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E7%BD%91%E7%BB%9C%E5%90%8E%E5%A4%A7%E9%80%80%E5%9C%A8%E9%87%8D%E6%96%B0%E8%BF%9B%E5%85%A5%E5%8D%B3%E5%8F%AF.ipa",
+   "iconURL": "",
+   "size": 18433512
+  },
+  {
    "name": "莉景天气_3.0.17",
    "bundleIdentifier": "cn.aggregate.0c7e5984695e",
    "versionDescription": "zgios·2025.10.08 | qlam·2024.12.24",
@@ -4850,6 +4211,24 @@
    "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E8%8E%89%E6%99%AF%E5%A4%A9%E6%B0%94_3.0.17.ipa",
    "iconURL": "",
    "size": 113499491
+  },
+  {
+   "name": "汽水音乐_19.7.1",
+   "bundleIdentifier": "cn.aggregate.384c7b81d937",
+   "versionDescription": "zgios·2025.10.08 | qlam·2024.12.24 | iosi·2024.02.18 / 汽水音乐——字节跳动旗下音乐流媒体应用，主打年轻化音乐推荐。",
+   "version": "19.7.1",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90_19.7.1.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20231109/bbe08682a5663ac10da3ad23393098fd.png",
+   "size": 201844624
+  },
+  {
+   "name": "Telegram_13.1.2_Lead_设置长按倒数第三个按钮",
+   "bundleIdentifier": "cn.aggregate.telegram",
+   "versionDescription": "lewsky·2025.10.05 | qlam·2024.12.24 | iosi·2025.08.20 / tg-Sim解锁无限可能性——您的终极虚拟电话号码解决方案！",
+   "version": "13.1.2",
+   "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/IPA%E5%BA%94%E7%94%A8/Telegram_13.1.2_Lead_%E8%AE%BE%E7%BD%AE%E9%95%BF%E6%8C%89%E5%80%92%E6%95%B0%E7%AC%AC%E4%B8%89%E4%B8%AA%E6%8C%89%E9%92%AE.ipa",
+   "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/0f/23/970f2345-8e76-67ef-7ecd-78fbadbf157a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "size": 133365468
   },
   {
    "name": "轻松签+5.0",
@@ -4906,6 +4285,15 @@
    "size": 9884800
   },
   {
+   "name": "‎WhatsApp_26.25.73",
+   "bundleIdentifier": "cn.aggregate.whatsapp",
+   "versionDescription": "zgios·2025.08.25 | lewsky·2025.01.13 | qlam·2024.12.24 | iosi·2025.09.30 / WhatsApp——Meta 旗下跨平台即时通讯应用。",
+   "version": "26.25.73",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E2%80%8EWhatsApp_26.25.73.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240104/261358a5a9697afa0bd78b61b9baf3e1.png",
+   "size": 188629586
+  },
+  {
    "name": "uz_影视1.6.65",
    "bundleIdentifier": "cn.aggregate.4996c29ed085",
    "versionDescription": "iosi·2025.09.30",
@@ -4922,6 +4310,15 @@
    "downloadURL": "https://pan.iosi.vip/d/%E5%B7%A8%E9%AD%94/%E5%B7%A8%E9%AD%94%E4%BF%AE%E6%94%B9%E5%99%A8/iMemScan%E4%BF%AE%E6%94%B9%E5%99%A8_1.2.6.ipa",
    "iconURL": "",
    "size": 2833503
+  },
+  {
+   "name": "TrollInstallerX-20D50_1.0.3",
+   "bundleIdentifier": "cn.aggregate.trollinstallerx",
+   "versionDescription": "qlam·2024.12.24 | iosi·2025.09.30 / TrollInstallerX——TrollStore 巨魔安装器，用于安装持久化助手。",
+   "version": "1.0.3",
+   "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/TrollStore%E9%AD%94%E6%94%B9%E7%89%88/%E5%B7%A8%E9%AD%94%E5%AE%89%E8%A3%85%E5%99%A8/%E6%89%8B%E6%9C%BA%E7%89%88iOS14.0-16.6.1/TrollInstallerX-20D50_1.0.3.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240405/8440b5e80b537b5602ebed975269fcd3.png",
+   "size": 27098183
   },
   {
    "name": "GoBa修改器_1.9.5 免费版",
@@ -5158,6 +4555,15 @@
    "size": 507036205
   },
   {
+   "name": "掌上公交_8.1.2_去广告",
+   "bundleIdentifier": "cn.aggregate.cf3e1843ef72",
+   "versionDescription": "qlam·2025.09.06",
+   "version": "8.1.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A4_8.1.2_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 106553777
+  },
+  {
    "name": "Pillow - [v5.6]_解锁高级用户",
    "bundleIdentifier": "cn.aggregate.pillow",
    "versionDescription": "qlam·2025.09.06",
@@ -5257,6 +4663,15 @@
    "size": 146015817
   },
   {
+   "name": "番茄小说_7.4.1",
+   "bundleIdentifier": "cn.aggregate.88f2e2b4c52e",
+   "versionDescription": "zgios·2025.08.30 | qlam·2024.12.24 | iosi·2024.02.17 / 番茄小说——免费网络小说阅读平台，涵盖各类热门网文。",
+   "version": "7.4.1",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4_7.4.1.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20240915/7b4b3e2603d27e8a5a49d46320d542ac.png",
+   "size": 307813329
+  },
+  {
    "name": "吾语_1.3.6_听书",
    "bundleIdentifier": "cn.aggregate.25afc039473e",
    "versionDescription": "lewsky·2025.08.29",
@@ -5273,6 +4688,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%86%92%E5%9B%BE%E5%9B%BD%E9%99%85%E7%89%88%20-%20%5Bv7.0.0%5D.ipa",
    "iconURL": "http://ipa.312752.cn/uploads/20250429/058dc328baec0fcc6dc3fda5508a8921.png",
    "size": 169319308
+  },
+  {
+   "name": "红果短剧 - [v7.0.3]_解锁会员功能",
+   "bundleIdentifier": "cn.aggregate.913cd723637d",
+   "versionDescription": "qlam·2025.08.27 / 解锁全部内容，登录就是vip",
+   "version": "7.0.3",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%20-%20%5Bv7.0.3%5D_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98%E5%8A%9F%E8%83%BD.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20231110/df56e07f73f6998d3b25d16de1ad88f1.png",
+   "size": 225242590
   },
   {
    "name": "小红书 - [v9.15]_设置界面右上角打开菜单功能",
@@ -5390,6 +4814,24 @@
    "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/AI%20Chatbot_2.28.ipa",
    "iconURL": "",
    "size": 108266141
+  },
+  {
+   "name": "Stash_3.6.0_最低支持iOS16.0+系统",
+   "bundleIdentifier": "cn.aggregate.stash",
+   "versionDescription": "qlam·2025.08.18",
+   "version": "3.6.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Stash_3.6.0_%E6%9C%80%E4%BD%8E%E6%94%AF%E6%8C%81iOS16.0%2B%E7%B3%BB%E7%BB%9F.ipa",
+   "iconURL": "",
+   "size": 65087089
+  },
+  {
+   "name": "Reddit_2026.05.0_优化增强",
+   "bundleIdentifier": "cn.aggregate.reddit",
+   "versionDescription": "qlam·2025.08.18",
+   "version": "2026.05.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Reddit_2026.05.0_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
+   "iconURL": "",
+   "size": 143999576
   },
   {
    "name": "PhotoGrid - [v9.1.01]_解锁会员",
@@ -5815,6 +5257,15 @@
    "size": 54717939
   },
   {
+   "name": "大侠立志传_1.2.126_内置IGG修改器",
+   "bundleIdentifier": "cn.aggregate.fe3e069d9085",
+   "versionDescription": "qlam·2024.12.24 | iosi·2025.07.07",
+   "version": "1.2.126",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A4%A7%E4%BE%A0%E7%AB%8B%E5%BF%97%E4%BC%A0_1.2.126_%E5%86%85%E7%BD%AEIGG%E4%BF%AE%E6%94%B9%E5%99%A8.ipa",
+   "iconURL": "",
+   "size": 879322736
+  },
+  {
    "name": "壹刻影视_1.1.0",
    "bundleIdentifier": "cn.aggregate.b0187ef855ac",
    "versionDescription": "iosi·2025.07.07",
@@ -5869,6 +5320,15 @@
    "size": 216358652
   },
   {
+   "name": "SpeedGG（网速悬浮）_3.1.1Z_增加了电池温度和功率",
+   "bundleIdentifier": "cn.aggregate.speedgg",
+   "versionDescription": "qlam·2025.07.03",
+   "version": "3.1.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/SpeedGG%EF%BC%88%E7%BD%91%E9%80%9F%E6%82%AC%E6%B5%AE%EF%BC%89_3.1.1Z_%E5%A2%9E%E5%8A%A0%E4%BA%86%E7%94%B5%E6%B1%A0%E6%B8%A9%E5%BA%A6%E5%92%8C%E5%8A%9F%E7%8E%87.ipa",
+   "iconURL": "",
+   "size": 1604651
+  },
+  {
    "name": "薯条视频_1.5.0",
    "bundleIdentifier": "cn.aggregate.b5facfbff1c9",
    "versionDescription": "zgios·2025.06.29",
@@ -5896,6 +5356,15 @@
    "size": 1506519
   },
   {
+   "name": "YouTube_21.46.3",
+   "bundleIdentifier": "cn.aggregate.youtube",
+   "versionDescription": "zgios·2024.09.30 | lewsky·2025.06.22 | qlam·2024.12.24 | iosi·2025.02.16 / YouTube——全球最大视频分享平台，可在线观看与订阅海量视频内容。",
+   "version": "21.46.3",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/YouTube_21.46.3.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20240829/df542f4424035526181432305e1b7132.png",
+   "size": 178368192
+  },
+  {
    "name": "Twich_24.9_破解屏蔽广告",
    "bundleIdentifier": "cn.aggregate.twich",
    "versionDescription": "qlam·2025.06.18",
@@ -5912,6 +5381,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/App%20Store%E9%99%8D%E7%BA%A7_1.1.ipa",
    "iconURL": "",
    "size": 79276
+  },
+  {
+   "name": "Zeta长截图_2.0.2_解锁会员，点购买取消后解锁会员_新版本需要先安装1.9.3版本获取会员后再覆盖安装，即可解锁会员",
+   "bundleIdentifier": "cn.aggregate.zeta",
+   "versionDescription": "qlam·2025.06.16",
+   "version": "2.0.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Zeta%E9%95%BF%E6%88%AA%E5%9B%BE_2.0.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98%EF%BC%8C%E7%82%B9%E8%B4%AD%E4%B9%B0%E5%8F%96%E6%B6%88%E5%90%8E%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E6%96%B0%E7%89%88%E6%9C%AC%E9%9C%80%E8%A6%81%E5%85%88%E5%AE%89%E8%A3%851.9.3%E7%89%88%E6%9C%AC%E8%8E%B7%E5%8F%96%E4%BC%9A%E5%91%98%E5%90%8E%E5%86%8D%E8%A6%86%E7%9B%96%E5%AE%89%E8%A3%85%EF%BC%8C%E5%8D%B3%E5%8F%AF%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 8883436
   },
   {
    "name": "微信无后台推送_wx8.0.60",
@@ -5984,6 +5462,15 @@
    "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/com.tencent.xin_8.0.60.ipa",
    "iconURL": "",
    "size": 321818764
+  },
+  {
+   "name": "TikTok_47.4.0",
+   "bundleIdentifier": "cn.aggregate.tiktok",
+   "versionDescription": "zgios·2024.08.17 | lewsky·2024.10.12 | qlam·2024.12.24 | iosi·2025.06.07 / TikTok——抖音国际版，全球短视频社交平台。",
+   "version": "47.4.0",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/TikTok_47.4.0.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240410/0df7847330c21d9bf3a2e67d16fc4657.png",
+   "size": 526492313
   },
   {
    "name": "Chat Simth_7.18.0_解锁会员",
@@ -6148,6 +5635,15 @@
    "size": 48512626
   },
   {
+   "name": "探探_7.4.2@com.yaymedialabs.putong",
+   "bundleIdentifier": "com.yaymedialabs.putong.ipa",
+   "versionDescription": "zgios·2025.05.15 / 去广告，登录后三指连击屏幕呼出功能菜单",
+   "version": "7.4.2",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%8E%A2%E6%8E%A2_7.4.2%40com.yaymedialabs.putong.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20250515/8a9260f23e6bf8aec6993533128420a8.png",
+   "size": 216250064
+  },
+  {
    "name": "虎扑_8.0.91_去广告",
    "bundleIdentifier": "cn.aggregate.8672ff52dd62",
    "versionDescription": "qlam·2025.05.14",
@@ -6292,6 +5788,15 @@
    "size": 48906666
   },
   {
+   "name": "iBox_2.4.6_最新内测版",
+   "bundleIdentifier": "cn.aggregate.ibox",
+   "versionDescription": "qlam·2025.05.03 | iosi·2024.02.18",
+   "version": "2.4.6",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iBox_2.4.6_%E6%9C%80%E6%96%B0%E5%86%85%E6%B5%8B%E7%89%88.ipa",
+   "iconURL": "",
+   "size": 97880342
+  },
+  {
    "name": "Hypic_6.1.0@com.xt.retouchoversea",
    "bundleIdentifier": "com.xt.retouchoversea.ipa",
    "versionDescription": "zgios·2025.04.29",
@@ -6310,6 +5815,15 @@
    "size": 105863862
   },
   {
+   "name": "计算器_8.0.78",
+   "bundleIdentifier": "cn.aggregate.12235bbcc99f",
+   "versionDescription": "zgios·2025.04.20",
+   "version": "8.0.78",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E8%AE%A1%E7%AE%97%E5%99%A8_8.0.78.ipa",
+   "iconURL": "",
+   "size": 426636480
+  },
+  {
    "name": "秒睡_1.1.90@com.shuteye.sleepiq.bettersleep.sleepiq.yiqi",
    "bundleIdentifier": "com.shuteye.sleepiq.bettersleep.sleepiq.yiqi.ipa",
    "versionDescription": "zgios·2025.04.20",
@@ -6317,6 +5831,15 @@
    "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%A7%92%E7%9D%A1_1.1.90%40com.shuteye.sleepiq.bettersleep.sleepiq.yiqi.ipa",
    "iconURL": "",
    "size": 89778683
+  },
+  {
+   "name": "无他相机_7.3.9",
+   "bundleIdentifier": "cn.aggregate.af8c698683d0",
+   "versionDescription": "zgios·2025.04.20 | qlam·2024.12.24 | iosi·2024.08.03 / 解锁会员权限，一款复古相机",
+   "version": "7.3.9",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%97%A0%E4%BB%96%E7%9B%B8%E6%9C%BA_7.3.9.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20260509/7896d4aaee455eb2f9d65f0dacd0eca9.png",
+   "size": 145045421
   },
   {
    "name": "懂球帝_1.0.8_去广告",
@@ -6479,6 +6002,15 @@
    "downloadURL": "https://ios.lewsky.top/d/iOS%E8%B5%84%E6%BA%90/IPA%E5%BA%94%E7%94%A8/%E5%8F%8C%E5%8F%8C%E9%98%85%E8%AF%BB_1.1.0.ipa",
    "iconURL": "",
    "size": 21246450
+  },
+  {
+   "name": "GIF制作_3.2.2",
+   "bundleIdentifier": "cn.aggregate.adbfbb1d6eab",
+   "versionDescription": "zgios·2025.03.19 | qlam·2024.12.24",
+   "version": "3.2.2",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/GIF%E5%88%B6%E4%BD%9C_3.2.2.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20250319/9fc40c58b7b751c2f2effca6181ea965.png",
+   "size": 151622990
   },
   {
    "name": "爱阅记_3.6.0",
@@ -7372,429 +6904,6 @@
    "size": 176210912
   },
   {
-   "name": "SOUL - [v6.2.0]_解锁广场私聊送礼物限制",
-   "bundleIdentifier": "cn.aggregate.soul",
-   "versionDescription": "qlam·2024.12.24 / 双指双击屏幕可以虚拟定位，解除私聊礼物限制，解锁广场私聊",
-   "version": "6.2.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/SOUL%20-%20%5Bv6.2.0%5D_%E8%A7%A3%E9%94%81%E5%B9%BF%E5%9C%BA%E7%A7%81%E8%81%8A%E9%80%81%E7%A4%BC%E7%89%A9%E9%99%90%E5%88%B6.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20231115/7f6a0e31160e10ffcf8c0df54c454fd7.png",
-   "size": 195597867
-  },
-  {
-   "name": "百度地图 - [v21.11.0]_功能默认开启，如果不需要某功能，可以在设置界面单指长按呼出功能菜单后关闭",
-   "bundleIdentifier": "cn.aggregate.321d8452a105",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "21.11.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE%20-%20%5Bv21.11.0%5D_%E5%8A%9F%E8%83%BD%E9%BB%98%E8%AE%A4%E5%BC%80%E5%90%AF%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9F%90%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%E5%8D%95%E6%8C%87%E9%95%BF%E6%8C%89%E5%91%BC%E5%87%BA%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95%E5%90%8E%E5%85%B3%E9%97%AD.ipa",
-   "iconURL": "",
-   "size": 186636593
-  },
-  {
-   "name": "哔哩哔哩 - [v8.76.0]_去开屏广告、首页广告、视频下广告",
-   "bundleIdentifier": "cn.aggregate.e23e5674220b",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.76.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%20-%20%5Bv8.76.0%5D_%E5%8E%BB%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E3%80%81%E9%A6%96%E9%A1%B5%E5%B9%BF%E5%91%8A%E3%80%81%E8%A7%86%E9%A2%91%E4%B8%8B%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 227359591
-  },
-  {
-   "name": "TikTok - [v43.0.0]_首次进入如果进入没网，打开设置，在第一个BHTikTok Plus选择国家区域，设置地区即可恢复",
-   "bundleIdentifier": "cn.aggregate.tiktok",
-   "versionDescription": "qlam·2024.12.24 / TikTok——抖音国际版，全球短视频社交平台。",
-   "version": "43.0.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/TikTok%20-%20%5Bv43.0.0%5D_%E9%A6%96%E6%AC%A1%E8%BF%9B%E5%85%A5%E5%A6%82%E6%9E%9C%E8%BF%9B%E5%85%A5%E6%B2%A1%E7%BD%91%EF%BC%8C%E6%89%93%E5%BC%80%E8%AE%BE%E7%BD%AE%EF%BC%8C%E5%9C%A8%E7%AC%AC%E4%B8%80%E4%B8%AABHTikTok%20Plus%E9%80%89%E6%8B%A9%E5%9B%BD%E5%AE%B6%E5%8C%BA%E5%9F%9F%EF%BC%8C%E8%AE%BE%E7%BD%AE%E5%9C%B0%E5%8C%BA%E5%8D%B3%E5%8F%AF%E6%81%A2%E5%A4%8D.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240410/0df7847330c21d9bf3a2e67d16fc4657.png",
-   "size": 362632398
-  },
-  {
-   "name": "LoFiCam_3.12.0_解锁会员_复古数码胶片相机",
-   "bundleIdentifier": "cn.aggregate.loficam",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.12.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/LoFiCam_3.12.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%A4%8D%E5%8F%A4%E6%95%B0%E7%A0%81%E8%83%B6%E7%89%87%E7%9B%B8%E6%9C%BA.ipa",
-   "iconURL": "",
-   "size": 239694074
-  },
-  {
-   "name": "XPTV_3.32_网盘文件找源地址",
-   "bundleIdentifier": "cn.aggregate.xptv",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.32",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/XPTV_3.32_%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E6%89%BE%E6%BA%90%E5%9C%B0%E5%9D%80.ipa",
-   "iconURL": "",
-   "size": 101892929
-  },
-  {
-   "name": "VSCO_450.0.0_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.vsco",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.06",
-   "version": "450.0.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/VSCO_450.0.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 198279162
-  },
-  {
-   "name": "漫画盒子_1.2.7_去广告",
-   "bundleIdentifier": "cn.aggregate.fd47c75ff58a",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.2.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%BC%AB%E7%94%BB%E7%9B%92%E5%AD%90_1.2.7_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 143248050
-  },
-  {
-   "name": "威峰_7.0.8_去广告",
-   "bundleIdentifier": "cn.aggregate.99f0f6ed3aec",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.0.8",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A8%81%E5%B3%B0_7.0.8_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 69865187
-  },
-  {
-   "name": "下厨房_238.9.49_去广告",
-   "bundleIdentifier": "cn.aggregate.59fd23a08ebf",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "238.9.49",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%8B%E5%8E%A8%E6%88%BF_238.9.49_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 75751287
-  },
-  {
-   "name": "Pinterest_13.41_无广告无水印保存",
-   "bundleIdentifier": "cn.aggregate.pinterest",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "13.41",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Pinterest_13.41_%E6%97%A0%E5%B9%BF%E5%91%8A%E6%97%A0%E6%B0%B4%E5%8D%B0%E4%BF%9D%E5%AD%98.ipa",
-   "iconURL": "",
-   "size": 115347482
-  },
-  {
-   "name": "VEED Captions_7.3.0",
-   "bundleIdentifier": "cn.aggregate.veedcaptions",
-   "versionDescription": "iosi·2024.11.09",
-   "version": "7.3.0",
-   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/VEED%20Captions_7.3.0.ipa",
-   "iconURL": "",
-   "size": 92749003
-  },
-  {
-   "name": "Mondly_10.62.0_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.mondly",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.19",
-   "version": "10.62.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Mondly_10.62.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 197275549
-  },
-  {
-   "name": "全民K歌_10.0.38_优化增强",
-   "bundleIdentifier": "cn.aggregate.56de907cf6db",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.0.38",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%85%A8%E6%B0%91K%E6%AD%8C_10.0.38_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
-   "iconURL": "",
-   "size": 261137468
-  },
-  {
-   "name": "汇声绘影_16.2_解锁会员_专业剪辑软件",
-   "bundleIdentifier": "cn.aggregate.93baa06e835a",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "16.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%B1%87%E5%A3%B0%E7%BB%98%E5%BD%B1_16.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%B8%93%E4%B8%9A%E5%89%AA%E8%BE%91%E8%BD%AF%E4%BB%B6.ipa",
-   "iconURL": "",
-   "size": 104455077
-  },
-  {
-   "name": "甜心_7.6.17.1",
-   "bundleIdentifier": "cn.aggregate.5f5ca9c29c23",
-   "versionDescription": "iosi·2024.02.19",
-   "version": "7.6.17.1",
-   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/%E7%94%9C%E5%BF%83_7.6.17.1.ipa",
-   "iconURL": "",
-   "size": 70229566
-  },
-  {
-   "name": "中华万年历_9.6.7_去除广告",
-   "bundleIdentifier": "cn.aggregate.f9d1f6638149",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "9.6.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%AD%E5%8D%8E%E4%B8%87%E5%B9%B4%E5%8E%86_9.6.7_%E5%8E%BB%E9%99%A4%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 217105811
-  },
-  {
-   "name": "CCD_Camera - [v4.9.7]_解锁永久会员",
-   "bundleIdentifier": "cn.aggregate.ccdcamera",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "4.9.7",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/CCD_Camera%20-%20%5Bv4.9.7%5D_%E8%A7%A3%E9%94%81%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 156676469
-  },
-  {
-   "name": "Simple Radio_10.1.1_去广告_全球电台",
-   "bundleIdentifier": "cn.aggregate.simpleradio",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.1.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Simple%20Radio_10.1.1_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%85%A8%E7%90%83%E7%94%B5%E5%8F%B0.ipa",
-   "iconURL": "",
-   "size": 39942884
-  },
-  {
-   "name": "Kwai_13.6.50@com.jiangjia.gif",
-   "bundleIdentifier": "com.jiangjia.gif.ipa",
-   "versionDescription": "zgios·2024.08.26 | qlam·2024.12.24",
-   "version": "13.6.50",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Kwai_13.6.50%40com.jiangjia.gif.ipa",
-   "iconURL": "",
-   "size": 205774562
-  },
-  {
-   "name": "无尽冬日_1.9.23_广告加速",
-   "bundleIdentifier": "cn.aggregate.d414f12e7a1a",
-   "versionDescription": "qlam·2024.12.24 / 广告加速，内置修改器",
-   "version": "1.9.23",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5_1.9.23_%E5%B9%BF%E5%91%8A%E5%8A%A0%E9%80%9F.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20250518/8a3fc21141a0d99f4de69ff47a68cbc6.png",
-   "size": 645532892
-  },
-  {
-   "name": "Planner 5D_4.68.0_解锁渲染次数",
-   "bundleIdentifier": "cn.aggregate.planner",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.29",
-   "version": "4.68.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Planner%205D_4.68.0_%E8%A7%A3%E9%94%81%E6%B8%B2%E6%9F%93%E6%AC%A1%E6%95%B0.ipa",
-   "iconURL": "",
-   "size": 421990539
-  },
-  {
-   "name": "PrettyUp_8.6.13_解锁会员",
-   "bundleIdentifier": "cn.aggregate.prettyup",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.27",
-   "version": "8.6.13",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/PrettyUp_8.6.13_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 292441775
-  },
-  {
-   "name": "Reface_5.18.0_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.reface",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.20",
-   "version": "5.18.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Reface_5.18.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 145194108
-  },
-  {
-   "name": "Foodie_7.0.23_解锁订阅_20250616_023056",
-   "bundleIdentifier": "cn.aggregate.foodie",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.0.23",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Foodie_7.0.23_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_20250616_023056.ipa",
-   "iconURL": "",
-   "size": 123091631
-  },
-  {
-   "name": "FIMO_3.16.1_解锁订阅",
-   "bundleIdentifier": "cn.aggregate.fimo",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "3.16.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/FIMO_3.16.1_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
-   "iconURL": "",
-   "size": 188795555
-  },
-  {
-   "name": "今日头条_12.1.0_优化增强",
-   "bundleIdentifier": "cn.aggregate.5fadabc1140f",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.01.09",
-   "version": "12.1.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1_12.1.0_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
-   "iconURL": "",
-   "size": 242016340
-  },
-  {
-   "name": "直播吧_6.5.9_去广告",
-   "bundleIdentifier": "cn.aggregate.513f0ece9450",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "6.5.9",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%9B%B4%E6%92%AD%E5%90%A7_6.5.9_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 231418039
-  },
-  {
-   "name": "小巧工具箱_1.64.1_去广告",
-   "bundleIdentifier": "cn.aggregate.f38933ffc47b",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.64.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B0%8F%E5%B7%A7%E5%B7%A5%E5%85%B7%E7%AE%B1_1.64.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 65938069
-  },
-  {
-   "name": "PU口袋校园_7.1.26_去广告",
-   "bundleIdentifier": "cn.aggregate.3482ad1d63a3",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "7.1.26",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/PU%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD_7.1.26_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 151571855
-  },
-  {
-   "name": "超级课程表_9.9.33_去广告",
-   "bundleIdentifier": "cn.aggregate.964fb935b5ac",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "9.9.33",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%B6%85%E7%BA%A7%E8%AF%BE%E7%A8%8B%E8%A1%A8_9.9.33_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 69341185
-  },
-  {
-   "name": "iBetter_8.8_解锁订阅_购买后解锁",
-   "bundleIdentifier": "cn.aggregate.ibetter",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.8",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iBetter_8.8_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E8%B4%AD%E4%B9%B0%E5%90%8E%E8%A7%A3%E9%94%81.ipa",
-   "iconURL": "",
-   "size": 64502439
-  },
-  {
-   "name": "掌阅_8.3.8_去广告",
-   "bundleIdentifier": "cn.aggregate.5532c7676377",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.3.8",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8E%8C%E9%98%85_8.3.8_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 74340791
-  },
-  {
-   "name": "苏诺_2.4_解锁会员",
-   "bundleIdentifier": "cn.aggregate.a2fdc6e36cdb",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "2.4",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%8B%8F%E8%AF%BA_2.4_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 57834895
-  },
-  {
-   "name": "Genie_7.8.0_AI聊天写作机器人",
-   "bundleIdentifier": "cn.aggregate.genie",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
-   "version": "7.8.0",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Genie_7.8.0_AI%E8%81%8A%E5%A4%A9%E5%86%99%E4%BD%9C%E6%9C%BA%E5%99%A8%E4%BA%BA.ipa",
-   "iconURL": "",
-   "size": 68520818
-  },
-  {
-   "name": "柠檬影视_6.20.1",
-   "bundleIdentifier": "cn.aggregate.33ad868eb7fc",
-   "versionDescription": "zgios·2024.08.29",
-   "version": "6.20.1",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%9F%A0%E6%AA%AC%E5%BD%B1%E8%A7%86_6.20.1.ipa",
-   "iconURL": "",
-   "size": 43918118
-  },
-  {
-   "name": "Wearfit Pro_6.02.01_登录解锁Pro_通过绑定手表，帮助自己了解和管理健康状况",
-   "bundleIdentifier": "cn.aggregate.wearfitpro",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "6.02.01",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Wearfit%20Pro_6.02.01_%E7%99%BB%E5%BD%95%E8%A7%A3%E9%94%81Pro_%E9%80%9A%E8%BF%87%E7%BB%91%E5%AE%9A%E6%89%8B%E8%A1%A8%EF%BC%8C%E5%B8%AE%E5%8A%A9%E8%87%AA%E5%B7%B1%E4%BA%86%E8%A7%A3%E5%92%8C%E7%AE%A1%E7%90%86%E5%81%A5%E5%BA%B7%E7%8A%B6%E5%86%B5.ipa",
-   "iconURL": "",
-   "size": 157017789
-  },
-  {
-   "name": "爱影视_8.9.6_去广告",
-   "bundleIdentifier": "cn.aggregate.afbdcdaa0635",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.01.09",
-   "version": "8.9.6",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%88%B1%E5%BD%B1%E8%A7%86_8.9.6_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "",
-   "size": 69795314
-  },
-  {
-   "name": "Loora_1.66.2_解锁年费",
-   "bundleIdentifier": "cn.aggregate.loora",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.66.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Loora_1.66.2_%E8%A7%A3%E9%94%81%E5%B9%B4%E8%B4%B9.ipa",
-   "iconURL": "",
-   "size": 182401453
-  },
-  {
-   "name": "Seven_10.15.2_解锁年费",
-   "bundleIdentifier": "cn.aggregate.seven",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "10.15.2",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Seven_10.15.2_%E8%A7%A3%E9%94%81%E5%B9%B4%E8%B4%B9.ipa",
-   "iconURL": "",
-   "size": 186619434
-  },
-  {
-   "name": "解压缩_5.6_解锁会员",
-   "bundleIdentifier": "cn.aggregate.d13e63a02ce4",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "5.6",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%A7%A3%E5%8E%8B%E7%BC%A9_5.6_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 47710336
-  },
-  {
-   "name": "QQ音乐_14.0.1_优化增强_优化去除广告 精简个人主页 免费解锁臻品音质2.0",
-   "bundleIdentifier": "cn.aggregate.6eaa183927ea",
-   "versionDescription": "qlam·2024.12.24 / QQ 音乐——腾讯音乐平台，海量正版曲库与高品质音频。",
-   "version": "14.0.1",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/QQ%E9%9F%B3%E4%B9%90_14.0.1_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA_%E4%BC%98%E5%8C%96%E5%8E%BB%E9%99%A4%E5%B9%BF%E5%91%8A%20%E7%B2%BE%E7%AE%80%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%20%E5%85%8D%E8%B4%B9%E8%A7%A3%E9%94%81%E8%87%BB%E5%93%81%E9%9F%B3%E8%B4%A82.0.ipa",
-   "iconURL": "",
-   "size": 259714116
-  },
-  {
-   "name": "V剧场1.1.5_第一次进入软件选择网络后大退在重新进入即可",
-   "bundleIdentifier": "cn.aggregate.4a0c6692a698",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "1.1.5",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/V%E5%89%A7%E5%9C%BA1.1.5_%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%9B%E5%85%A5%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E7%BD%91%E7%BB%9C%E5%90%8E%E5%A4%A7%E9%80%80%E5%9C%A8%E9%87%8D%E6%96%B0%E8%BF%9B%E5%85%A5%E5%8D%B3%E5%8F%AF.ipa",
-   "iconURL": "",
-   "size": 17460196
-  },
-  {
-   "name": "CyMusic_1.1.7",
-   "bundleIdentifier": "cn.aggregate.cymusic",
-   "versionDescription": "zgios·2024.12.05 | lewsky·2024.10.11 | iosi·2024.10.22 / 听歌应用。在宅哥技术公众号发送：音源 获取文件",
-   "version": "1.1.7",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/CyMusic_1.1.7.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20241021/d313e66a998031dd520abf62cd538dd8.png",
-   "size": 16136077
-  },
-  {
-   "name": "柠檬小剧场_1.3.5@com.nmjc.lemon.video.ios",
-   "bundleIdentifier": "com.nmjc.lemon.video.ios.ipa",
-   "versionDescription": "zgios·2024.12.26 / 解锁会员，看短剧专用",
-   "version": "1.3.5",
-   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%9F%A0%E6%AA%AC%E5%B0%8F%E5%89%A7%E5%9C%BA_1.3.5%40com.nmjc.lemon.video.ios.ipa",
-   "iconURL": "http://ipa.312752.cn/uploads/20241226/825154cd4d06799e570285a7963d0e74.png",
-   "size": 47604944
-  },
-  {
-   "name": "宝宝巴士_8.7.32_解锁会员",
-   "bundleIdentifier": "cn.aggregate.c2385fecb078",
-   "versionDescription": "qlam·2024.12.24",
-   "version": "8.7.32",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB_8.7.32_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
-   "iconURL": "",
-   "size": 176779274
-  },
-  {
-   "name": "京东_13.8.5_比价去广告",
-   "bundleIdentifier": "cn.aggregate.b7244492b525",
-   "versionDescription": "qlam·2024.12.24 | iosi·2024.08.03",
-   "version": "13.8.5",
-   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%BA%AC%E4%B8%9C_13.8.5_%E6%AF%94%E4%BB%B7%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
-   "iconURL": "http://p12.312752.cn/uploads/20240310/7c4f78704a7da135fa84bfcb60ca61a9.png",
-   "size": 168632166
-  },
-  {
    "name": "狙击手3D_4.65.1",
    "bundleIdentifier": "cn.aggregate.d9d9141248a6",
    "versionDescription": "zgios·2024.12.31 / 无限能量，无后座，秒杀，金币越用越多",
@@ -7847,6 +6956,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ImagineArt_1.8.0.ipa",
    "iconURL": "",
    "size": 67507658
+  },
+  {
+   "name": "柠檬小剧场_1.3.5@com.nmjc.lemon.video.ios",
+   "bundleIdentifier": "com.nmjc.lemon.video.ios.ipa",
+   "versionDescription": "zgios·2024.12.26 / 解锁会员，看短剧专用",
+   "version": "1.3.5",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%9F%A0%E6%AA%AC%E5%B0%8F%E5%89%A7%E5%9C%BA_1.3.5%40com.nmjc.lemon.video.ios.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20241226/825154cd4d06799e570285a7963d0e74.png",
+   "size": 47604944
   },
   {
    "name": "拒之_2.2.0_骚扰电话说拜拜",
@@ -8074,6 +7192,24 @@
    "size": 62734244
   },
   {
+   "name": "青柠设计_2.2.3",
+   "bundleIdentifier": "cn.aggregate.4e8760f9da03",
+   "versionDescription": "zgios·2024.08.26 | qlam·2024.12.24 / 解锁会员，登录就是vip。自媒体专用作图工具",
+   "version": "2.2.3",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E9%9D%92%E6%9F%A0%E8%AE%BE%E8%AE%A1_2.2.3.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20240826/1976cd8037673905c19dcb44a1a1aa28.png",
+   "size": 116298000
+  },
+  {
+   "name": "雷速体育_10.4.3_去广告",
+   "bundleIdentifier": "cn.aggregate.ea3041b98aeb",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.4.3",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E9%9B%B7%E9%80%9F%E4%BD%93%E8%82%B2_10.4.3_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 160889639
+  },
+  {
    "name": "闲鱼+_7.12.50",
    "bundleIdentifier": "cn.aggregate.d7b97f3065f1",
    "versionDescription": "qlam·2024.12.24 / 官方砸壳，分身版",
@@ -8254,6 +7390,15 @@
    "size": 305637297
   },
   {
+   "name": "车来了_7.4.2_去广告",
+   "bundleIdentifier": "cn.aggregate.ac354d436492",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.4.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%BD%A6%E6%9D%A5%E4%BA%86_7.4.2_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 71374688
+  },
+  {
    "name": "足球俱乐部物语",
    "bundleIdentifier": "cn.aggregate.f8e05defb547",
    "versionDescription": "qlam·2024.12.24",
@@ -8272,6 +7417,15 @@
    "size": 63170723
   },
   {
+   "name": "超级课程表_9.9.33_去广告",
+   "bundleIdentifier": "cn.aggregate.964fb935b5ac",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "9.9.33",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%B6%85%E7%BA%A7%E8%AF%BE%E7%A8%8B%E8%A1%A8_9.9.33_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 69341185
+  },
+  {
    "name": "货拉拉-司机版_6.4.52",
    "bundleIdentifier": "cn.aggregate.82630ec7f88b",
    "versionDescription": "qlam·2024.12.24 / 砸壳分身，自行尝试",
@@ -8288,6 +7442,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%B1%AA%E5%8D%8E%E5%A4%A7%E6%B8%B8%E8%BD%AE%E7%89%A9%E8%AF%AD.ipa",
    "iconURL": "",
    "size": 220502133
+  },
+  {
+   "name": "豆瓣_7.129.0_去广告",
+   "bundleIdentifier": "cn.aggregate.2f719842f9ec",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.129.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%B1%86%E7%93%A3_7.129.0_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 112893362
   },
   {
    "name": "读书笔记_2.31_解锁VIP 私人图书管理 阅读记录",
@@ -8344,6 +7507,15 @@
    "size": 18282177
   },
   {
+   "name": "解压缩_5.6_解锁会员",
+   "bundleIdentifier": "cn.aggregate.d13e63a02ce4",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "5.6",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%A7%A3%E5%8E%8B%E7%BC%A9_5.6_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 47710336
+  },
+  {
    "name": "解压专家 - [v6.5.2]",
    "bundleIdentifier": "cn.aggregate.aed904202158",
    "versionDescription": "qlam·2024.12.24",
@@ -8380,6 +7552,15 @@
    "size": 110048647
   },
   {
+   "name": "西窗烛_7.7.0_解锁订阅_中国优秀传统文化古诗词软件",
+   "bundleIdentifier": "cn.aggregate.f27a86eb2f85",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.7.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%A5%BF%E7%AA%97%E7%83%9B_7.7.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E4%B8%AD%E5%9B%BD%E4%BC%98%E7%A7%80%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96%E5%8F%A4%E8%AF%97%E8%AF%8D%E8%BD%AF%E4%BB%B6.ipa",
+   "iconURL": "",
+   "size": 171196908
+  },
+  {
    "name": "蒙太奇影视_1.2.1",
    "bundleIdentifier": "cn.aggregate.108dcebb4d89",
    "versionDescription": "qlam·2024.12.24",
@@ -8398,6 +7579,15 @@
    "size": 52387369
   },
   {
+   "name": "菜鸟_8.11.727_去广告",
+   "bundleIdentifier": "cn.aggregate.0e800daa14b7",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.11.727",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%8F%9C%E9%B8%9F_8.11.727_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 80000092
+  },
+  {
    "name": "菜谱大全_破解vip",
    "bundleIdentifier": "cn.aggregate.9aa562739ae5",
    "versionDescription": "qlam·2024.12.24",
@@ -8414,6 +7604,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%8F%9C%E8%B0%B1%E5%A4%A7%E5%85%A8_6.0.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 21974833
+  },
+  {
+   "name": "苏诺_2.4_解锁会员",
+   "bundleIdentifier": "cn.aggregate.a2fdc6e36cdb",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2.4",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%8B%8F%E8%AF%BA_2.4_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 57834895
   },
   {
    "name": "花瓣测网速_1.50.300",
@@ -8477,6 +7676,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%85%BE%E8%AE%AF%E6%A1%8C%E7%90%83_3.48.0_%E8%B6%85%E7%BA%A7%E5%BB%B6%E9%95%BF%E7%BA%BF.ipa",
    "iconURL": "http://ipa.312752.cn/uploads/20240719/ae69164d3fca66424cdb437984e30c30.png",
    "size": 131468880
+  },
+  {
+   "name": "腾讯体育_7.9.15_去广告",
+   "bundleIdentifier": "cn.aggregate.911a93181e14",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.9.15",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E8%85%BE%E8%AE%AF%E4%BD%93%E8%82%B2_7.9.15_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 174976602
   },
   {
    "name": "考试宝_3.8.2_去广告",
@@ -8749,6 +7957,15 @@
    "size": 37119608
   },
   {
+   "name": "知乎_10.103.0_去广告_知乎默认去开屏、推荐页、详情页广告及底栏按钮隐藏。 长按底栏呼出",
+   "bundleIdentifier": "cn.aggregate.267d76ac981d",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.103.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%9F%A5%E4%B9%8E_10.103.0_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E7%9F%A5%E4%B9%8E%E9%BB%98%E8%AE%A4%E5%8E%BB%E5%BC%80%E5%B1%8F%E3%80%81%E6%8E%A8%E8%8D%90%E9%A1%B5%E3%80%81%E8%AF%A6%E6%83%85%E9%A1%B5%E5%B9%BF%E5%91%8A%E5%8F%8A%E5%BA%95%E6%A0%8F%E6%8C%89%E9%92%AE%E9%9A%90%E8%97%8F%E3%80%82%20%E9%95%BF%E6%8C%89%E5%BA%95%E6%A0%8F%E5%91%BC%E5%87%BA.ipa",
+   "iconURL": "",
+   "size": 189060654
+  },
+  {
    "name": "相机360_10.02.12_解锁会员",
    "bundleIdentifier": "cn.aggregate.c6ea1c333895",
    "versionDescription": "qlam·2024.12.24",
@@ -8756,6 +7973,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%9B%B8%E6%9C%BA360_10.02.12_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 318529949
+  },
+  {
+   "name": "直播吧_6.5.9_去广告",
+   "bundleIdentifier": "cn.aggregate.513f0ece9450",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "6.5.9",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%9B%B4%E6%92%AD%E5%90%A7_6.5.9_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 231418039
   },
   {
    "name": "皮皮搞笑_2.98.70_绿化",
@@ -8792,6 +8018,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98_SVIP%E7%A0%B4%E8%A7%A3%E5%8A%A0%E9%80%9F_%E5%AF%BC%E5%87%BA.ipa",
    "iconURL": "http://ipa.312752.cn/uploads/20260803/318b3182df9cdff765c554198db8ba22.jpeg",
    "size": 114278134
+  },
+  {
+   "name": "百度地图 - [v21.11.0]_功能默认开启，如果不需要某功能，可以在设置界面单指长按呼出功能菜单后关闭",
+   "bundleIdentifier": "cn.aggregate.321d8452a105",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "21.11.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE%20-%20%5Bv21.11.0%5D_%E5%8A%9F%E8%83%BD%E9%BB%98%E8%AE%A4%E5%BC%80%E5%90%AF%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9F%90%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%E5%8D%95%E6%8C%87%E9%95%BF%E6%8C%89%E5%91%BC%E5%87%BA%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95%E5%90%8E%E5%85%B3%E9%97%AD.ipa",
+   "iconURL": "",
+   "size": 186636593
   },
   {
    "name": "百度_13.56.0_去除全局广告 可自行改包名多开",
@@ -8855,6 +8090,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%95%AA%E8%8C%84%E7%95%85%E5%90%AC_%E7%A0%B4%E8%A7%A3vip.ipa",
    "iconURL": "http://ipa.312752.cn/uploads/20240828/0a7862c3768a70b42c67c9d894cf0808.png",
    "size": 89590476
+  },
+  {
+   "name": "番茄畅听_6.6.7",
+   "bundleIdentifier": "cn.aggregate.ff06d6780434",
+   "versionDescription": "zgios·2024.08.28 | qlam·2024.12.24 | iosi·2024.02.17 / 番茄畅听——有声书与网络小说听书平台。",
+   "version": "6.6.7",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E7%95%AA%E8%8C%84%E7%95%85%E5%90%AC_6.6.7.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20240828/0a7862c3768a70b42c67c9d894cf0808.png",
+   "size": 237569398
   },
   {
    "name": "番茄小说_VIP_巨魔版",
@@ -8956,6 +8200,15 @@
    "size": 41912041
   },
   {
+   "name": "爱影视_8.9.6_去广告",
+   "bundleIdentifier": "cn.aggregate.afbdcdaa0635",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.01.09",
+   "version": "8.9.6",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%88%B1%E5%BD%B1%E8%A7%86_8.9.6_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 69795314
+  },
+  {
    "name": "爱影视TV_8.9.2_去广告",
    "bundleIdentifier": "cn.aggregate.1470aa8e0f4f",
    "versionDescription": "qlam·2024.12.24",
@@ -8990,6 +8243,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%86%8A%E7%8C%AB%E5%90%83%E7%9F%AD%E4%BF%A1_2.41-%E7%9F%AD%E4%BF%A1%E6%8B%A6%E6%88%AA%E7%A5%9E%E5%99%A8.ipa",
    "iconURL": "",
    "size": 4429395
+  },
+  {
+   "name": "熊掌记_2.6.7_解锁会员_一款易上手的Markdown写作软件",
+   "bundleIdentifier": "cn.aggregate.89a3f936ad1a",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2.6.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E7%86%8A%E6%8E%8C%E8%AE%B0_2.6.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%B8%80%E6%AC%BE%E6%98%93%E4%B8%8A%E6%89%8B%E7%9A%84Markdown%E5%86%99%E4%BD%9C%E8%BD%AF%E4%BB%B6.ipa",
+   "iconURL": "",
+   "size": 106170028
   },
   {
    "name": "熊掌记Pro_2.1.8_无需购买解锁Pro",
@@ -9028,6 +8290,15 @@
    "size": 115500651
   },
   {
+   "name": "漫画盒子_1.2.7_去广告",
+   "bundleIdentifier": "cn.aggregate.fd47c75ff58a",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.2.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%BC%AB%E7%94%BB%E7%9B%92%E5%AD%90_1.2.7_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 143248050
+  },
+  {
    "name": "漫天台+_1.0.3",
    "bundleIdentifier": "cn.aggregate.79101638ae43",
    "versionDescription": "qlam·2024.12.24",
@@ -9035,6 +8306,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%BC%AB%E5%A4%A9%E5%8F%B0%2B_1.0.3.ipa",
    "iconURL": "",
    "size": 23404877
+  },
+  {
+   "name": "滴答清单_8.1.20_解锁会员_任务打卡日历软件",
+   "bundleIdentifier": "cn.aggregate.38bdcbb6ee31",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.1.20",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%BB%B4%E7%AD%94%E6%B8%85%E5%8D%95_8.1.20_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%BB%BB%E5%8A%A1%E6%89%93%E5%8D%A1%E6%97%A5%E5%8E%86%E8%BD%AF%E4%BB%B6.ipa",
+   "iconURL": "",
+   "size": 102331920
   },
   {
    "name": "滴滴出行6.6.8去广告",
@@ -9107,6 +8387,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3_3.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 38635562
+  },
+  {
+   "name": "汇声绘影_16.2_解锁会员_专业剪辑软件",
+   "bundleIdentifier": "cn.aggregate.93baa06e835a",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "16.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%B1%87%E5%A3%B0%E7%BB%98%E5%BD%B1_16.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E4%B8%93%E4%B8%9A%E5%89%AA%E8%BE%91%E8%BD%AF%E4%BB%B6.ipa",
+   "iconURL": "",
+   "size": 104455077
   },
   {
    "name": "水印相机_1.0-解锁会员功能",
@@ -9424,6 +8713,15 @@
    "size": 179341894
   },
   {
+   "name": "无尽冬日_1.9.23_广告加速",
+   "bundleIdentifier": "cn.aggregate.d414f12e7a1a",
+   "versionDescription": "qlam·2024.12.24 / 广告加速，内置修改器",
+   "version": "1.9.23",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5_1.9.23_%E5%B9%BF%E5%91%8A%E5%8A%A0%E9%80%9F.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20250518/8a3fc21141a0d99f4de69ff47a68cbc6.png",
+   "size": 645532892
+  },
+  {
    "name": "新语听书_4.2.24",
    "bundleIdentifier": "cn.aggregate.51cbd6d75d61",
    "versionDescription": "qlam·2024.12.24",
@@ -9451,6 +8749,33 @@
    "size": 20165467
   },
   {
+   "name": "文墨天机Pro_2.5.9_解锁付费",
+   "bundleIdentifier": "cn.aggregate.c3a394dc84f3",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2.5.9",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%96%87%E5%A2%A8%E5%A4%A9%E6%9C%BAPro_2.5.9_%E8%A7%A3%E9%94%81%E4%BB%98%E8%B4%B9.ipa",
+   "iconURL": "",
+   "size": 37911457
+  },
+  {
+   "name": "收音机_10.1.4_去广告",
+   "bundleIdentifier": "cn.aggregate.4ddee13d0fa0",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.1.4",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%94%B6%E9%9F%B3%E6%9C%BA_10.1.4_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 90264671
+  },
+  {
+   "name": "支付宝_12.12.26",
+   "bundleIdentifier": "cn.aggregate.216dc49eda97",
+   "versionDescription": "zgios·2024.08.15 | qlam·2024.12.24 | iosi·2024.02.29 | jiejingfan·2023.10.16 / 支付宝——蚂蚁集团移动支付与生活服务平台，支持付款、理财、缴费与城市服务。",
+   "version": "12.12.26",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%94%AF%E4%BB%98%E5%AE%9D_12.12.26.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20231110/715333fdda09c354c3a662122af07997.png",
+   "size": 208474296
+  },
+  {
    "name": "携程旅行_8.68.2_去除启动广告",
    "bundleIdentifier": "cn.aggregate.d9825ea32d9e",
    "versionDescription": "qlam·2024.12.24",
@@ -9460,6 +8785,15 @@
    "size": 105520747
   },
   {
+   "name": "搜图神器_2.0.7_解锁会员_需登陆解锁",
+   "bundleIdentifier": "cn.aggregate.55d20d95d67b",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2.0.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%90%9C%E5%9B%BE%E7%A5%9E%E5%99%A8_2.0.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E9%9C%80%E7%99%BB%E9%99%86%E8%A7%A3%E9%94%81.ipa",
+   "iconURL": "",
+   "size": 27760263
+  },
+  {
    "name": "推文助手_1.1.1解锁永久VIP",
    "bundleIdentifier": "cn.aggregate.c271be7ff29c",
    "versionDescription": "qlam·2024.12.24",
@@ -9467,6 +8801,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8E%A8%E6%96%87%E5%8A%A9%E6%89%8B_1.1.1%E8%A7%A3%E9%94%81%E6%B0%B8%E4%B9%85VIP.ipa",
    "iconURL": "",
    "size": 20190869
+  },
+  {
+   "name": "掌阅_8.3.8_去广告",
+   "bundleIdentifier": "cn.aggregate.5532c7676377",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.3.8",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8E%8C%E9%98%85_8.3.8_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 74340791
   },
   {
    "name": "挺进地牢_1.0.281_",
@@ -9494,6 +8837,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8C%96%E8%B4%A2%E8%AE%B0%E8%B4%A6_7.1.0_%E7%A0%B4%E8%A7%A3%E6%B0%B8%E4%B9%85vip.ipa",
    "iconURL": "",
    "size": 26706608
+  },
+  {
+   "name": "指尖时光_9.1.7_解锁会员_点购买即可解锁",
+   "bundleIdentifier": "cn.aggregate.c36c5b728909",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.31",
+   "version": "9.1.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%8C%87%E5%B0%96%E6%97%B6%E5%85%89_9.1.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%82%B9%E8%B4%AD%E4%B9%B0%E5%8D%B3%E5%8F%AF%E8%A7%A3%E9%94%81.ipa",
+   "iconURL": "",
+   "size": 213983838
   },
   {
    "name": "指尖捕鱼_6.6_大炮超级加速大炮加倍",
@@ -9566,6 +8918,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%88%91%E7%9A%84%E5%A4%A9%E6%B0%94_3.4_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 117216777
+  },
+  {
+   "name": "懂车帝_8.8.9_去广告",
+   "bundleIdentifier": "cn.aggregate.a088e375ec03",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.8.9",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E6%87%82%E8%BD%A6%E5%B8%9D_8.8.9_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 228845379
   },
   {
    "name": "愤怒的小鸟 2_3.20.0",
@@ -9676,6 +9037,15 @@
    "size": 51857023
   },
   {
+   "name": "影音宝_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
+   "bundleIdentifier": "cn.aggregate.ab0188ab4745",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2026.1.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%BD%B1%E9%9F%B3%E5%AE%9D_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
+   "iconURL": "",
+   "size": 72624561
+  },
+  {
    "name": "影记_全网影视合集_去广告",
    "bundleIdentifier": "cn.aggregate.3ea83dfea12c",
    "versionDescription": "qlam·2024.12.24",
@@ -9784,6 +9154,15 @@
    "size": 382996193
   },
   {
+   "name": "开拍_3.4.80_解锁会员",
+   "bundleIdentifier": "cn.aggregate.a79fbd7a5403",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.4.80",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%BC%80%E6%8B%8D_3.4.80_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 168495367
+  },
+  {
    "name": "库迪咖啡_1.2.3@com.cotticoffee.cotticlient1",
    "bundleIdentifier": "com.cotticoffee.cotticlient1.ipa",
    "versionDescription": "qlam·2024.12.24",
@@ -9800,6 +9179,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B9%95%E5%B8%83_2.28.4_%E7%A0%B4%E8%A7%A3vip.ipa",
    "iconURL": "",
    "size": 32856956
+  },
+  {
+   "name": "帮帮识字_3.49.0",
+   "bundleIdentifier": "cn.aggregate.01c02fd1c7f5",
+   "versionDescription": "zgios·2024.09.11 | qlam·2024.12.24 | iosi·2024.02.17 / 解锁VIP会员",
+   "version": "3.49.0",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%B8%AE%E5%B8%AE%E8%AF%86%E5%AD%97_3.49.0.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20240911/934b1f153875dde7d177df14416fe12e.png",
+   "size": 379040084
   },
   {
    "name": "布蕾影视_1.2.0_第一次打开退出重进",
@@ -9883,6 +9271,15 @@
    "size": 117928934
   },
   {
+   "name": "小旋风收音机_6.1_去广告_全球电台频道",
+   "bundleIdentifier": "cn.aggregate.7780fde3ee15",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "6.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B0%8F%E6%97%8B%E9%A3%8E%E6%94%B6%E9%9F%B3%E6%9C%BA_6.1_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%85%A8%E7%90%83%E7%94%B5%E5%8F%B0%E9%A2%91%E9%81%93.ipa",
+   "iconURL": "",
+   "size": 39486765
+  },
+  {
    "name": "小恶喵_1.5.1_去广告",
    "bundleIdentifier": "cn.aggregate.8c41738f267e",
    "versionDescription": "qlam·2024.12.24",
@@ -9899,6 +9296,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B0%8F%E5%BD%B1%20-%20%5Bv9.14.5%5D.ipa",
    "iconURL": "",
    "size": 128195222
+  },
+  {
+   "name": "小巧工具箱_1.64.1_去广告",
+   "bundleIdentifier": "cn.aggregate.f38933ffc47b",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.64.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%B0%8F%E5%B7%A7%E5%B7%A5%E5%85%B7%E7%AE%B1_1.64.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 65938069
   },
   {
    "name": "小工具集_1.6.2_图片音视频下载 全能格式工厂 解锁所有专业功能 点购买点取消解锁",
@@ -9937,6 +9343,15 @@
    "size": 108889289
   },
   {
+   "name": "宝宝巴士_8.7.32_解锁会员",
+   "bundleIdentifier": "cn.aggregate.c2385fecb078",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.7.32",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%AE%9D%E5%AE%9D%E5%B7%B4%E5%A3%AB_8.7.32_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 176779274
+  },
+  {
    "name": "完美校园_5.8.5_去广告",
    "bundleIdentifier": "cn.aggregate.bc50e7577780",
    "versionDescription": "qlam·2024.12.24",
@@ -9962,6 +9377,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%AD%97%E5%85%B8%E8%AF%8D%E5%85%B8_23.5.3_%E8%A7%A3%E9%94%81%E4%B8%93%E4%B8%9A%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 147495636
+  },
+  {
+   "name": "威锋_7.1_去广告",
+   "bundleIdentifier": "cn.aggregate.146b30cfe476",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.29",
+   "version": "7.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A8%81%E9%94%8B_7.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 79622190
+  },
+  {
+   "name": "威峰_7.0.8_去广告",
+   "bundleIdentifier": "cn.aggregate.99f0f6ed3aec",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.0.8",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%A8%81%E5%B3%B0_7.0.8_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 69865187
   },
   {
    "name": "好看视频_7.65.0_去广告",
@@ -10216,6 +9649,15 @@
    "size": 56467861
   },
   {
+   "name": "喜马拉雅_9.4.94",
+   "bundleIdentifier": "cn.aggregate.15562b18ccbb",
+   "versionDescription": "zgios·2024.09.21 | qlam·2024.12.24 / 解锁vip畅听，无需登录但是可以登录，首次登录后，清理后台再次进入即可",
+   "version": "9.4.94",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85_9.4.94.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20260614/878e83c690c7dbaed19149dccc544205.png",
+   "size": 238046332
+  },
+  {
    "name": "喜马拉雅Pro - [v9.2.87]-全局去广告，去除启动广告、播放前语音广告、评论间横幅广告、首页推荐横幅广告、精简播放页面部分内容等等签到领奖励广告秒过",
    "bundleIdentifier": "cn.aggregate.ddb47ce8875b",
    "versionDescription": "qlam·2024.12.24",
@@ -10223,6 +9665,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85Pro%20-%20%5Bv9.2.87%5D-%E5%85%A8%E5%B1%80%E5%8E%BB%E5%B9%BF%E5%91%8A%EF%BC%8C%E5%8E%BB%E9%99%A4%E5%90%AF%E5%8A%A8%E5%B9%BF%E5%91%8A%E3%80%81%E6%92%AD%E6%94%BE%E5%89%8D%E8%AF%AD%E9%9F%B3%E5%B9%BF%E5%91%8A%E3%80%81%E8%AF%84%E8%AE%BA%E9%97%B4%E6%A8%AA%E5%B9%85%E5%B9%BF%E5%91%8A%E3%80%81%E9%A6%96%E9%A1%B5%E6%8E%A8%E8%8D%90%E6%A8%AA%E5%B9%85%E5%B9%BF%E5%91%8A%E3%80%81%E7%B2%BE%E7%AE%80%E6%92%AD%E6%94%BE%E9%A1%B5%E9%9D%A2%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E7%AD%89%E7%AD%89%E7%AD%BE%E5%88%B0%E9%A2%86%E5%A5%96%E5%8A%B1%E5%B9%BF%E5%91%8A%E7%A7%92%E8%BF%87.ipa",
    "iconURL": "",
    "size": 173877546
+  },
+  {
+   "name": "哔哩哔哩 - [v8.76.0]_去开屏广告、首页广告、视频下广告",
+   "bundleIdentifier": "cn.aggregate.e23e5674220b",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.76.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%20-%20%5Bv8.76.0%5D_%E5%8E%BB%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E3%80%81%E9%A6%96%E9%A1%B5%E5%B9%BF%E5%91%8A%E3%80%81%E8%A7%86%E9%A2%91%E4%B8%8B%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 227359591
   },
   {
    "name": "哔咔漫画  2.1.2.5",
@@ -10252,6 +9703,15 @@
    "size": 315354861
   },
   {
+   "name": "咕咚_10.74.1_去广告",
+   "bundleIdentifier": "cn.aggregate.a790afc5bc33",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.74.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%92%95%E5%92%9A_10.74.1_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 220957666
+  },
+  {
    "name": "命悬一日6.0.0",
    "bundleIdentifier": "cn.aggregate.47d6ff9bb9d0",
    "versionDescription": "qlam·2024.12.24",
@@ -10259,6 +9719,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%91%BD%E6%82%AC%E4%B8%80%E6%97%A56.0.0.ipa",
    "iconURL": "",
    "size": 986887077
+  },
+  {
+   "name": "呼啦少儿英语_1.47.0_解锁会员_免费解锁所有视频",
+   "bundleIdentifier": "cn.aggregate.8fb327a93645",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.47.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%91%BC%E5%95%A6%E5%B0%91%E5%84%BF%E8%8B%B1%E8%AF%AD_1.47.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%85%8D%E8%B4%B9%E8%A7%A3%E9%94%81%E6%89%80%E6%9C%89%E8%A7%86%E9%A2%91.ipa",
+   "iconURL": "",
+   "size": 33252449
   },
   {
    "name": "听书助手_1.9.4_去广告",
@@ -10295,6 +9764,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%90%88%E5%90%88%E8%8B%B1%E9%9B%841.7.0.ipa",
    "iconURL": "",
    "size": 231072417
+  },
+  {
+   "name": "台球世界_6.79_超级延长线",
+   "bundleIdentifier": "cn.aggregate.ef0882b97f2b",
+   "versionDescription": "qlam·2024.12.24 / 延长辅助线",
+   "version": "6.79",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8F%B0%E7%90%83%E4%B8%96%E7%95%8C_6.79_%E8%B6%85%E7%BA%A7%E5%BB%B6%E9%95%BF%E7%BA%BF.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20250317/c0243a96f4cd1d73113d937f55e7f81d.png",
+   "size": 299638300
+  },
+  {
+   "name": "可达阅读器_2.4.3_解锁会员",
+   "bundleIdentifier": "cn.aggregate.cb3632cea7fc",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.19",
+   "version": "2.4.3",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8F%AF%E8%BE%BE%E9%98%85%E8%AF%BB%E5%99%A8_2.4.3_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 157214968
   },
   {
    "name": "可拍_2.7.5_超多高清独家版权换脸素材",
@@ -10387,6 +9874,15 @@
    "size": 426509339
   },
   {
+   "name": "动漫相机_1.0.6_解锁会员",
+   "bundleIdentifier": "cn.aggregate.8e5ab82ca178",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.0.6",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%8A%A8%E6%BC%AB%E7%9B%B8%E6%9C%BA_1.0.6_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 32308371
+  },
+  {
    "name": "动漫之家X_2.1.0_一款免费动漫番剧软件 新番日漫、新番国漫等各种番剧",
    "bundleIdentifier": "cn.aggregate.2a19213219f9",
    "versionDescription": "qlam·2024.12.24",
@@ -10450,6 +9946,15 @@
    "size": 26289752
   },
   {
+   "name": "全民K歌_10.0.38_优化增强",
+   "bundleIdentifier": "cn.aggregate.56de907cf6db",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.0.38",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%85%A8%E6%B0%91K%E6%AD%8C_10.0.38_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
+   "iconURL": "",
+   "size": 261137468
+  },
+  {
    "name": "全民K歌 - [v9.0.38]-去广告解锁会员音效",
    "bundleIdentifier": "cn.aggregate.e980593166a1",
    "versionDescription": "qlam·2024.12.24",
@@ -10457,6 +9962,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%85%A8%E6%B0%91K%E6%AD%8C%20-%20%5Bv9.0.38%5D-%E5%8E%BB%E5%B9%BF%E5%91%8A%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98%E9%9F%B3%E6%95%88.ipa",
    "iconURL": "",
    "size": 214853846
+  },
+  {
+   "name": "光遇_0.32.7_国际版",
+   "bundleIdentifier": "cn.aggregate.b911b5a1f9e9",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "0.32.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E5%85%89%E9%81%87_0.32.7_%E5%9B%BD%E9%99%85%E7%89%88.ipa",
+   "iconURL": "",
+   "size": 2181631098
   },
   {
    "name": "光遇- [v0.12.9]-自动跑图，自动任务等辅助功能，传送吸火娱乐等多功能",
@@ -10540,6 +10054,15 @@
    "size": 86531805
   },
   {
+   "name": "今日头条_12.1.0_优化增强",
+   "bundleIdentifier": "cn.aggregate.5fadabc1140f",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.01.09",
+   "version": "12.1.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1_12.1.0_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA.ipa",
+   "iconURL": "",
+   "size": 242016340
+  },
+  {
    "name": "今日头条 - [v9.9.5]-去广告",
    "bundleIdentifier": "cn.aggregate.e9e4f0bd7f96",
    "versionDescription": "qlam·2024.12.24",
@@ -10574,6 +10097,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%BA%AC%E4%B8%9C%E7%89%B9%E4%BB%B7%E7%89%88_6.27.8_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
    "iconURL": "",
    "size": 43750028
+  },
+  {
+   "name": "京东_13.8.5_比价去广告",
+   "bundleIdentifier": "cn.aggregate.b7244492b525",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.08.03",
+   "version": "13.8.5",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%BA%AC%E4%B8%9C_13.8.5_%E6%AF%94%E4%BB%B7%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240310/7c4f78704a7da135fa84bfcb60ca61a9.png",
+   "size": 168632166
   },
   {
    "name": "云听_7.0.40_解锁会员功能 全国电台海量听书",
@@ -10621,6 +10153,24 @@
    "size": 54294635
   },
   {
+   "name": "中华万年历_9.6.7_去除广告",
+   "bundleIdentifier": "cn.aggregate.f9d1f6638149",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "9.6.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%AD%E5%8D%8E%E4%B8%87%E5%B9%B4%E5%8E%86_9.6.7_%E5%8E%BB%E9%99%A4%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 217105811
+  },
+  {
+   "name": "世界迷雾_3.7.4",
+   "bundleIdentifier": "cn.aggregate.0bdf7caf14ce",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.7.4",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%96%E7%95%8C%E8%BF%B7%E9%9B%BE_3.7.4.ipa",
+   "iconURL": "",
+   "size": 73442158
+  },
+  {
    "name": "世界很大2.0体验版",
    "bundleIdentifier": "cn.aggregate.196551860e9e",
    "versionDescription": "qlam·2024.12.24",
@@ -10637,6 +10187,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%93%E6%B3%A8%E6%97%85%E4%BA%BA_2.8.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 625897087
+  },
+  {
+   "name": "下厨房_238.9.49_去广告",
+   "bundleIdentifier": "cn.aggregate.59fd23a08ebf",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "238.9.49",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%8B%E5%8E%A8%E6%88%BF_238.9.49_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 75751287
   },
   {
    "name": "三号动漫_4.0.0_去广告",
@@ -10664,6 +10223,33 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%80%E8%A8%80_5.0_%E8%A7%A3%E9%94%81pro.ipa",
    "iconURL": "",
    "size": 40407030
+  },
+  {
+   "name": "一木记账_2.5.1_解锁会员",
+   "bundleIdentifier": "cn.aggregate.6213ce82057d",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2.5.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/%E4%B8%80%E6%9C%A8%E8%AE%B0%E8%B4%A6_2.5.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 45434981
+  },
+  {
+   "name": "zFuse_1.12.130_原sPlayer，影音播放器",
+   "bundleIdentifier": "cn.aggregate.zfuse",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.12.130",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/zFuse_1.12.130_%E5%8E%9FsPlayer%EF%BC%8C%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8.ipa",
+   "iconURL": "",
+   "size": 94263483
+  },
+  {
+   "name": "yybx_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
+   "bundleIdentifier": "cn.aggregate.yybx",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2026.1.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/yybx_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
+   "iconURL": "",
+   "size": 95444233
   },
   {
    "name": "wink - v1.8.30-解锁Vip",
@@ -10718,6 +10304,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/posi0nKFD_v1.2.ipa",
    "iconURL": "",
    "size": 5722939
+  },
+  {
+   "name": "pix站助手_3.7.5_插画漫画小说交流社区",
+   "bundleIdentifier": "cn.aggregate.0fdd8f9243e5",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.7.5",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/pix%E7%AB%99%E5%8A%A9%E6%89%8B_3.7.5_%E6%8F%92%E7%94%BB%E6%BC%AB%E7%94%BB%E5%B0%8F%E8%AF%B4%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA.ipa",
+   "iconURL": "",
+   "size": 65050894
   },
   {
    "name": "pixiv_7.20.10_去广告",
@@ -10801,6 +10396,15 @@
    "size": 165199341
   },
   {
+   "name": "iemc_2026.1.1_影音宝 4K高帧播放器，可添加m3u文件，网络视频源，可挂载阿里云盘等多平台",
+   "bundleIdentifier": "cn.aggregate.iemc",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "2026.1.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iemc_2026.1.1_%E5%BD%B1%E9%9F%B3%E5%AE%9D%204K%E9%AB%98%E5%B8%A7%E6%92%AD%E6%94%BE%E5%99%A8%EF%BC%8C%E5%8F%AF%E6%B7%BB%E5%8A%A0m3u%E6%96%87%E4%BB%B6%EF%BC%8C%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E6%BA%90%EF%BC%8C%E5%8F%AF%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%AD%89%E5%A4%9A%E5%B9%B3%E5%8F%B0.ipa",
+   "iconURL": "",
+   "size": 58789723
+  },
+  {
    "name": "iVatar_2.0.2",
    "bundleIdentifier": "cn.aggregate.ivatar",
    "versionDescription": "qlam·2024.12.24",
@@ -10862,6 +10466,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iBox%E6%97%A0%E5%B9%BF%E5%91%8A.ipa",
    "iconURL": "",
    "size": 53617650
+  },
+  {
+   "name": "iBetter_8.8_解锁订阅_购买后解锁",
+   "bundleIdentifier": "cn.aggregate.ibetter",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.8",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/iBetter_8.8_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E8%B4%AD%E4%B9%B0%E5%90%8E%E8%A7%A3%E9%94%81.ipa",
+   "iconURL": "",
+   "size": 64502439
   },
   {
    "name": "hupu - [v8.0.71]",
@@ -10990,6 +10603,15 @@
    "size": 59970768
   },
   {
+   "name": "XPTV_3.32_网盘文件找源地址",
+   "bundleIdentifier": "cn.aggregate.xptv",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.32",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/XPTV_3.32_%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E6%89%BE%E6%BA%90%E5%9C%B0%E5%9D%80.ipa",
+   "iconURL": "",
+   "size": 101892929
+  },
+  {
    "name": "XBY-Video Hub_1.0.0_",
    "bundleIdentifier": "cn.aggregate.xbyvideohub",
    "versionDescription": "qlam·2024.12.24",
@@ -11008,6 +10630,15 @@
    "size": 129869889
   },
   {
+   "name": "Wink_3.5.1_解锁会员",
+   "bundleIdentifier": "cn.aggregate.wink",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.5.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Wink_3.5.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 124681748
+  },
+  {
    "name": "WiFi信道检测",
    "bundleIdentifier": "cn.aggregate.wifi",
    "versionDescription": "qlam·2024.12.24",
@@ -11024,6 +10655,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Weibo%20-%20%5Bv14.2.2%5D.ipa",
    "iconURL": "",
    "size": 160399252
+  },
+  {
+   "name": "Wearfit Pro_6.02.01_登录解锁Pro_通过绑定手表，帮助自己了解和管理健康状况",
+   "bundleIdentifier": "cn.aggregate.wearfitpro",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "6.02.01",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Wearfit%20Pro_6.02.01_%E7%99%BB%E5%BD%95%E8%A7%A3%E9%94%81Pro_%E9%80%9A%E8%BF%87%E7%BB%91%E5%AE%9A%E6%89%8B%E8%A1%A8%EF%BC%8C%E5%B8%AE%E5%8A%A9%E8%87%AA%E5%B7%B1%E4%BA%86%E8%A7%A3%E5%92%8C%E7%AE%A1%E7%90%86%E5%81%A5%E5%BA%B7%E7%8A%B6%E5%86%B5.ipa",
+   "iconURL": "",
+   "size": 157017789
   },
   {
    "name": "WeBTOON_3.2.3_专业的漫画阅读平台 去除广告 二次元追漫神器",
@@ -11060,6 +10700,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Wake%E7%91%9C%E4%BC%BD_4.0_%E7%A0%B4%E8%A7%A3vip.ipa",
    "iconURL": "",
    "size": 77871494
+  },
+  {
+   "name": "V剧场1.1.5_第一次进入软件选择网络后大退在重新进入即可",
+   "bundleIdentifier": "cn.aggregate.4a0c6692a698",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.1.5",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/V%E5%89%A7%E5%9C%BA1.1.5_%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%9B%E5%85%A5%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9%E7%BD%91%E7%BB%9C%E5%90%8E%E5%A4%A7%E9%80%80%E5%9C%A8%E9%87%8D%E6%96%B0%E8%BF%9B%E5%85%A5%E5%8D%B3%E5%8F%AF.ipa",
+   "iconURL": "",
+   "size": 17460196
   },
   {
    "name": "Vostok_3.7.4_App Store付费软件",
@@ -11170,6 +10819,15 @@
    "size": 68045959
   },
   {
+   "name": "VSCO_450.0.0_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.vsco",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.06",
+   "version": "450.0.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/VSCO_450.0.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 198279162
+  },
+  {
    "name": "VN_1.76",
    "bundleIdentifier": "cn.aggregate.46e81f22b34f",
    "versionDescription": "qlam·2024.12.24 | iosi·2024.03.27",
@@ -11204,6 +10862,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/UC%E6%B5%8F%E8%A7%88%E5%99%A8_17.2.0_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
    "iconURL": "",
    "size": 304443630
+  },
+  {
+   "name": "Twitter_12.35",
+   "bundleIdentifier": "cn.aggregate.twitter",
+   "versionDescription": "zgios·2024.09.30 | qlam·2024.12.24 / Twitter / X——全球实时社交媒体平台。",
+   "version": "12.35",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Twitter_12.35.ipa",
+   "iconURL": "",
+   "size": 279793908
   },
   {
    "name": "Twitch - [v18.4]",
@@ -11386,6 +11053,15 @@
    "size": 285123002
   },
   {
+   "name": "TikTok - [v43.0.0]_首次进入如果进入没网，打开设置，在第一个BHTikTok Plus选择国家区域，设置地区即可恢复",
+   "bundleIdentifier": "cn.aggregate.tiktok",
+   "versionDescription": "qlam·2024.12.24 / TikTok——抖音国际版，全球短视频社交平台。",
+   "version": "43.0.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/TikTok%20-%20%5Bv43.0.0%5D_%E9%A6%96%E6%AC%A1%E8%BF%9B%E5%85%A5%E5%A6%82%E6%9E%9C%E8%BF%9B%E5%85%A5%E6%B2%A1%E7%BD%91%EF%BC%8C%E6%89%93%E5%BC%80%E8%AE%BE%E7%BD%AE%EF%BC%8C%E5%9C%A8%E7%AC%AC%E4%B8%80%E4%B8%AABHTikTok%20Plus%E9%80%89%E6%8B%A9%E5%9B%BD%E5%AE%B6%E5%8C%BA%E5%9F%9F%EF%BC%8C%E8%AE%BE%E7%BD%AE%E5%9C%B0%E5%8C%BA%E5%8D%B3%E5%8F%AF%E6%81%A2%E5%A4%8D.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240410/0df7847330c21d9bf3a2e67d16fc4657.png",
+   "size": 362632398
+  },
+  {
    "name": "Tampermonkey_5.3.6220",
    "bundleIdentifier": "cn.aggregate.tampermonkey",
    "versionDescription": "qlam·2024.12.24",
@@ -11429,6 +11105,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/S%E8%BF%B7%E8%81%9A%E5%90%88_1.1.7%E5%AE%98%E6%96%B9%E5%85%8D%E8%B4%B9%E7%89%88.ipa",
    "iconURL": "",
    "size": 19389774
+  },
+  {
+   "name": "Swifgram_12.9.2_解锁会员_自动翻译，下载加速等",
+   "bundleIdentifier": "cn.aggregate.swifgram",
+   "versionDescription": "qlam·2024.12.24 / 刚上架App Store的一款简单又实用的第三方Telegram",
+   "version": "12.9.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Swifgram_12.9.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F%E7%AD%89.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20240326/d33fabb46b027874c6812d9c96f569e5.png",
+   "size": 87939827
+  },
+  {
+   "name": "Surge_5.22.1_解锁Pro",
+   "bundleIdentifier": "cn.aggregate.surge",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "5.22.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Surge_5.22.1_%E8%A7%A3%E9%94%81Pro.ipa",
+   "iconURL": "",
+   "size": 54953516
   },
   {
    "name": "Supershift_2024.3_解锁所有会员功能 需点购买点取消解锁",
@@ -11494,6 +11188,33 @@
    "size": 23574327
   },
   {
+   "name": "Simple Radio_10.1.1_去广告_全球电台",
+   "bundleIdentifier": "cn.aggregate.simpleradio",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.1.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Simple%20Radio_10.1.1_%E5%8E%BB%E5%B9%BF%E5%91%8A_%E5%85%A8%E7%90%83%E7%94%B5%E5%8F%B0.ipa",
+   "iconURL": "",
+   "size": 39942884
+  },
+  {
+   "name": "Seven_10.15.2_解锁年费",
+   "bundleIdentifier": "cn.aggregate.seven",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.15.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Seven_10.15.2_%E8%A7%A3%E9%94%81%E5%B9%B4%E8%B4%B9.ipa",
+   "iconURL": "",
+   "size": 186619434
+  },
+  {
+   "name": "SenPlayer_6.2.2_解锁会员_Emby等资源播放器",
+   "bundleIdentifier": "cn.aggregate.senplayer",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "6.2.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/SenPlayer_6.2.2_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_Emby%E7%AD%89%E8%B5%84%E6%BA%90%E6%92%AD%E6%94%BE%E5%99%A8.ipa",
+   "iconURL": "",
+   "size": 90984093
+  },
+  {
    "name": "Scroll_1_本地文件管理 美区App Store付费软件 仅限iOS16.0及以上",
    "bundleIdentifier": "cn.aggregate.scroll",
    "versionDescription": "qlam·2024.12.24",
@@ -11510,6 +11231,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Scanner%20Pro_8.18.0_%E4%B8%80%E6%AC%BE%E6%96%87%E6%A1%A3%E6%89%AB%E6%8F%8F%E8%BD%AF%E4%BB%B6%20OCR%E6%96%87%E6%A1%A3%E6%89%AB%E6%8F%8F%20PDF%E8%BD%AC%E6%8D%A2%20%E8%A7%A3%E9%94%81%E9%AB%98%E7%BA%A7%E7%89%88%E5%8A%9F%E8%83%BD.ipa",
    "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/80/ac/b580ac98-da78-9c09-c6d9-7c18c89150ee/ScannerPro-NoFlag-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
    "size": 107065317
+  },
+  {
+   "name": "SOUL - [v6.2.0]_解锁广场私聊送礼物限制",
+   "bundleIdentifier": "cn.aggregate.soul",
+   "versionDescription": "qlam·2024.12.24 / 双指双击屏幕可以虚拟定位，解除私聊礼物限制，解锁广场私聊",
+   "version": "6.2.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/SOUL%20-%20%5Bv6.2.0%5D_%E8%A7%A3%E9%94%81%E5%B9%BF%E5%9C%BA%E7%A7%81%E8%81%8A%E9%80%81%E7%A4%BC%E7%89%A9%E9%99%90%E5%88%B6.ipa",
+   "iconURL": "http://p12.312752.cn/uploads/20231115/7f6a0e31160e10ffcf8c0df54c454fd7.png",
+   "size": 195597867
   },
   {
    "name": "SMPro套壳截图_5.3_中文破解版",
@@ -11557,6 +11287,15 @@
    "size": 301032669
   },
   {
+   "name": "Retouch_5.8.3_解锁会员_照片ps涂抹工具",
+   "bundleIdentifier": "cn.aggregate.retouch",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
+   "version": "5.8.3",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Retouch_5.8.3_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E7%85%A7%E7%89%87ps%E6%B6%82%E6%8A%B9%E5%B7%A5%E5%85%B7.ipa",
+   "iconURL": "",
+   "size": 1013445885
+  },
+  {
    "name": "Retouch - [v5.1.21]",
    "bundleIdentifier": "cn.aggregate.retouch",
    "versionDescription": "qlam·2024.12.24",
@@ -11564,6 +11303,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Retouch%20-%20%5Bv5.1.21%5D.ipa",
    "iconURL": "",
    "size": 327628409
+  },
+  {
+   "name": "Reface_5.18.0_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.reface",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.20",
+   "version": "5.18.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Reface_5.18.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 145194108
+  },
+  {
+   "name": "ReLens_6.0_解锁会员",
+   "bundleIdentifier": "cn.aggregate.relens",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
+   "version": "6.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ReLens_6.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 430147735
   },
   {
    "name": "ReLens - v4.9-解锁 VIP",
@@ -11591,6 +11348,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/ReLen_4.9.6_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 324191446
+  },
+  {
+   "name": "QQ音乐_14.0.1_优化增强_优化去除广告 精简个人主页 免费解锁臻品音质2.0",
+   "bundleIdentifier": "cn.aggregate.6eaa183927ea",
+   "versionDescription": "qlam·2024.12.24 / QQ 音乐——腾讯音乐平台，海量正版曲库与高品质音频。",
+   "version": "14.0.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/QQ%E9%9F%B3%E4%B9%90_14.0.1_%E4%BC%98%E5%8C%96%E5%A2%9E%E5%BC%BA_%E4%BC%98%E5%8C%96%E5%8E%BB%E9%99%A4%E5%B9%BF%E5%91%8A%20%E7%B2%BE%E7%AE%80%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%20%E5%85%8D%E8%B4%B9%E8%A7%A3%E9%94%81%E8%87%BB%E5%93%81%E9%9F%B3%E8%B4%A82.0.ipa",
+   "iconURL": "",
+   "size": 259714116
   },
   {
    "name": "QQ音乐+_12.7.6",
@@ -11665,6 +11431,15 @@
    "size": 250992255
   },
   {
+   "name": "PrettyUp_8.6.13_解锁会员",
+   "bundleIdentifier": "cn.aggregate.prettyup",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.03.27",
+   "version": "8.6.13",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/PrettyUp_8.6.13_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 292441775
+  },
+  {
    "name": "Polaris-Office-Mobile-v9-7-0",
    "bundleIdentifier": "cn.aggregate.polarisofficemobile",
    "versionDescription": "qlam·2024.12.24",
@@ -11672,6 +11447,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Polaris-Office-Mobile-v9-7-0.ipa",
    "iconURL": "",
    "size": 44338650
+  },
+  {
+   "name": "Planner 5D_4.68.0_解锁渲染次数",
+   "bundleIdentifier": "cn.aggregate.planner",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.29",
+   "version": "4.68.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Planner%205D_4.68.0_%E8%A7%A3%E9%94%81%E6%B8%B2%E6%9F%93%E6%AC%A1%E6%95%B0.ipa",
+   "iconURL": "",
+   "size": 421990539
+  },
+  {
+   "name": "Pinterest_13.41_无广告无水印保存",
+   "bundleIdentifier": "cn.aggregate.pinterest",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "13.41",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Pinterest_13.41_%E6%97%A0%E5%B9%BF%E5%91%8A%E6%97%A0%E6%B0%B4%E5%8D%B0%E4%BF%9D%E5%AD%98.ipa",
+   "iconURL": "",
+   "size": 115347482
   },
   {
    "name": "Picasso_v3",
@@ -11737,6 +11530,15 @@
    "size": 134862104
   },
   {
+   "name": "PU口袋校园_7.1.26_去广告",
+   "bundleIdentifier": "cn.aggregate.3482ad1d63a3",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.1.26",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/PU%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD_7.1.26_%E5%8E%BB%E5%B9%BF%E5%91%8A.ipa",
+   "iconURL": "",
+   "size": 151571855
+  },
+  {
    "name": "PUBG MOBILE VN MADNESS_2.7.0-中文菜单",
    "bundleIdentifier": "cn.aggregate.pubgmobilevnmadness",
    "versionDescription": "qlam·2024.12.24 / 绘制，自瞄，无后座，无缝雷达，超多功能",
@@ -11789,6 +11591,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/PA%20Express_24.18.0_%E6%89%80%E6%9C%89%E5%8A%9F%E8%83%BD%E8%A7%A3%E9%94%81.ipa",
    "iconURL": "",
    "size": 151734791
+  },
+  {
+   "name": "OldRoll_8.4.5_解锁会员_复古胶片相机",
+   "bundleIdentifier": "cn.aggregate.oldroll",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "8.4.5",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/OldRoll_8.4.5_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%A4%8D%E5%8F%A4%E8%83%B6%E7%89%87%E7%9B%B8%E6%9C%BA.ipa",
+   "iconURL": "",
+   "size": 200788600
   },
   {
    "name": "OFD阅读器_1.0.4",
@@ -11962,6 +11773,15 @@
    "size": 271696327
   },
   {
+   "name": "Mondly_10.62.0_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.mondly",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.02.19",
+   "version": "10.62.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Mondly_10.62.0_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 197275549
+  },
+  {
    "name": "Mondly Languages - [v10.38.0]_解锁 Pro",
    "bundleIdentifier": "cn.aggregate.mondlylanguages",
    "versionDescription": "qlam·2024.12.24",
@@ -12034,6 +11854,15 @@
    "size": 244789387
   },
   {
+   "name": "MIX_5.2.54_解锁会员",
+   "bundleIdentifier": "cn.aggregate.a456e8e8974e",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "5.2.54",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/MIX_5.2.54_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 379094915
+  },
+  {
    "name": "MIX - v5.2.35-破解永久VIP",
    "bundleIdentifier": "cn.aggregate.e548396769f7",
    "versionDescription": "qlam·2024.12.24",
@@ -12050,6 +11879,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Lumy_4.9.64_App%20Store%E4%BB%98%E8%B4%B9%E8%BD%AF%E4%BB%B6%20%E4%B8%BA%E6%8B%8D%E6%91%84%E7%85%A7%E7%89%87%E6%8F%90%E4%BE%9B%E5%AE%8C%E7%BE%8E%E5%85%89%E7%BA%BF.ipa",
    "iconURL": "",
    "size": 153640098
+  },
+  {
+   "name": "Loora_1.66.2_解锁年费",
+   "bundleIdentifier": "cn.aggregate.loora",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "1.66.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Loora_1.66.2_%E8%A7%A3%E9%94%81%E5%B9%B4%E8%B4%B9.ipa",
+   "iconURL": "",
+   "size": 182401453
   },
   {
    "name": "Loopsie_8.0.2",
@@ -12077,6 +11915,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Logo%20Maker_11.1.0_%E8%A7%A3%E9%94%81Pro%20%E4%BC%9A%E5%91%98%E7%82%B9%E5%87%BB%E8%B4%AD%E4%B9%B0%E7%82%B9%E5%8F%96%E6%B6%88%E8%A7%A3%E9%94%81.ipa",
    "iconURL": "",
    "size": 147294481
+  },
+  {
+   "name": "LoFiCam_3.12.0_解锁会员_复古数码胶片相机",
+   "bundleIdentifier": "cn.aggregate.loficam",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.12.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/LoFiCam_3.12.0_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_%E5%A4%8D%E5%8F%A4%E6%95%B0%E7%A0%81%E8%83%B6%E7%89%87%E7%9B%B8%E6%9C%BA.ipa",
+   "iconURL": "",
+   "size": 239694074
   },
   {
    "name": "LoFiCam - [v3.4.0]-解锁永久会员",
@@ -12122,6 +11969,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/KyBook%203_0.7.8_%E8%A7%A3%E9%94%81Pro%E4%BC%9A%E5%91%98%E5%9B%A0%E7%AE%A1%E7%90%86%E5%AE%BD%E6%9D%BE%EF%BC%8C%E5%9B%BD%E5%8C%BA%E5%B7%B2%E4%B8%8B%E6%9E%B6%E7%82%B9%E8%B4%AD%E4%B9%B0%E6%97%A0%E9%9C%80%E4%BB%98%E8%B4%B9%20%281%29.ipa",
    "iconURL": "",
    "size": 25085232
+  },
+  {
+   "name": "Kwai_13.6.50@com.jiangjia.gif",
+   "bundleIdentifier": "com.jiangjia.gif.ipa",
+   "versionDescription": "zgios·2024.08.26 | qlam·2024.12.24",
+   "version": "13.6.50",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/Kwai_13.6.50%40com.jiangjia.gif.ipa",
+   "iconURL": "",
+   "size": 205774562
   },
   {
    "name": "KFDicks16",
@@ -12304,6 +12160,33 @@
    "size": 364959953
   },
   {
+   "name": "GigaBody_0.86.1_解锁会员",
+   "bundleIdentifier": "cn.aggregate.gigabody",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "0.86.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/GigaBody_0.86.1_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 76283516
+  },
+  {
+   "name": "Genie_7.8.0_AI聊天写作机器人",
+   "bundleIdentifier": "cn.aggregate.genie",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
+   "version": "7.8.0",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Genie_7.8.0_AI%E8%81%8A%E5%A4%A9%E5%86%99%E4%BD%9C%E6%9C%BA%E5%99%A8%E4%BA%BA.ipa",
+   "iconURL": "",
+   "size": 68520818
+  },
+  {
+   "name": "Gear_7.4.7_解锁会员_Alook 之外又一神级浏览器",
+   "bundleIdentifier": "cn.aggregate.gear",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.4.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Gear_7.4.7_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98_Alook%20%E4%B9%8B%E5%A4%96%E5%8F%88%E4%B8%80%E7%A5%9E%E7%BA%A7%E6%B5%8F%E8%A7%88%E5%99%A8.ipa",
+   "iconURL": "",
+   "size": 21553835
+  },
+  {
    "name": "Gear 浏览器_6.11.0",
    "bundleIdentifier": "cn.aggregate.gear",
    "versionDescription": "qlam·2024.12.24",
@@ -12340,6 +12223,15 @@
    "size": 172103093
   },
   {
+   "name": "Foodie_7.0.23_解锁订阅_20250616_023056",
+   "bundleIdentifier": "cn.aggregate.foodie",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "7.0.23",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Foodie_7.0.23_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_20250616_023056.ipa",
+   "iconURL": "",
+   "size": 123091631
+  },
+  {
    "name": "Flow_3.6.0_解锁Pro会员",
    "bundleIdentifier": "cn.aggregate.flow",
    "versionDescription": "qlam·2024.12.24",
@@ -12347,6 +12239,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Flow_3.6.0_%E8%A7%A3%E9%94%81Pro%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 7507432
+  },
+  {
+   "name": "Flow Photo Art_10.1.7_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.flowphotoart",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "10.1.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Flow%20Photo%20Art_10.1.7_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 366591306
   },
   {
    "name": "Flightradar24_10.0.2_解锁订阅",
@@ -12383,6 +12284,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/FaceLab_4.13.0_%E4%B8%80%E9%94%AE%E7%89%B9%E6%95%88%E7%BE%8E%E9%A2%9C%E7%9B%B8%E6%9C%BA%20%E8%A7%A3%E9%94%81Premium%E4%BC%9A%E5%91%98%20%E7%82%B9%E5%87%BB%E8%B4%AD%E4%B9%B0%E5%B9%B6%E5%8F%96%E6%B6%88.ipa",
    "iconURL": "",
    "size": 151278412
+  },
+  {
+   "name": "FIMO_3.16.1_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.fimo",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "3.16.1",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/FIMO_3.16.1_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 188795555
   },
   {
    "name": "FIMO - v3.13.2-解锁所有胶片",
@@ -12574,6 +12484,15 @@
    "size": 6303498
   },
   {
+   "name": "Chat Smith_8.260323.2_解锁订阅",
+   "bundleIdentifier": "cn.aggregate.chatsmith",
+   "versionDescription": "qlam·2024.12.24 | iosi·2024.09.19",
+   "version": "8.260323.2",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/Chat%20Smith_8.260323.2_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.ipa",
+   "iconURL": "",
+   "size": 218273867
+  },
+  {
    "name": "Car Parking_4.8.9解锁全局购买解锁全部车辆解锁全部皮肤配件",
    "bundleIdentifier": "cn.aggregate.carparking",
    "versionDescription": "qlam·2024.12.24",
@@ -12626,6 +12545,24 @@
    "downloadURL": "https://pan.qlam.cc/d/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97%20-%20TrollStore/CPU%20Dasher%20Pro_2.7.1%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 20712994
+  },
+  {
+   "name": "CCD_Camera - [v4.9.7]_解锁永久会员",
+   "bundleIdentifier": "cn.aggregate.ccdcamera",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "4.9.7",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/CCD_Camera%20-%20%5Bv4.9.7%5D_%E8%A7%A3%E9%94%81%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98.ipa",
+   "iconURL": "",
+   "size": 156676469
+  },
+  {
+   "name": "CARROT_6.4_解锁订阅_气象雷达图",
+   "bundleIdentifier": "cn.aggregate.carrot",
+   "versionDescription": "qlam·2024.12.24",
+   "version": "6.4",
+   "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/CARROT_6.4_%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85_%E6%B0%94%E8%B1%A1%E9%9B%B7%E8%BE%BE%E5%9B%BE.ipa",
+   "iconURL": "",
+   "size": 188680352
   },
   {
    "name": "Brushstroke_4.0.1_App store付费应用 解锁插画包 点购买点取消",
@@ -12689,6 +12626,15 @@
    "downloadURL": "https://pan.qlam.cc/d/%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8%20-%20Appstore%20apps/BKGD_2.0.3_%E8%A7%A3%E9%94%81%E4%BC%9A%E5%91%98.ipa",
    "iconURL": "",
    "size": 74414497
+  },
+  {
+   "name": "B612_15.1.0",
+   "bundleIdentifier": "cn.aggregate.8e0a747c5733",
+   "versionDescription": "zgios·2024.10.17 | qlam·2024.12.24 | iosi·2024.03.20 / YouTube Music——谷歌音乐流媒体服务，含官方曲库与 MV。",
+   "version": "15.1.0",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/B612_15.1.0.ipa",
+   "iconURL": "",
+   "size": 149173293
   },
   {
    "name": "AutoCAD_6.13.0_解锁限制",
@@ -12907,6 +12853,15 @@
    "size": 41260998
   },
   {
+   "name": "CyMusic_1.1.7",
+   "bundleIdentifier": "cn.aggregate.cymusic",
+   "versionDescription": "zgios·2024.12.05 | lewsky·2024.10.11 | iosi·2024.10.22 / 听歌应用。在宅哥技术公众号发送：音源 获取文件",
+   "version": "1.1.7",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/CyMusic_1.1.7.ipa",
+   "iconURL": "http://ipa.312752.cn/uploads/20241021/d313e66a998031dd520abf62cd538dd8.png",
+   "size": 16136077
+  },
+  {
    "name": "微信plus",
    "bundleIdentifier": "cn.aggregate.plus",
    "versionDescription": "zgios·2024.11.17 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
@@ -12923,6 +12878,15 @@
    "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_%E8%99%9A%E6%8B%9F%E8%A7%86%E9%A2%91%E7%89%88_8.0.54.ipa",
    "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
    "size": 337262913
+  },
+  {
+   "name": "VEED Captions_7.3.0",
+   "bundleIdentifier": "cn.aggregate.veedcaptions",
+   "versionDescription": "iosi·2024.11.09",
+   "version": "7.3.0",
+   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/VEED%20Captions_7.3.0.ipa",
+   "iconURL": "",
+   "size": 92749003
   },
   {
    "name": "Infltr_6.14",
@@ -12950,6 +12914,42 @@
    "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/%E6%90%AC%E8%BF%90%E5%B7%A51.0.9.ipa",
    "iconURL": "",
    "size": 17978002
+  },
+  {
+   "name": "微信_纯净8.0.78",
+   "bundleIdentifier": "cn.aggregate.519c39355eae",
+   "versionDescription": "zgios·2024.09.07 / 微信（WeChat）——腾讯出品的即时通讯与社交生活平台，支持文字/语音/视频通话、朋友圈、支付及小程序。",
+   "version": "8.0.78",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E5%BE%AE%E4%BF%A1ipa/%E5%BE%AE%E4%BF%A1_%E7%BA%AF%E5%87%808.0.78.ipa",
+   "iconURL": "https://ipa.312752.cn/uploads/20260509/902b6f510fee94e70661ef04e1a35c43.png",
+   "size": 406343769
+  },
+  {
+   "name": "柠檬影视_6.20.1",
+   "bundleIdentifier": "cn.aggregate.33ad868eb7fc",
+   "versionDescription": "zgios·2024.08.29",
+   "version": "6.20.1",
+   "downloadURL": "https://gfm.zgios.cn/d/ipa%E5%88%86%E4%BA%AB/%E6%9F%A0%E6%AA%AC%E5%BD%B1%E8%A7%86_6.20.1.ipa",
+   "iconURL": "",
+   "size": 43918118
+  },
+  {
+   "name": "甜心_7.6.17.1",
+   "bundleIdentifier": "cn.aggregate.5f5ca9c29c23",
+   "versionDescription": "iosi·2024.02.19",
+   "version": "7.6.17.1",
+   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/%E7%94%9C%E5%BF%83_7.6.17.1.ipa",
+   "iconURL": "",
+   "size": 70229566
+  },
+  {
+   "name": "APTV_9.5.12",
+   "bundleIdentifier": "cn.aggregate.aptv",
+   "versionDescription": "iosi·2024.01.09 / APTV，一款可实时预览的高颜值全平台 IPTV M3U播放器",
+   "version": "9.5.12",
+   "downloadURL": "https://pan.iosi.vip/d/%E8%87%AA%E7%AD%BE/APTV_9.5.12.ipa",
+   "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/43/f3/a843f3fe-ced5-f38d-1596-37d521e459f1/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+   "size": 103688784
   }
  ],
  "_meta": {
