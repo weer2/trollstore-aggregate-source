@@ -126,12 +126,14 @@ class AppRecord:
             "versionDate": self.modified or None,
             "downloadURL": self.download_url,
             "minOSVersion": self.min_os,
-            # versions 只保留必要字段：描述/最低系统在顶层已有，避免源文件超过 1MB
+            # versions 内必须同步描述字段：增强版详情页读版本对象，
+            # 版本对象缺描述会直接显示 "No description available."，即使顶层有值
             "versions": [{
                 "version": self.version or "1.0",
                 "date": self.modified or None,
                 "size": self.size,
                 "downloadURL": self.download_url,
+                "versionDescription": desc,
             }],
         }
 

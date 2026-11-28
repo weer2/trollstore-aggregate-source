@@ -56,12 +56,17 @@ def main() -> None:
     data["apps"] = apps
     print(f"分类过滤剔除 {removed} 条（其中全功能 {sum(removed_src.values())} 条）")
 
-    # 2) 描述字段
+    # 2) 描述字段（顶层 + versions 内每个版本都要写：详情页读版本对象）
     for app in apps:
         desc = build_desc(app)
         app["description"] = desc
         app["localizedDescription"] = desc
         app["versionDescription"] = desc
+        for ver in app.get("versions") or []:
+            # 只保留客户端首选字段，避免源文件超过 1MB
+            ver.pop("description", None)
+            ver.pop("localizedDescription", None)
+            ver["versionDescription"] = desc
 
     # 3) 同步统计与公告
     meta = data.setdefault("_meta", {})
