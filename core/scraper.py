@@ -19,6 +19,7 @@ from typing import List, Dict, Any, Optional, Tuple
 
 from .config import SourceConfig, AppSettings
 from .models import AppRecord
+from .filter import is_excluded_dir
 
 CTX = ssl._create_unverified_context()
 UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
@@ -153,6 +154,9 @@ class AListScraper:
 
         items = self.list_dir(path)
         results: List[AppRecord] = []
+        # 采集阶段剪枝：游戏/越狱/插件目录整棵跳过，不进入递归
+        items = [it for it in items
+                 if not (it.get("is_dir") and is_excluded_dir(path.rstrip("/") + "/" + it.get("name", "")))]
         for item in items:
             if time.time() > self.deadline:
                 break

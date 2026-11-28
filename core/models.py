@@ -53,6 +53,7 @@ class AppRecord:
     min_os: str = "14.0"            # 最低系统
     raw_path: str = ""              # 网盘原始路径
     all_sources: List[str] = field(default_factory=list)  # 去重合并后命中的全部网盘源 Key
+    source_dates: Dict[str, str] = field(default_factory=dict)  # 源Key -> 该网盘更新日期(YYYY.MM.DD)
     fp: str = ""                    # 去重指纹
 
     def __post_init__(self):
@@ -100,22 +101,35 @@ class AppRecord:
         re.I,
     )
 
-    @classmethod
-    def build_description(cls, sources: List[str], intro: str = "") -> str:
-        """描述格式：<源Key>[ | <源Key>...][ | <软件介绍>]。
+    @staticmethod
+    def _fmt_date(value: str) -> str:
+        """把 ISO 日期转成 YYYY.MM.DD；无效返回空串。"""
+        m = re.search(r"(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})", value or "")
+        return f"{m.group(1)}.{int(m.group(2)):02d}.{int(m.group(3)):02d}" if m else ""
 
-        - 有真实介绍：gfm | 微信——腾讯出品…
-        - 无真实介绍：zgios | lewsky | qlam（只列来源，绝不写占位文案）
+    @classmethod
+    def build_description(cls, sources: List[str], intro: str = "",
+                          source_dates: Optional[Dict[str, str]] = None) -> str:
+        """描述格式：<源Key>·<日期> | <源Key>·<日期> / <软件介绍>。
+
+        - 有真实介绍：gfm·2026.11.28 | lewsky·2026.11.27 / 微信——腾讯出品…
+        - 无真实介绍：qlam·2026.11.29（仅列来源与日期）
+        无日期的来源只写 Key；绝不生成「XX 来自 YY 的 iOS 应用」占位文案。
         """
         keys = list(dict.fromkeys([s.strip() for s in (sources or []) if s and s.strip()]))
         if not keys:
             keys = ["aggregate"]
+        dates = source_dates or {}
+        parts = []
+        for k in keys:
+            d = cls._fmt_date(dates.get(k, ""))
+            parts.append(f"{k}·{d}" if d else k)
+        prefix = " | ".join(parts)
         body = re.sub(r"^来源：\s*[^\n]+\n?", "", intro or "").strip()
         body = re.sub(r"\s*·\s*另见于.*$", "", body).strip()
         if cls._FAKE_DESC.search(body):
             body = ""
-        prefix = " | ".join(keys)
-        return f"{prefix} | {body}" if body else prefix
+        return f"{prefix} / {body}" if body else prefix
 
     def to_altstore_app(self, settings) -> Dict[str, Any]:
         """转换为巨魔增强版 IPA 源 App 对象（与 ipa.312752.cn/appstore 同构）。
@@ -127,7 +141,7 @@ class AppRecord:
         srcs = list(dict.fromkeys(
             self.all_sources or ([self.source_key] if self.source_key else [])
         ))
-        desc = self.build_description(srcs, self.description)
+        desc = self.build_description(srcs, self.description, self.source_dates)
 
         # bundle id：优先真实 id，否则用规范化名的 ASCII 部分；全中文名用指纹哈希兜底
         if self.bundle_id:

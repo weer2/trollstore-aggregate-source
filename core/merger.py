@@ -46,6 +46,11 @@ class AppMerger:
             # "<源Key> | <源Key> | <真实介绍>"，不再写入「另见于」占位文案。
             all_sources = list(dict.fromkeys(g.source_key for g in group if g.source_key))
             best.all_sources = all_sources or ([best.source_key] if best.source_key else [])
+            # 聚合每个网盘自己的更新日期，供描述显示「源Key·日期」
+            best.source_dates = {
+                g.source_key: g.modified for g in group
+                if g.source_key and g.modified
+            }
             if len(group) > 1:
                 dup_count += len(group) - 1
             merged.append(best)

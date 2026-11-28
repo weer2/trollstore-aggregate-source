@@ -67,10 +67,24 @@ _RULES: List[Tuple[str, str, str]] = [
     ("证书/签名", _CERT_PATH, _CERT_NAME),
 ]
 
+# AList 显式游戏目录：命中即剔除整棵子树（含全部子文件夹）。
+# gfm.zgios.cn 的 /ipa分享/游戏ipa 下有 5/4/3/游/游1/游2 等子目录，
+# 其中大量文件名不含游戏关键词，必须按目录路径硬过滤。
+_GAME_DIRS = (
+    "/ipa分享/游戏ipa",           # gfm 宅哥源
+    "/ipa分享/iOS游戏",           # aifeng 源
+    "/iOS游戏",                   # 通用 iOS 游戏目录
+    "/游戏ipa", "/游戏IPA",
+    "/Games", "/games",
+)
+
 _COMPILED = [
     (label, re.compile(path_pat, re.I), re.compile(name_pat, re.I))
     for label, path_pat, name_pat in _RULES
 ]
+_GAME_DIR_RX = re.compile(
+    "|".join(re.escape(d) for d in _GAME_DIRS), re.I
+)
 
 
 def _get(app: Any, key: str, default: str = "") -> str:
@@ -92,12 +106,26 @@ def exclude_reason(app: Any) -> str:
     path = decode_path(app)
     name = _get(app, "name")
     bid = _get(app, "bundleIdentifier")
+    # 显式游戏目录优先：目录子树内一律剔除，不看文件名
+    if _GAME_DIR_RX.search(path):
+        return "游戏"
     for label, path_rx, name_rx in _COMPILED:
         if path_rx.search(path):
             return label
         if name_rx.search(name) or name_rx.search(bid):
             return label
     return ""
+
+
+def is_excluded_dir(path: str) -> bool:
+    """采集阶段剪枝：目录路径命中游戏/越狱/插件等硬目录即跳过整棵子树。"""
+    p = urllib.parse.unquote(path or "")
+    return bool(_GAME_DIR_RX.search(p)) or any(
+        rx.search(p) for rx in (_CERT_PATH_RX,)
+    )
+
+
+_CERT_PATH_RX = re.compile(r"/(?:越狱工具|Dylib插件|巨魔插件|TrollFools|砸壳工具)", re.I)
 
 
 def filter_apps(apps: List[Any]) -> Tuple[List[Any], int]:

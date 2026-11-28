@@ -28,6 +28,7 @@ from core.merger import AppMerger, ChangeDetector
 from core.enricher import AppEnricher, load_custom_descriptions
 from core.generator import SourceGenerator
 from core.filter import filter_apps
+from core.icon_enricher import IconEnricher
 
 
 def refresh_passwords() -> bool:
@@ -104,17 +105,27 @@ def main():
     enriched = enricher.enrich_all(raw_apps)
     print(f"  已增强 {len(enriched)} 条描述")
 
-    # 4. 智能去重（宅哥优先）
-    print("\n[4/7] 智能去重（宅哥 zgios 优先）...")
+    # 4. 分类过滤前置：先剔除游戏等条目再去重，避免游戏版占用主源导致
+    #    同一 app 的非游戏版本被连带剔除
+    print("\n[4/7] 分类过滤（前置，游戏/美化/越狱/电脑/安卓/证书/插件）...")
+    enriched, excluded = filter_apps(enriched)
+    print(f"  剔除 {excluded} 条，保留 {len(enriched)} 条")
+
+    # 5. 智能去重（宅哥优先）
+    print("\n[5/7] 智能去重（宅哥 zgios 优先）...")
     merged, stats = AppMerger.deduplicate(enriched, settings)
+    stats["excluded_by_category"] = excluded
     print(f"  去重: {stats['before']} → {stats['after']}（移除重复 {stats['duplicates_removed']}）")
     print(f"  来源分布: {stats['by_source']}")
 
-    # 5. 分类过滤（游戏/美化/越狱/电脑/安卓/证书/插件全部剔除）
-    print("\n[5/7] 分类过滤...")
-    merged, excluded = filter_apps(merged)
-    stats["excluded_by_category"] = excluded
-    print(f"  剔除 {excluded} 条，保留 {len(merged)} 条")
+    # 5.5 图标与简介联网增强（参考源映射 + iTunes 缓存，串行低频）
+    print("\n[5.5/7] 图标与简介增强...")
+    try:
+        enricher_icon = IconEnricher(offline=False)
+        merged = enricher_icon.enrich_records(merged)
+        print(f"  图标/简介: {enricher_icon.stats}")
+    except Exception as e:
+        print(f"  ⚠ 图标增强跳过: {type(e).__name__} {str(e)[:80]}")
 
     # 6. 变更检测
     print("\n[6/7] 变更检测...")
