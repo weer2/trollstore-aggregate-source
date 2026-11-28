@@ -85,15 +85,9 @@ class AppEnricher:
         if not self.enabled:
             return app
         if not app.description:
-            desc = self.lookup_description(app.name)
-            if desc:
-                app.description = desc
-            else:
-                # 兜底：从文件名生成简要说明
-                clean = re.sub(r"[_\-]?v?\d+(\.\d+)*.*$", "", app.name)
-                clean = re.sub(r"\.ipa$", "", clean, flags=re.I)
-                src = app.source_key or app.source_name or "aggregate"
-                app.description = f"{clean} —— 来自 {src} 的 iOS 应用（{app.version}）。"
+            # 查不到真实介绍就留空，绝不生成「XX —— 来自 YY 的 iOS 应用」占位文案。
+            # 描述前缀由 models.AppRecord.build_description() 统一拼成源 Key。
+            app.description = self.lookup_description(app.name) or ""
         return app
 
     def enrich_all(self, apps: list) -> list:

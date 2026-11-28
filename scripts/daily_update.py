@@ -127,9 +127,12 @@ def main():
     gen = SourceGenerator(settings)
     source = gen.build_source(merged, stats, changes)
     compact = gen.save(source, "source.json")
+    # 新订阅路径：换文件名即换缓存键，彻底绕开客户端旧 ETag + .ipasource_pkg_cache
+    live = gen.save(source, "leon.json")
     pretty = gen.save_pretty(source, "source_pretty.json")
     size_kb = round(os.path.getsize(compact) / 1024)
     print(f"  ✓ {compact} ({size_kb} KB)")
+    print(f"  ✓ {live}")
     print(f"  ✓ {pretty}")
 
     # 保存快照

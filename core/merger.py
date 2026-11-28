@@ -42,14 +42,12 @@ class AppMerger:
                 -bool(a.modified),
             ))
             best = group[0]
-            # 合并来源信息：若多个源都有，标注全部来源
+            # 合并来源信息：结构化保存全部源 Key，描述由 models 统一拼成
+            # "<源Key> | <源Key> | <真实介绍>"，不再写入「另见于」占位文案。
+            all_sources = list(dict.fromkeys(g.source_key for g in group if g.source_key))
+            best.all_sources = all_sources or ([best.source_key] if best.source_key else [])
             if len(group) > 1:
                 dup_count += len(group) - 1
-                all_sources = list(dict.fromkeys(g.source_key for g in group if g.source_key))
-                # 以主源为准，但保留"另见于"信息到描述
-                extra = all_sources[1:] if len(all_sources) > 1 else []
-                if extra:
-                    best.description = (best.description + " · 另见于 " + "、".join(extra[:3])).strip(" ·")
             merged.append(best)
             sources_used[best.source_key] += 1
 

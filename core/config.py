@@ -96,9 +96,9 @@ class AppSettings:
         ".deb", "说明", "教程", "readme", ".dylib.zip", ".zip", ".rar", ".7z",
     ])
     min_size_mb: float = 0.05
-    source_name: str = "🍎Leon聚合中文源"
+    source_name: str = "LEON🍎源"
     source_identifier: str = "cn.aggregate.trollstore.daily"
-    source_subtitle: str = "多网盘聚合 · gfm 优先 · 每日自动同步"
+    source_subtitle: str = "多网盘聚合 · 每日自动同步"
     source_website: str = "https://github.com/weer2/trollstore-aggregate-source"
     gen_description: bool = True
     fetch_passwords: bool = False   # 默认不需要：公开目录 API 空密码可读
@@ -113,7 +113,10 @@ def load_config() -> tuple[List[SourceConfig], AppSettings]:
     if os.path.exists(cfg_path):
         with open(cfg_path, "r", encoding="utf-8") as f:
             raw = json.load(f)
-        sources = [SourceConfig(**s) for s in raw.get("sources", [])]
+        from dataclasses import fields as _fields
+        _allowed = {f.name for f in _fields(SourceConfig)}
+        sources = [SourceConfig(**{k: v for k, v in s.items() if k in _allowed})
+                   for s in raw.get("sources", []) if s.get("enabled", True)]
     else:
         sources = DEFAULT_SOURCES
         with open(cfg_path, "w", encoding="utf-8") as f:

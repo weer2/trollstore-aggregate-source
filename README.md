@@ -83,11 +83,13 @@ python web/app.py                        # 启动状态站 http://localhost:8080
 
 ## 订阅地址
 
-巨魔增强版 → 软件源 → + 从链接添加 → 粘贴：
+巨魔增强版 → 软件源 → + 从链接添加 → 粘贴（源名 **LEON🍎源**）：
 
-`https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/main/output/source.json`
+`https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/output/leon.json`
 
-（可选）GitHub Pages 地址：`https://weer2.github.io/trollstore-aggregate-source/output/source.json`
+> 使用 `leon.json` 而不是旧的 `source.json`：增强版按 URL 缓存包列表（`.ipasource_pkg_cache`），
+> 同时把 ETag/Last-Modified 存在源列表里。换文件名等于换缓存键，能彻底绕开旧 304 缓存导致的空白页／旧游戏残留。
+> 若设备仍显示旧内容，先在「设置 → 清理 TrollStore 缓存」，删除旧源后用上面这条重新添加。
 
 ## 免费部署方案
 
@@ -145,16 +147,26 @@ GitHub 提供免费的 Actions 运行时（每月 2000 分钟）和 Pages 静态
 
 - **签名站自动补签**：部分 AList 站（如乐玩 lewsky）的 `/d/` 直链需要签名，否则返回 51 字节的 `{"code":401,"message":"expire missing"}`。采集器会调用 `/api/fs/get` 获取形如 `xxx=:0` 的永久签名并拼到直链，保证下载到真实 IPA。
 - **故障站剔除**：晴天网盘 jiejingfan 在部分网络环境不可达，小胡 5-6.vip 的 AList 存储配置损坏（`storage not found`），已从配置中禁用。
-- **来源标注**：`developerName` 使用网盘源 Key（如 `lewsky`、`gfm`）；应用描述以网盘域名开头（如 `lm.zgios.top | 功能描述`）。
+- **来源标注**：`developerName` 使用网盘源 Key（如 `lewsky`、`gfm`）；应用描述以源 Key 开头（如 `lewsky | 功能描述`），多源以 ` | ` 并列（如 `zgios | lewsky | qlam`）。
 - **游戏过滤**：游戏、美化、越狱、电脑、安卓、证书类应用及插件全部剔除；文件名含 `_全功能.ipa` 的条目一律按游戏剔除；源文件控制在 1MB 内。
 
 
 ## 图标与来源标注
 
 - 软件源图标：`assets/logo.png`（紫粉渐变随机配色 + 8 个聚合节点），顶层 `iconURL` 指向该文件的 raw 地址，巨魔增强版列表中直接显示。
-- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；`developerName`、副标题、公告不出现中文网盘名。应用描述格式为 `<网盘域名> | <软件功能描述>`，例如 `lm.zgios.top | 一款短视频解析无水印工具`。源文件约 680KB，远低于 1MB。
+- 应用来源仅用网盘源 Key，例如 `lewsky`、`gfm`、`qlam`；`developerName`、副标题、公告不出现中文网盘名。应用描述格式为 `<源Key> | <软件介绍>`，例如 `jiejingfan | 抖音——字节跳动短视频社交平台…`；没有真实介绍时只写源 Key（多个源用 ` | ` 并列），绝不生成「XX —— 来自 YY 的 iOS 应用」占位文案。源文件约 372KB，远低于 1MB。
 
 
 ## 巨魔增强版字段兼容说明
 
-增强版（iosdumpzzz 魔改）与宅哥源（`ipa.312752.cn/appstore`）详情页的「应用描述」读取 app 的 `versionDescription` 字段，不读标准 AltStore 的 `localizedDescription`。因此生成器同时写入 `versionDescription`、`description`、`localizedDescription` 三个字段，内容统一为 `<网盘域名> | <软件功能描述>`，例如 `lm.zgios.top | 一款短视频解析无水印工具`。详情页的「来源」标签显示软件源名称（客户端固定行为，来自 source.name），「作者」标签显示 `developerName`（已设为源 Key）。
+反汇编增强版二进制（`TSIPAPackage initWithDictionary:`）确认客户端实际读取字段：
+
+| 详情页项 | 客户端读取字段 | 本源处理 |
+|---|---|---|
+| 应用描述 | `versionDescription`（回退 `description`，都没有才显示 `No description available.`） | 三个描述字段写同一内容 |
+| 标识符 | `bundleIdentifier`（回退 `identifier`） | 写 `cn.aggregate.<指纹>`，稳定显示 |
+| 大小 | `size`（数值） | 写字节数整数 |
+| 版本 | `version` | 从文件名解析 |
+| 下载 | `downloadURL` | AList 签名永久直链 |
+
+因此 App 对象已改成与宅哥源（`ipa.312752.cn/appstore`）**同构的扁平结构**：不再输出客户端不读取的 `versions[]`、`subtitle`、`minOSVersion`，源体积从 775KB 降到 372KB。`TSIPASource` 读取顶层 `sourceicon`/`iconURL` 作为源图标，`apps`（或 `packages`）作为应用数组——两者都已写入。

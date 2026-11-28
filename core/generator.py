@@ -49,6 +49,7 @@ class SourceGenerator:
             if line.startswith("📦 应用总数："):
                 lines[i] = f"📦 应用总数：{lo}（体积上限保护）"
         source["description"] = "\n".join(lines)
+        source["message"] = source["description"]
         return source
 
     def build_source(self, apps: List[AppRecord], stats: dict = None,
@@ -59,7 +60,7 @@ class SourceGenerator:
         # 公告信息：写入统计与更新时间
         ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         msg_lines = [
-            "🍎Leon聚合中文源 · 每日自动更新",
+            f"{self.settings.source_name} · 每日自动更新",
             f"📅 本次更新：{ts}",
             f"📦 应用总数：{len(apps)}",
         ]
@@ -72,16 +73,21 @@ class SourceGenerator:
             msg_lines.append(f"✨ 变更：新增 {len(changes.added)} / 移除 {len(changes.removed)} / 更新 {len(changes.updated)}")
         if stats and stats.get("excluded_by_category"):
             msg_lines.append(f"🚫 分类剔除 {stats['excluded_by_category']} 条（游戏/美化/越狱/电脑/安卓/证书/插件）")
-        msg_lines.append("💡 重复软件以 gfm 源为准；点击应用选版本安装。")
+        msg_lines.append("💡 应用描述格式：<源Key> | <软件介绍>（无介绍时仅列来源 Key）。")
 
+        # 与 ipa.312752.cn/appstore 同构的顶层字段：
+        # 客户端 fetchSourceInfoWithCompletion 读取 name / sourceicon / iconURL / unlockURL。
+        msg = "\n".join(msg_lines)
         source = {
             "name": self.settings.source_name,
             "identifier": self.settings.source_identifier,
             "subtitle": self.settings.source_subtitle,
-            "description": "\n".join(msg_lines),
+            "message": msg,
+            "description": msg,
             "website": self.settings.source_website,
+            "sourceicon": self.settings.source_icon,
             "iconURL": self.settings.source_icon,
-            "sourceURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/output/source.json",
+            "sourceURL": "https://raw.githubusercontent.com/weer2/trollstore-aggregate-source/refs/heads/main/output/leon.json",
             "apps": app_objs,
             "_meta": {
                 "generated_at": ts,

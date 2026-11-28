@@ -52,6 +52,7 @@ class AppRecord:
     icon_url: str = ""              # 图标
     min_os: str = "14.0"            # 最低系统
     raw_path: str = ""              # 网盘原始路径
+    all_sources: List[str] = field(default_factory=list)  # 去重合并后命中的全部网盘源 Key
     fp: str = ""                    # 去重指纹
 
     def __post_init__(self):
@@ -93,14 +94,40 @@ class AppRecord:
         except Exception:
             return "aggregate"
 
+    # 伪描述模板：无真实介绍时不再生成这类占位文案
+    _FAKE_DESC = re.compile(
+        r"来自\s*\w+\s*的\s*iOS\s*应用|——\s*[\d.]+\s*iOS\s*应用|iOS\s*应用。",
+        re.I,
+    )
+
+    @classmethod
+    def build_description(cls, sources: List[str], intro: str = "") -> str:
+        """描述格式：<源Key>[ | <源Key>...][ | <软件介绍>]。
+
+        - 有真实介绍：gfm | 微信——腾讯出品…
+        - 无真实介绍：zgios | lewsky | qlam（只列来源，绝不写占位文案）
+        """
+        keys = list(dict.fromkeys([s.strip() for s in (sources or []) if s and s.strip()]))
+        if not keys:
+            keys = ["aggregate"]
+        body = re.sub(r"^来源：\s*[^\n]+\n?", "", intro or "").strip()
+        body = re.sub(r"\s*·\s*另见于.*$", "", body).strip()
+        if cls._FAKE_DESC.search(body):
+            body = ""
+        prefix = " | ".join(keys)
+        return f"{prefix} | {body}" if body else prefix
+
     def to_altstore_app(self, settings) -> Dict[str, Any]:
-        """转换为 AltStore/SideStore 标准 App 对象（增强版巨魔兼容）。"""
-        src = self.source_key or self.source_name or "aggregate"
-        body = self.description or f"{self.name} —— 来自 {src} 的 iOS 应用（{self.version}）。"
-        # 清洗旧格式残留的「来源：xxx」首行，避免与域名前缀重复
-        body = re.sub(r"^来源：\s*[^\n]+\n?", "", body).strip()
-        # 巨魔增强版详情页读取 versionDescription；格式：<网盘域名> | <功能描述>
-        desc = f"{self._source_host(self.download_url)} | {body}"
+        """转换为巨魔增强版 IPA 源 App 对象（与 ipa.312752.cn/appstore 同构）。
+
+        客户端 TSIPAPackage 实际读取：name / bundleIdentifier / version /
+        versionDescription / downloadURL / iconURL / size / lock。
+        不输出 versions[]：客户端不读取该字段，且会显著增大源文件。
+        """
+        srcs = list(dict.fromkeys(
+            self.all_sources or ([self.source_key] if self.source_key else [])
+        ))
+        desc = self.build_description(srcs, self.description)
 
         # bundle id：优先真实 id，否则用规范化名的 ASCII 部分；全中文名用指纹哈希兜底
         if self.bundle_id:
@@ -111,30 +138,23 @@ class AppRecord:
             bid = f"cn.aggregate.{suffix}"
 
         return {
-            "name": self.name,
+            "name": re.sub(r"\.ipa$", "", self.name, flags=re.I),
+            "type": 0,
             "bundleIdentifier": bid,
-            "developerName": self.source_key or self.source_name or "aggregate",
-            "subtitle": f"{self.version} · {round(self.size/1024/1024, 1) if self.size else '?'} MB",
-            "localizedDescription": desc,
-            # 巨魔增强版（iosdumpzzz 魔改）详情页读 description / versionDescription
-            "description": desc,
-            # 宅哥源（ipa.312752.cn/appstore）同款字段：软件描述实际展示来源
+            "developerName": srcs[0],
+            # 增强版详情页首选 versionDescription，其次 description
             "versionDescription": desc,
-            "iconURL": self.icon_url,
-            "size": self.size,
+            "description": desc,
+            "localizedDescription": desc,
             "version": self.version or "1.0",
-            "versionDate": self.modified or None,
+            "versionDate": self.modified or "",
             "downloadURL": self.download_url,
-            "minOSVersion": self.min_os,
-            # versions 内必须同步描述字段：增强版详情页读版本对象，
-            # 版本对象缺描述会直接显示 "No description available."，即使顶层有值
-            "versions": [{
-                "version": self.version or "1.0",
-                "date": self.modified or None,
-                "size": self.size,
-                "downloadURL": self.download_url,
-                "versionDescription": desc,
-            }],
+            "iconURL": self.icon_url,
+            # size 必须是数值：客户端按 NSNumber 读取后展示大小
+            "size": int(self.size or 0),
+            "lock": "0",
+            "isLanZouCloud": "0",
+            "tintColor": "",
         }
 
 
