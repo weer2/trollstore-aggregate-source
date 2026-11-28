@@ -56,6 +56,21 @@ class AppMerger:
             merged.append(best)
             sources_used[best.source_key] += 1
 
+        # 单站贡献上限：某站翻页修复后可能暴涨（如 qlam 8407），
+        # 若不限制会在体积截断时挤掉其他站。保留每个站最新的 N 个。
+        per_source_cap = 1200
+        by_src: Dict[str, int] = defaultdict(int)
+        capped: List[AppRecord] = []
+        # 先按日期降序，保证每站保留的是最新条目
+        prelim = sorted(merged, key=lambda a: (a.modified or a.created or "", a.name), reverse=True)
+        for a in prelim:
+            key = a.source_key or "unknown"
+            if by_src[key] >= per_source_cap:
+                continue
+            by_src[key] += 1
+            capped.append(a)
+        merged = capped
+
         # 排序：默认按更新日期降序（最新更新的软件排在最前）
         if getattr(settings, "sort_by_date", True):
             merged.sort(key=lambda a: (
